@@ -20,6 +20,7 @@ import dash_html_components as html
 import flask
 
 # Local imports
+import components
 import tab_populator
 
 ## App setup
@@ -90,6 +91,7 @@ sex_plotting_data.columns = ['PheCode', 'Phenotype', 'Trait', 'Prevalence', 'Cas
 sex_plotting_data = sex_plotting_data.astype({'Cases': 'int32', 'Controls' : 'int32'})
 sex_plotting_data['Pretty_cases'] = sex_plotting_data['Cases'].map("{:,}".format)
 sex_plotting_data['Pretty_controls'] = sex_plotting_data['Controls'].map("{:,}".format)
+sex_plotting_data.loc[sex_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
 ## Grouping - Age
 age_plotting_data = pd.read_csv(DATA_PATH.joinpath("age_plotting.txt"), sep = '\t')
@@ -99,6 +101,7 @@ age_plotting_data.columns = ['PheCode', 'Phenotype', 'Trait', 'Prevalence', 'Cas
 age_plotting_data = age_plotting_data.astype({'Cases': 'int32', 'Controls' : 'int32'})
 age_plotting_data['Pretty_cases'] = age_plotting_data['Cases'].map("{:,}".format)
 age_plotting_data['Pretty_controls'] = age_plotting_data['Controls'].map("{:,}".format)
+age_plotting_data.loc[age_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
 ## Grouping - Ethnic Group
 ethnic_plotting_data = pd.read_csv(DATA_PATH.joinpath("ethnic_plotting.txt"), sep = '\t')
@@ -113,6 +116,7 @@ ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other mixed backg
 ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other Black background', 'Trait'] = 'Other Black'
 ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other Asian background', 'Trait'] = 'Other Asian'
 ethnic_plotting_data = ethnic_plotting_data.loc[~ethnic_plotting_data['Trait'].isin(['Prefer not to answer', 'Do not know', 'Other', 'Chinese (all)']),:]
+ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
 ## Grouping - Socio-economic status
 ses_plotting_data = pd.read_csv(DATA_PATH.joinpath("ses_plotting.txt"), sep = '\t')
@@ -127,6 +131,7 @@ ses_plotting_data.loc[ses_plotting_data['Trait'] == '2', 'Trait'] = 'Second Quin
 ses_plotting_data.loc[ses_plotting_data['Trait'] == '3', 'Trait'] = 'Third Quintile of Deprivation'
 ses_plotting_data.loc[ses_plotting_data['Trait'] == '4', 'Trait'] = 'Fourth Quintile of Deprivation'
 ses_plotting_data.loc[ses_plotting_data['Trait'] == '5', 'Trait'] = 'Fifth Quintile of Deprivation<br>(Most Deprived)'
+ses_plotting_data.loc[ses_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
 ###############################################################################
 #################################  VIEW  ######################################
@@ -188,10 +193,8 @@ app.layout = html.Div(
                     label = 'About',
                     value = 'about_tab',
                     children = [
-                        html.H5(
-                            '''
-                            This is our about tab.
-                            '''
+                        dcc.Markdown(
+                            components.ABOUT_US
                         )
                     ]
                 ),
@@ -232,7 +235,6 @@ app.layout = html.Div(
 def human_format(num):
     if num == 0:
         return "0"
-
     magnitude = int(math.log(num, 1000))
     mantissa = str(int(num / (1000 ** magnitude)))
     return mantissa + ["", "K", "M", "G", "T", "P"][magnitude]
@@ -295,7 +297,7 @@ def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
     # Null value
     cases = 0
-    cases = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Total")].Cases.unique()[0]
+    cases = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Cases.unique()[0]
     return human_format(int(cases))
 
 @app.callback(
@@ -304,7 +306,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
-    controls = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Total")].Controls.unique()[0]
+    controls = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Controls.unique()[0]
     return human_format(int(controls))
 
 @app.callback(
@@ -313,7 +315,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
-    prevalence = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Total")].Prevalence.unique()[0]
+    prevalence = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
 
@@ -328,7 +330,7 @@ def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     # Null value
     cases = 0
-    cases = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Total")].Cases.unique()[0]
+    cases = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Cases.unique()[0]
     return human_format(int(cases))
 
 @app.callback(
@@ -337,7 +339,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
-    controls = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Total")].Controls.unique()[0]
+    controls = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Controls.unique()[0]
     return human_format(int(controls))
 
 @app.callback(
@@ -346,7 +348,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
-    prevalence = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Total")].Prevalence.unique()[0]
+    prevalence = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
 
@@ -361,7 +363,7 @@ def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
     # Null value
     cases = 0
-    cases = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Total")].Cases.unique()[0]
+    cases = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Cases.unique()[0]
     return human_format(int(cases))
 
 @app.callback(
@@ -370,7 +372,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
-    controls = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Total")].Controls.unique()[0]
+    controls = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Controls.unique()[0]
     return human_format(int(controls))
 
 @app.callback(
@@ -379,7 +381,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
-    prevalence = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Total")].Prevalence.unique()[0]
+    prevalence = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
 ## Socio-Economic Status
@@ -393,7 +395,7 @@ def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
     # Null value
     cases = 0
-    cases = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Total")].Cases.unique()[0]
+    cases = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Cases.unique()[0]
     return human_format(int(cases))
 
 @app.callback(
@@ -402,7 +404,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
-    controls = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Total")].Controls.unique()[0]
+    controls = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Controls.unique()[0]
     return human_format(int(controls))
 
 @app.callback(
@@ -411,7 +413,7 @@ def update_disease_title(active_cell):
     )
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
-    prevalence = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Total")].Prevalence.unique()[0]
+    prevalence = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
 # Populating graphs
@@ -425,60 +427,8 @@ def make_figure(active_cell):
 
     # Setting default value
     active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
-    
-    fig = px.bar(
-                    sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id)], 
-                    y = 'Trait', 
-                    x = 'Prevalence',
-                    hover_data = ['Pretty_cases', 'Pretty_controls'],
-                    color='Trait', 
-                    template = "plotly_white", 
-                    orientation='h',
-                    color_discrete_sequence = [
-                        
-                        '#1C77C3', # Male
-                        '#FC737A', # Female
-                        '#39393A', # Total
-                    ]
-                )
 
-    fig.update_layout(
-                        title = {'x' : 0.5}, 
-                        showlegend = False, 
-                        autosize = True,
-                        height = 600
-                    )
-
-    for a in fig.layout.annotations:
-        a.text = ""
-        
-    fig.update_yaxes(
-                        matches = None,
-                        title_text = '', 
-                        tickmode = 'linear',
-                        categoryorder = 'array',
-                        categoryarray = ['Total', 
-                                        ' ',
-                                        'Male', 'Female'][::-1],
-                        automargin = True
-                    )
-
-    fig.update_xaxes(
-                        range = [min(sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id)].Prevalence), max(sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id)].Prevalence)],
-                        title_text = "Percent Prevalence",
-                        automargin = True
-                    )
-    
-    fig.update_traces(
-                        hovertemplate=
-                                    "<b>%{y}</b><br><br>" +
-                                    "%{customdata[0]} cases<br>" +
-                                    "%{customdata[1]} controls<br>" +
-                                    "<b>Prevalence:</b> %{x}%" +
-                                    "<extra></extra>",
-    )
-
-    return fig
+    return components.get_sex_disp_plot(sex_plotting_data, active_row_id)
 
 # Age
 @app.callback(
@@ -490,68 +440,7 @@ def make_figure(active_cell):
     # Setting default value
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     
-    fig = px.bar(
-                    age_plotting_data[(age_plotting_data.Phenotype == active_row_id)], 
-                    y = 'Trait', 
-                    x = 'Prevalence',
-                    hover_data = ['Pretty_cases', 'Pretty_controls'],
-                    color='Trait', 
-                    template = "plotly_white", 
-                    # title = f"Trait: {active_row_id}",
-                    orientation='h',
-                    color_discrete_sequence = [
-
-                        '#A22A31', # 70-79
-                        '#214084', # 60-69
-                        '#EDB88B', # 40-49
-                        '#FAA51A', # 50-59
-                        '#006C67', # 30-39
-                        '#7AC74F', # Total  
-
-                        '#FFFFFF', # Blank
-                    ]
-                )
-
-    fig.update_layout(
-                        title = {'x' : 0.5}, 
-                        showlegend = False, 
-                        autosize = True,
-                        # width = 600,
-                        height = 600
-                    )
-
-    for a in fig.layout.annotations:
-        a.text = ""
-        
-    fig.update_yaxes(
-                        matches = None,
-                        title_text = '', 
-                        tickmode = 'linear',
-                        categoryorder = 'array',
-                        categoryarray = ['Total', 
-                                        ' ',
-                                        '70-79', '60-69', '50-59', '40-49', '30-39', 
-                                        '  ',
-                                        'Black (all)', 'African', 'Caribbean', 'Other Black'][::-1],
-                        automargin = True
-                    )
-
-    fig.update_xaxes(
-                        range = [min(age_plotting_data[(age_plotting_data.Phenotype == active_row_id)].Prevalence), max(age_plotting_data[(age_plotting_data.Phenotype == active_row_id)].Prevalence)],
-                        title_text = "Percent Prevalence",
-                        automargin = True
-                    )
-    
-    fig.update_traces(
-                        hovertemplate=
-                                    "<b>%{y}</b><br><br>" +
-                                    "%{customdata[0]} cases<br>" +
-                                    "%{customdata[1]} controls<br>" +
-                                    "<b>Prevalence:</b> %{x}%" +
-                                    "<extra></extra>",
-    )
-
-    return fig
+    return components.get_age_disp_plot(age_plotting_data, active_row_id)
 
 # Ethnic
 
@@ -564,96 +453,7 @@ def make_figure(active_cell):
     # Setting default value
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
     
-    fig = px.bar(
-                    ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id)], 
-                    y = 'Trait', 
-                    x = 'Prevalence',
-                    hover_data = ['Pretty_cases', 'Pretty_controls'],
-                    color='Trait', 
-                    template = "plotly_white", 
-                    # title = f"Trait: {active_row_id}",
-                    orientation='h',
-                    color_discrete_sequence = [
-
-                        '#A22A31', # Asian Total
-                        '#214084', # Black Total
-                        '#EDB88B', # Mixed Total
-                        '#FAA51A', # White Total
-                        '#5075AC', # African
-                        '#D69B9F', # Asian, other
-                        '#B5CDE1', # Black other
-                        '#F2CEB1', # Mixed Other
-                        '#F4D6AF', # White Other
-                        '#AB3E45', # Bangladeshi
-                        '#F3C88B', # British
-                        '#839FC6', # Caribbean
-                        '#006C67', # Chinese
-                        '#B95F65', # Indian
-                        '#F8C16F', # Irish
-                        '#EDADC7', # Other ethnic group
-                        '#C47B7F', # Pakistani
-                        '#F1C9A9', # White and Asian
-                        '#EFBE96', # White and Black African
-                        '#F0C4A0', # White and Black Caribbean
-                        '#7AC74F', # Total  
-
-                        '#FFFFFF', # Blank
-                        '#FFFFFF', # Blank
-                        '#FFFFFF', # Blank
-                        '#FFFFFF', # Blank
-                        '#FFFFFF', # Blank
-                        '#FFFFFF', # Blank  
-                    ]
-                )
-
-    fig.update_layout(
-                        title = {'x' : 0.5}, 
-                        showlegend = False, 
-                        autosize = True,
-                        # width = 600,
-                        height = 600
-                    )
-
-    for a in fig.layout.annotations:
-        a.text = ""
-        
-    fig.update_yaxes(
-                        matches = None,
-                        title_text = '', 
-                        tickmode = 'linear',
-                        categoryorder = 'array',
-                        categoryarray = ['Total', 
-                                        ' ',
-                                        'Asian (all)', 'Bangladeshi', 'Indian', 'Pakistani', 'Other Asian', 
-                                        '  ',
-                                        'Black (all)', 'African', 'Caribbean', 'Other Black', 
-                                        '   ', 
-                                        'Chinese', 
-                                        '    ', 
-                                        'Mixed (all)', 'White and Black African', 'White and Black Caribbean', 'White and Asian', 'Other Mixed', 
-                                        '     ',
-                                        'White (all)', 'Irish', 'British', 'Other White', 
-                                        '      ', 
-                                        'Other ethnic group'][::-1],
-                        automargin = True
-                    )
-
-    fig.update_xaxes(
-                        range = [min(ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id)].Prevalence), max(ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id)].Prevalence)],
-                        title_text = "Percent Prevalence",
-                        automargin = True
-                    )
-    
-    fig.update_traces(
-                        hovertemplate=
-                                    "<b>%{y}</b><br><br>" +
-                                    "%{customdata[0]} cases<br>" +
-                                    "%{customdata[1]} controls<br>" +
-                                    "<b>Prevalence:</b> %{x}%" +
-                                    "<extra></extra>",
-    )
-
-    return fig
+    return components.get_ethnic_disp_plot(ethnic_plotting_data, active_row_id)
 
 # Socio-economic status
 
@@ -666,71 +466,7 @@ def make_figure(active_cell):
     # Setting default value
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     
-    fig = px.bar(
-                    ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id)], 
-                    y = 'Trait', 
-                    x = 'Prevalence',
-                    hover_data = ['Pretty_cases', 'Pretty_controls'],
-                    color='Trait', 
-                    template = "plotly_white", 
-                    # title = f"Trait: {active_row_id}",
-                    orientation='h',
-                    color_discrete_sequence = [
-                        
-                        '#7AC74F', # Total  
-
-                        '#A22A31', # 1
-                        '#214084', # 2
-                        '#EDB88B', # 3
-                        '#FAA51A', # 4
-                        '#006C67', # 5
-
-                        '#FFFFFF', # Blank
-                    ]
-                )
-
-    fig.update_layout(
-                        title = {'x' : 0.5}, 
-                        showlegend = False, 
-                        autosize = True,
-                        # width = 600,
-                        height = 600
-                    )
-
-    for a in fig.layout.annotations:
-        a.text = ""
-        
-    fig.update_yaxes(
-                        matches = None,
-                        title_text = '', 
-                        tickmode = 'linear',
-                        categoryorder = 'array',
-                        categoryarray = ['Total', 
-                                        ' ',
-                                        'First Quintile of Deprivation<br>(Least Deprived)', 
-                                        'Second Quintile of Deprivation',
-                                        'Third Quintile of Deprivation',
-                                        'Fourth Quintile of Deprivation',
-                                        'Fifth Quintile of Deprivation<br>(Most Deprived)'][::-1],
-                        automargin = True
-                    )
-
-    fig.update_xaxes(
-                        range = [min(ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id)].Prevalence), max(ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id)].Prevalence)],
-                        title_text = "Percent Prevalence",
-                        automargin = True
-                    )
-    
-    fig.update_traces(
-                        hovertemplate=
-                                    "<b>%{y}</b><br><br>" +
-                                    "%{customdata[0]} cases<br>" +
-                                    "%{customdata[1]} controls<br>" +
-                                    "<b>Prevalence:</b> %{x}%" +
-                                    "<extra></extra>",
-    )
-
-    return fig
+    return components.get_ses_disp_plot(ses_plotting_data, active_row_id)
 
 # Main
 if __name__ == '__main__':
