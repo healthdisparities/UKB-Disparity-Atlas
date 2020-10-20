@@ -59,28 +59,55 @@ sex_table_data.loc[:, 'Variance'] = sex_table_data.loc[:, 'Variance'].round(2)
 sex_table_data.loc[:, 'Difference'] = sex_table_data.loc[:, 'Difference'].round(2)
 sex_table_data['id'] = sex_table_data['Phenotype']
 sex_table_data.set_index('id', inplace = True, drop = False)
+sex_table_data = sex_table_data.sort_values(by = ['Variance'], ascending = False)
 
 ## Grouping - Age
 age_table_data = pd.read_csv(DATA_PATH.joinpath("age_selection_table.txt"), sep = '\t')
 age_table_data.loc[:, 'Maximum Difference'] = age_table_data.loc[:, 'Maximum Difference'].round(2)
 age_table_data['id'] = age_table_data['Phenotype']
 age_table_data.set_index('id', inplace = True, drop = False)
+age_table_data = age_table_data.sort_values(by = ['Variance'], ascending = False)
 
 ## Grouping - Ethnic Group
 ethnic_table_data = pd.read_csv(DATA_PATH.joinpath("ethnic_selection_table.txt"), sep = '\t')
 ethnic_table_data.loc[:, 'Maximum Difference'] = ethnic_table_data.loc[:, 'Maximum Difference'].round(2)
 ethnic_table_data['id'] = ethnic_table_data['Phenotype']
 ethnic_table_data.set_index('id', inplace = True, drop = False)
+ethnic_table_data = ethnic_table_data.sort_values(by = ['Variance'], ascending = False)
 
 ## Grouping - Socio-economic status
 ses_table_data = pd.read_csv(DATA_PATH.joinpath("ses_selection_table.txt"), sep = '\t')
 ses_table_data.loc[:, 'Maximum Difference'] = ses_table_data.loc[:, 'Maximum Difference'].round(2)
 ses_table_data['id'] = ses_table_data['Phenotype']
 ses_table_data.set_index('id', inplace = True, drop = False)
-
+ses_table_data = ses_table_data.sort_values(by = ['Variance'], ascending = False)
 
 '''
-Next, we process data for visualization.
+Next, we'll process data for the prevalence tables
+'''
+## Grouping - Sex
+sex_prev_data = pd.read_csv(DATA_PATH.joinpath("sex_prev_table.txt"), sep = '\t')
+sex_prev_data['id'] = sex_prev_data['Phenotype']
+sex_prev_data.set_index('id', inplace = True, drop = False)
+
+## Grouping - Age
+age_prev_data = pd.read_csv(DATA_PATH.joinpath("age_prev_table.txt"), sep = '\t')
+age_prev_data['id'] = age_prev_data['Phenotype']
+age_prev_data.set_index('id', inplace = True, drop = False)
+
+## Grouping - Ethnic Group
+ethnic_prev_data = pd.read_csv(DATA_PATH.joinpath("ethnic_prev_table.txt"), sep = '\t')
+ethnic_prev_data['id'] = ethnic_prev_data['Phenotype']
+ethnic_prev_data.set_index('id', inplace = True, drop = False)
+
+## Grouping - Socio-economic status
+ses_prev_data = pd.read_csv(DATA_PATH.joinpath("ses_prev_table.txt"), sep = '\t')
+ses_prev_data.columns = ['Phenotype', 'PheCode', 'First Quintile of Deprivation', 'Second Quintile of Deprivation', 'Third Quintile of Deprivation', 'Fourth Quintile of Deprivation' ,'Fifth Quintile of Deprivation']
+ses_prev_data['id'] = ses_prev_data['Phenotype']
+ses_prev_data.set_index('id', inplace = True, drop = False)
+
+'''
+Fianlly, we process data for visualization.
 '''
 
 ## Grouping - Sex
@@ -115,7 +142,7 @@ ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other white backg
 ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other mixed background', 'Trait'] = 'Other Mixed'
 ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other Black background', 'Trait'] = 'Other Black'
 ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Any other Asian background', 'Trait'] = 'Other Asian'
-ethnic_plotting_data = ethnic_plotting_data.loc[~ethnic_plotting_data['Trait'].isin(['Prefer not to answer', 'Do not know', 'Other', 'Chinese (all)']),:]
+ethnic_plotting_data = ethnic_plotting_data.loc[~ethnic_plotting_data['Trait'].isin(['Prefer not to answer', 'Do not know', 'Other ethnic group', 'Chinese (all)']),:]
 ethnic_plotting_data.loc[ethnic_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
 ## Grouping - Socio-economic status
@@ -201,22 +228,90 @@ app.layout = html.Div(
                 dcc.Tab(
                     label = 'Sex Disparities',
                     value = 'sex_tab',
-                    children = tab_populator.get_tab_content(sex_table_data, sex_plotting_data, 'Sex')
+                    children = [
+                        tab_populator.get_tab_content(sex_table_data, sex_plotting_data, 'Sex'),
+
+                        html.Div(
+                            [
+                                html.H5(
+                                    "Phenotype Prevalence",
+                                    className="control_label",
+                                ),
+                                html.Br(),
+                                # Reading in table from our component library
+                                components.get_dash_table(sex_prev_data, 'SexPrev'),
+                            ],
+                        
+                        className="pretty_container",
+                        
+                        )
+                    ]
                 ),
                 dcc.Tab(
                     label = 'Age Disparities',
                     value = 'age_tab',
-                    children = tab_populator.get_tab_content(age_table_data, age_plotting_data, 'Age')
+                    children = [
+                        tab_populator.get_tab_content(age_table_data, age_plotting_data, 'Age'),
+
+                        html.Div(
+                            [
+                                html.H5(
+                                    "Phenotype Prevalence",
+                                    className="control_label",
+                                ),
+                                html.Br(),
+                                # Reading in table from our component library
+                                components.get_dash_table(age_prev_data, 'AgePrev'),
+                            ],
+                        
+                        className="pretty_container",
+                        
+                        )
+                    ]
                 ),
                 dcc.Tab(
                     label = 'Ethnic Disparities',
                     value = 'ethnic_tab',
-                    children = tab_populator.get_tab_content(ethnic_table_data, ethnic_plotting_data, 'Ethnic')
+                    children = [
+                        tab_populator.get_tab_content(ethnic_table_data, ethnic_plotting_data, 'Ethnic'),
+
+                        html.Div(
+                            [
+                                html.H5(
+                                    "Disease Prevalence across groups",
+                                    className="control_label",
+                                ),
+                                html.Br(),
+                                # Reading in table from our component library
+                                components.get_dash_table(ethnic_prev_data, 'EthnicPrev'),
+                            ],
+                        
+                        className="pretty_container",
+                        
+                        )
+                    ]
                 ),
                 dcc.Tab(
                     label = 'Socio-economic Disparities',
                     value = 'ses_tab',
-                    children = tab_populator.get_tab_content(ses_table_data, ses_plotting_data, 'SES')
+                    children = [
+                        tab_populator.get_tab_content(ses_table_data, ses_plotting_data, 'SES'),
+
+                        html.Div(
+                            [
+                                html.H5(
+                                    "Phenotype Prevalence",
+                                    className="control_label",
+                                ),
+                                html.Br(),
+                                # Reading in table from our component library
+                                components.get_dash_table(ses_prev_data, 'SESPrev'),
+                            ],
+                        
+                        className="pretty_container",
+                        
+                        )
+                    ]
                 ),
             ]
         ),

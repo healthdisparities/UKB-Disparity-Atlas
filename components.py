@@ -27,7 +27,7 @@ def get_dash_table(view_data, disp_type):
                                     virtualization=True,
 
                                     style_cell={
-                                        'height': 'auto',
+                                        'height': '4me',
                                         # all three widths are needed
                                         'minWidth': '2em', 
                                         'width': '2em', 
@@ -52,8 +52,8 @@ def get_sex_disp_plot(plotting_data, active_row_id):
                     orientation='h',
                     color_discrete_sequence = [
                         
-                        '#1C77C3', # Male
                         '#FC737A', # Female
+                        '#1C77C3', # Male
                         '#39393A', # Overall
                     ]
                 )
@@ -178,6 +178,7 @@ def get_ethnic_disp_plot(plotting_data, active_row_id):
                         '#A22A31', # Asian Total
                         '#214084', # Black Total
                         '#EDB88B', # Mixed Total
+                        '#EDADC7', # Other ethnic group
                         '#FAA51A', # White Total
                         '#5075AC', # African
                         '#D69B9F', # Asian, other
@@ -190,7 +191,6 @@ def get_ethnic_disp_plot(plotting_data, active_row_id):
                         '#006C67', # Chinese
                         '#B95F65', # Indian
                         '#F8C16F', # Irish
-                        '#EDADC7', # Other ethnic group
                         '#C47B7F', # Pakistani
                         '#F1C9A9', # White and Asian
                         '#EFBE96', # White and Black African
@@ -234,7 +234,7 @@ def get_ethnic_disp_plot(plotting_data, active_row_id):
                                         '     ',
                                         'White (all)', 'Irish', 'British', 'Other White', 
                                         '      ', 
-                                        'Other ethnic group'][::-1],
+                                        'Other'][::-1],
                         automargin = True
                     )
 
@@ -336,6 +336,6 @@ _More text here_
 
 
 
-Developed by [Shashwat Deepali Nagar](www.sdnagar.com), under the tutelage of [I. King Jordan](jordan.biology.gatech.edu) at Georgia Tech in collaboration with the 
+Developed by [Shashwat Deepali Nagar](www.sdnagar.com), under the tutelage of Prof. [I. King Jordan](jordan.biology.gatech.edu) at Georgia Tech in collaboration with Prof. [Leonardo Mariño-Ramírez](https://scholar.google.com/citations?user=GQIBkAcAAAAJ&hl=en&oi=ao) at the 
 [National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
 '''

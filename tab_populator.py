@@ -15,25 +15,6 @@ def get_tab_content(view_data, plotting_data, disp_type):
                         [
                             html.Div(
                                 [
-                                    html.H5(
-                                        "Disease Phenotypes",
-                                        className="control_label",
-                                    ),
-                                    html.P(
-                                        "Cohorts defined using PheCode-to-ICD10 inclusion and exclusion criteria.",
-                                        className="control_label",
-                                    ),
-                                    # Reading in table from our component library
-                                    components.get_dash_table(view_data, disp_type)
-
-                                ],
-                                className="pretty_container",
-                            ),
-
-                            html.Br(),
-                            
-                            html.Div(
-                                [
                                     html.H6(id="disease_text" + disp_type), 
                                 ],
                                 className="mini_container",
@@ -72,6 +53,26 @@ def get_tab_content(view_data, plotting_data, disp_type):
                                 ],
                                 className="row container-display"
                             ),
+
+                            html.Br(),
+                            
+                            html.Div(
+                                [
+                                    html.H5(
+                                        "Disease Phenotypes",
+                                        className="control_label",
+                                    ),
+                                    html.P(
+                                        "Cohorts defined using PheCode-to-ICD10 inclusion and exclusion criteria.",
+                                        className="control_label",
+                                    ),
+                                    # Reading in table from our component library
+                                    components.get_dash_table(view_data, disp_type)
+
+                                ],
+                                className="pretty_container",
+                            ),
+
                             
                         ],
                         className="pretty_container eight columns",
@@ -97,4 +98,4 @@ def get_tab_content(view_data, plotting_data, disp_type):
                     ),
                 ],
                 className="row flex-display",
-            ),
+            )
