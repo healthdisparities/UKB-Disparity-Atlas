@@ -222,7 +222,8 @@ app.layout = html.Div(
                     value = 'about_tab',
                     children = [
                         dcc.Markdown(
-                            components.ABOUT_US
+                            children = components.ABOUT_US,
+                            dedent = False
                         )
                     ]
                 ),

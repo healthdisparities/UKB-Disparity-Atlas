@@ -325,17 +325,24 @@ def get_ses_disp_plot(plotting_data, active_row_id):
 ABOUT_US = '''
 ### Welcome to the UK Biobank Health Disparities Atlas!
 
-Here we characterize the landscape of health disparities in the United Kingdom using case/control cohorts generated using PheCodes generated as part of the [PheWAS Catalog](https://phewascatalog.org/phecodes).  We stratify participant cohorts based on different identities:
+#### Health Disparities
 
-* Sex
-* Age
-* Ethnicity
-* Socio-economic status
-
-_More text here_
+Health Disparities are defined as differences in health ourcomes between different groups of people.  
 
 
+##### Grouping systems
 
+These groups can be defined in many different ways &ndash; here, we defined groups based on 
+
+(1) Sex,  (2) Age,  (3) Ethnicity, and (4) Socio-economic status
+
+
+#### _Browser name_
+For _Browser name_, we measure health disparities as the difference in the prevalence of diseases across these different grouping systems.  This is a tool for investigators to explore the landscape of health disparities across different grouping schemes to identifiy the largest disprities in disease prevalence between groups.  Identification of large health disparities will enable investigators to work towards ameliorating them.
+
+
+
+#### About Us
 Developed by [Shashwat Deepali Nagar](www.sdnagar.com), under the tutelage of Prof. [I. King Jordan](jordan.biology.gatech.edu) at Georgia Tech in collaboration with Prof. [Leonardo Mariño-Ramírez](https://scholar.google.com/citations?user=GQIBkAcAAAAJ&hl=en&oi=ao) at the 
 [National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
 '''
