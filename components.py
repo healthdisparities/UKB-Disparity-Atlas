@@ -63,7 +63,9 @@ def get_sex_disp_plot(plotting_data, active_row_id):
                         title = {'x' : 0.5}, 
                         showlegend = False, 
                         autosize = True,
-                        height = 590
+                        height = 590,
+                        plot_bgcolor = '#f9f9f9',
+                        paper_bgcolor = '#f9f9f9'
                     )
 
     for a in fig.layout.annotations:
@@ -127,7 +129,9 @@ def get_age_disp_plot(plotting_data, active_row_id):
                         showlegend = False, 
                         autosize = True,
                         # width = 600,
-                        height = 590
+                        height = 590,
+                        plot_bgcolor = '#f9f9f9',
+                        paper_bgcolor = '#f9f9f9'
                     )
 
     for a in fig.layout.annotations:
@@ -210,7 +214,9 @@ def get_ethnic_disp_plot(plotting_data, active_row_id):
                         showlegend = False, 
                         autosize = True,
                         # width = 600,
-                        height = 590
+                        height = 590,
+                        plot_bgcolor = '#f9f9f9',
+                        paper_bgcolor = '#f9f9f9'
                     )
 
     for a in fig.layout.annotations:
@@ -283,7 +289,9 @@ def get_ses_disp_plot(plotting_data, active_row_id):
                         showlegend = False, 
                         autosize = True,
                         # width = 600,
-                        height = 590
+                        height = 590,
+                        plot_bgcolor = '#f9f9f9',
+                        paper_bgcolor = '#f9f9f9'
                     )
 
     for a in fig.layout.annotations:
@@ -342,5 +350,5 @@ Disease cohorts were defined by mapping ICD-10 disease codes from the UK Biobank
 
 <br>
 
-Developed by [Shashwat Deepali Nagar](www.sdnagar.com) from the [Jordan Lab](jordan.biology.gatech.edu) at Georgia Tech in collaboration with the Mariño-Ramírez group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).  You can contact us via [email](mailto:shashwat@).
+Developed by [Shashwat Deepali Nagar](http://www.sdnagar.com) from the [Jordan Lab](http://jordan.biology.gatech.edu) at Georgia Tech in collaboration with the Mariño-Ramírez group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
 '''

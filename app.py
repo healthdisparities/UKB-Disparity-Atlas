@@ -105,7 +105,7 @@ Next, we'll process data for the prevalence tables
 ## Grouping - Sex
 sex_prev_data = pd.read_csv(DATA_PATH.joinpath("sex_prev_table.txt"), sep = '\t')
 
-sex_prev_data = sex_prev_data.rename(columns = {'Phenotype' : 'Disease'})
+sex_prev_data = sex_prev_data.rename(columns = {'Phenotype' : 'Disease', 'PheCode' : 'Phecode'})
 
 sex_prev_data['id'] = sex_prev_data['Disease']
 sex_prev_data.set_index('id', inplace = True, drop = False)
@@ -113,7 +113,7 @@ sex_prev_data.set_index('id', inplace = True, drop = False)
 ## Grouping - Age
 age_prev_data = pd.read_csv(DATA_PATH.joinpath("age_prev_table.txt"), sep = '\t')
 
-age_prev_data = age_prev_data.rename(columns = {'Phenotype' : 'Disease'})
+age_prev_data = age_prev_data.rename(columns = {'Phenotype' : 'Disease', 'PheCode' : 'Phecode'})
 age_prev_data = age_prev_data.loc[:, [colname for colname in age_prev_data.columns if colname != '30-39']]
 
 age_prev_data['id'] = age_prev_data['Disease']
@@ -122,7 +122,7 @@ age_prev_data.set_index('id', inplace = True, drop = False)
 ## Grouping - Ethnic Group
 ethnic_prev_data = pd.read_csv(DATA_PATH.joinpath("ethnic_prev_table.txt"), sep = '\t')
 
-ethnic_prev_data = ethnic_prev_data.rename(columns = {'Phenotype' : 'Disease'})
+ethnic_prev_data = ethnic_prev_data.rename(columns = {'Phenotype' : 'Disease', 'PheCode' : 'Phecode'})
 
 ethnic_prev_data['id'] = ethnic_prev_data['Disease']
 ethnic_prev_data.set_index('id', inplace = True, drop = False)
@@ -131,7 +131,7 @@ ethnic_prev_data.set_index('id', inplace = True, drop = False)
 ses_prev_data = pd.read_csv(DATA_PATH.joinpath("ses_prev_table.txt"), sep = '\t')
 ses_prev_data.columns = ['Phenotype', 'PheCode', 'First Quintile of Deprivation', 'Second Quintile of Deprivation', 'Third Quintile of Deprivation', 'Fourth Quintile of Deprivation' ,'Fifth Quintile of Deprivation']
 
-ses_prev_data = ses_prev_data.rename(columns = {'Phenotype' : 'Disease'})
+ses_prev_data = ses_prev_data.rename(columns = {'Phenotype' : 'Disease', 'PheCode' : 'Phecode'})
 
 ses_prev_data['id'] = ses_prev_data['Disease']
 ses_prev_data.set_index('id', inplace = True, drop = False)
@@ -200,6 +200,7 @@ left_unselected_tab = {
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'borderRadius' : '15px 0px 0px 15px',
+
                 }
 
 left_selected_tab = {
@@ -213,6 +214,7 @@ left_selected_tab = {
                     'borderTop': '1px solid #d6d6d6',
                     'color' : '#ffffff',
                     'borderRadius' : '15px 0px 0px 15px',
+                    'textAlign' : 'center',
                 }
 
 right_unselected_tab = {
@@ -353,26 +355,43 @@ app.layout = html.Div(
                         html.Div(
                             [
                                 html.Div(
-                                    [
-                                        html.H5(
-                                            "Disease Percent Prevalence",
-                                            className="control_label",
-                                        ),
-                                        html.Br(),
-                                        # Reading in table from our component library
-                                        components.get_dash_table(ses_prev_data, 'AgePrev'),
+                                    [    
+                                        html.Div(
+                                            [
+                                                html.Div(
+                                                    [
+                                                        html.H5(
+                                                            "Disease Percent Prevalence",
+                                                            className="control_label",
+                                                        ),
+                                                        html.Br(),
+                                                        # Reading in table from our component library
+                                                        components.get_dash_table(ses_prev_data, 'AgePrev'),
 
-                                        html.Br()
+                                                        html.Br()
+                                                    ],
+                                                
+                                                    className="pretty_container",
+                                                    style = {
+                                                        'borderStyle' : 'none',
+                                                    }
+                                                )
+                                            ],
+                                            className = 'pretty_container',
+                                            style = {
+                                                'width' : '100%'
+                                            }
+                                        ),
                                     ],
-                                
-                                    className="pretty_container",
+                                    className = 'container',
                                     style = {
-                                        'borderStyle' : 'none',
-                                    }
+                                                'width' : '90%'
+                                            }
+                                    
                                 )
                             ],
-                            className = 'pretty_container'
-                        ),
+                            className="row flex-display"
+                        )
                     ]
                 ),
                 dcc.Tab(
@@ -554,7 +573,8 @@ def update_disease_title(active_cell):
     # Null value
     cases = 0
     cases = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Cases.unique()[0]
-    return human_format(int(cases))
+    # return human_format(int(cases))
+    return format(cases, ',d')
 
 @app.callback(
     Output('controlTextSex', 'children'),
@@ -563,7 +583,9 @@ def update_disease_title(active_cell):
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
     controls = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Controls.unique()[0]
-    return human_format(int(controls))
+    # return human_format(int(controls))
+    return format(controls, ',d')
+
 
 @app.callback(
     Output('prevalenceTextSex', 'children'),
@@ -587,7 +609,8 @@ def update_disease_title(active_cell):
     # Null value
     cases = 0
     cases = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Cases.unique()[0]
-    return human_format(int(cases))
+    # return human_format(int(cases))
+    return format(cases, ',d')
 
 @app.callback(
     Output('controlTextAge', 'children'),
@@ -596,7 +619,8 @@ def update_disease_title(active_cell):
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     controls = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Controls.unique()[0]
-    return human_format(int(controls))
+    # return human_format(int(controls))
+    return format(controls, ',d')
 
 @app.callback(
     Output('prevalenceTextAge', 'children'),
@@ -620,7 +644,8 @@ def update_disease_title(active_cell):
     # Null value
     cases = 0
     cases = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Cases.unique()[0]
-    return human_format(int(cases))
+    # return human_format(int(cases))
+    return format(cases, ',d')
 
 @app.callback(
     Output('controlTextEthnic', 'children'),
@@ -629,7 +654,8 @@ def update_disease_title(active_cell):
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
     controls = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Controls.unique()[0]
-    return human_format(int(controls))
+    # return human_format(int(controls))
+    return format(controls, ',d')
 
 @app.callback(
     Output('prevalenceTextEthnic', 'children'),
@@ -652,7 +678,8 @@ def update_disease_title(active_cell):
     # Null value
     cases = 0
     cases = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Cases.unique()[0]
-    return human_format(int(cases))
+    # return human_format(int(cases))
+    return format(cases, ',d')
 
 @app.callback(
     Output('controlTextSES', 'children'),
@@ -661,7 +688,8 @@ def update_disease_title(active_cell):
 def update_disease_title(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
     controls = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Controls.unique()[0]
-    return human_format(int(controls))
+    # return human_format(int(controls))
+    return format(controls, ',d')
 
 @app.callback(
     Output('prevalenceTextSES', 'children'),
