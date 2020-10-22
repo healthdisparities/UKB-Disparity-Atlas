@@ -575,6 +575,10 @@ there.
   .container-display {
     display: flex;
   }
+
+  .tab {
+    border-radius: 15px;
+  }
   
   #casesAge,
   #controlsAge,

@@ -196,10 +196,11 @@ left_unselected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : 'bold',
-                    'height' : '4vh',
+                    'height' : '5rem',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'borderRadius' : '15px 0px 0px 15px',
+                    'verticalAlign' : 'middle',
 
                 }
 
@@ -207,7 +208,7 @@ left_selected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : '700',
-                    'height' : '4vh',
+                    'height' : '5rem',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'backgroundColor': '#214084',
@@ -215,52 +216,58 @@ left_selected_tab = {
                     'color' : '#ffffff',
                     'borderRadius' : '15px 0px 0px 15px',
                     'textAlign' : 'center',
+                    'verticalAlign' : 'middle',
                 }
 
 right_unselected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : 'bold',
-                    'height' : '4vh',
+                    'height' : '5rem',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'borderRadius' : '0px 15px 15px 0px',
+                    'verticalAlign' : 'middle',
                 }
 
 right_selected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : '700',
-                    'height' : '4vh',
+                    'height' : '5rem',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'backgroundColor': '#214084',
                     'borderTop': '1px solid #d6d6d6',
                     'color' : '#ffffff',
                     'borderRadius' : '0px 15px 15px 0px',
+                    'verticalAlign' : 'middle',
                 }
 
 middle_unselected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : 'bold',
-                    'height' : '4vh',
+                    'height' : '5rem',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'borderRadius' : '0px',
+                    'verticalAlign' : 'middle',
                 }
 
 middle_selected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : '700',
-                    'height' : '4vh',
+                    'height' : '5rem',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
                     'backgroundColor': '#214084',
                     'borderTop': '1px solid #d6d6d6',
                     'color' : '#ffffff',
                     'borderRadius' : '0px',
+                    'verticalAlign' : 'middle',
+                    
                 }
 
 ###############################################################################
@@ -294,7 +301,10 @@ app.layout = html.Div(
                             [
                                 html.H2(
                                     "UK Health Disparities Browser",
-                                    style={"margin-bottom": "0px"},
+                                    style={
+                                        "margin-bottom": "0px",
+                                        'color' : '#214084'
+                                    },
                                 ),
                                 html.P(
                                     "Exploring the Landscape of Health Disparities in the United Kingdom", style={"margin-top": "0px", 'font-size': '2rem', 'font-weight' : 300}
@@ -402,29 +412,46 @@ app.layout = html.Div(
                     children = [
                         tab_populator.get_tab_content(ethnic_table_data, ethnic_plotting_data, 'Ethnic'),
 
-                        html.Div(
+                         html.Div(
                             [
                                 html.Div(
-                                    [
-                                        html.H5(
-                                            "Disease Percent Prevalence",
-                                            className="control_label",
-                                        ),
-                                        html.Br(),
-                                        # Reading in table from our component library
-                                        components.get_dash_table(ses_prev_data, 'EthnicPrev'),
+                                    [    
+                                        html.Div(
+                                            [
+                                                html.Div(
+                                                    [
+                                                        html.H5(
+                                                            "Disease Percent Prevalence",
+                                                            className="control_label",
+                                                        ),
+                                                        html.Br(),
+                                                        # Reading in table from our component library
+                                                        components.get_dash_table(ses_prev_data, 'EthnicPrev'),
 
-                                        html.Br()
+                                                        html.Br()
+                                                    ],
+                                                
+                                                    className="pretty_container",
+                                                    style = {
+                                                        'borderStyle' : 'none',
+                                                    }
+                                                )
+                                            ],
+                                            className = 'pretty_container',
+                                            style = {
+                                                'width' : '100%'
+                                            }
+                                        ),
                                     ],
-                                
-                                    className="pretty_container",
+                                    className = 'container',
                                     style = {
-                                        'borderStyle' : 'none',
-                                    }
+                                                'width' : '90%'
+                                            }
+                                    
                                 )
                             ],
-                            className = 'pretty_container'
-                        ),
+                            className="row flex-display"
+                        )
                     ]
                 ),
                 dcc.Tab(
@@ -435,29 +462,46 @@ app.layout = html.Div(
                     children = [
                         tab_populator.get_tab_content(sex_table_data, sex_plotting_data, 'Sex'),
 
-                        html.Div(
+                         html.Div(
                             [
                                 html.Div(
-                                    [
-                                        html.H5(
-                                            "Disease Percent Prevalence",
-                                            className="control_label",
-                                        ),
-                                        html.Br(),
-                                        # Reading in table from our component library
-                                        components.get_dash_table(ses_prev_data, 'SexPrev'),
+                                    [    
+                                        html.Div(
+                                            [
+                                                html.Div(
+                                                    [
+                                                        html.H5(
+                                                            "Disease Percent Prevalence",
+                                                            className="control_label",
+                                                        ),
+                                                        html.Br(),
+                                                        # Reading in table from our component library
+                                                        components.get_dash_table(ses_prev_data, 'SexPrev'),
 
-                                        html.Br()
+                                                        html.Br()
+                                                    ],
+                                                
+                                                    className="pretty_container",
+                                                    style = {
+                                                        'borderStyle' : 'none',
+                                                    }
+                                                )
+                                            ],
+                                            className = 'pretty_container',
+                                            style = {
+                                                'width' : '100%'
+                                            }
+                                        ),
                                     ],
-                                
-                                    className="pretty_container",
+                                    className = 'container',
                                     style = {
-                                        'borderStyle' : 'none',
-                                    }
+                                                'width' : '90%'
+                                            }
+                                    
                                 )
                             ],
-                            className = 'pretty_container'
-                        ),
+                            className="row flex-display"
+                        )
                     ]
                 ),
                 dcc.Tab(
@@ -468,30 +512,46 @@ app.layout = html.Div(
                     children = [
                         tab_populator.get_tab_content(ses_table_data, ses_plotting_data, 'SES'),
 
-                        html.Div(
+                         html.Div(
                             [
                                 html.Div(
-                                    [
-                                        html.H5(
-                                            "Disease Percent Prevalence",
-                                            className="control_label",
-                                        ),
-                                        html.Br(),
-                                        # Reading in table from our component library
-                                        components.get_dash_table(ses_prev_data, 'SESPrev'),
+                                    [    
+                                        html.Div(
+                                            [
+                                                html.Div(
+                                                    [
+                                                        html.H5(
+                                                            "Disease Percent Prevalence",
+                                                            className="control_label",
+                                                        ),
+                                                        html.Br(),
+                                                        # Reading in table from our component library
+                                                        components.get_dash_table(ses_prev_data, 'SESPrev'),
 
-                                        html.Br()
+                                                        html.Br()
+                                                    ],
+                                                
+                                                    className="pretty_container",
+                                                    style = {
+                                                        'borderStyle' : 'none',
+                                                    }
+                                                )
+                                            ],
+                                            className = 'pretty_container',
+                                            style = {
+                                                'width' : '100%'
+                                            }
+                                        ),
                                     ],
-                                
-                                    className="pretty_container",
+                                    className = 'container',
                                     style = {
-                                        'borderStyle' : 'none',
-                                    }
+                                                'width' : '90%'
+                                            }
+                                    
                                 )
                             ],
-                            className = 'pretty_container',
-                            # style = {'height' : '20%'}
-                        ),
+                            className="row flex-display"
+                        )
                     ]
                 ),
             ]
@@ -546,7 +606,7 @@ def update_disease_name(active_cell):
     ]
     )
 def update_disease_name(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
 
     return f"{active_row_id} ({(ethnic_table_data.loc[ethnic_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
@@ -640,7 +700,7 @@ def update_disease_title(active_cell):
     ]
     )
 def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     # Null value
     cases = 0
     cases = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Cases.unique()[0]
@@ -652,7 +712,7 @@ def update_disease_title(active_cell):
     [Input('datatable-row-idsEthnic', 'active_cell')]
     )
 def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     controls = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Controls.unique()[0]
     # return human_format(int(controls))
     return format(controls, ',d')
@@ -662,7 +722,7 @@ def update_disease_title(active_cell):
     [Input('datatable-row-idsEthnic', 'active_cell')]
     )
 def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     prevalence = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
@@ -735,7 +795,7 @@ def make_figure(active_cell):
 def make_figure(active_cell):
 
     # Setting default value
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
     
     return components.get_ethnic_disp_plot(ethnic_plotting_data, active_row_id)
 
