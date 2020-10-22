@@ -199,7 +199,7 @@ left_unselected_tab = {
                     'height' : '4vh',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
-                    'borderRadius' : '8px 0px 0px 8px',
+                    'borderRadius' : '15px 0px 0px 15px',
                 }
 
 left_selected_tab = {
@@ -212,7 +212,7 @@ left_selected_tab = {
                     'backgroundColor': '#214084',
                     'borderTop': '1px solid #d6d6d6',
                     'color' : '#ffffff',
-                    'borderRadius' : '8px 0px 0px 8px',
+                    'borderRadius' : '15px 0px 0px 15px',
                 }
 
 right_unselected_tab = {
@@ -222,7 +222,7 @@ right_unselected_tab = {
                     'height' : '4vh',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
-                    'borderRadius' : '0px 8px 8px 0px',
+                    'borderRadius' : '0px 15px 15px 0px',
                 }
 
 right_selected_tab = {
@@ -235,7 +235,7 @@ right_selected_tab = {
                     'backgroundColor': '#214084',
                     'borderTop': '1px solid #d6d6d6',
                     'color' : '#ffffff',
-                    'borderRadius' : '0px 8px 8px 0px',
+                    'borderRadius' : '0px 15px 15px 0px',
                 }
 
 middle_unselected_tab = {
@@ -290,7 +290,7 @@ app.layout = html.Div(
                     [
                         html.Div(
                             [
-                                html.H1(
+                                html.H2(
                                     "UK Health Disparities Browser",
                                     style={"margin-bottom": "0px"},
                                 ),
@@ -507,8 +507,7 @@ def human_format(num):
     )
 def update_disease_name(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
-
-    return f"{active_row_id}"
+    return f"{active_row_id} ({(sex_table_data.loc[sex_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 @app.callback(
     Output('disease_textAge', 'children'),
@@ -519,7 +518,7 @@ def update_disease_name(active_cell):
 def update_disease_name(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
 
-    return f"{active_row_id}"
+    return f"{active_row_id} ({(age_table_data.loc[age_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 @app.callback(
     Output('disease_textEthnic', 'children'),
@@ -530,7 +529,7 @@ def update_disease_name(active_cell):
 def update_disease_name(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
 
-    return f"{active_row_id}"
+    return f"{active_row_id} ({(ethnic_table_data.loc[ethnic_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 @app.callback(
     Output('disease_textSES', 'children'),
@@ -541,7 +540,7 @@ def update_disease_name(active_cell):
 def update_disease_name(active_cell):
     active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
 
-    return f"{active_row_id}"
+    return f"{active_row_id} ({(ses_table_data.loc[ses_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 ### Sex
 @app.callback(
