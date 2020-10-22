@@ -15,71 +15,86 @@ def get_tab_content(view_data, plotting_data, disp_type):
                         [
                             html.Div(
                                 [
-                                    html.H6(id="disease_text" + disp_type), 
-                                ],
-                                className="mini_container",
-                                style = {'text-align' : 'center'}
-                            ),
+                                    html.Div(
+                                        [
+                                            html.H6(id="disease_text" + disp_type), 
+                                        ],
+                                        className="mini_container",
+                                        style = {'text-align' : 'center'}
+                                    ),
 
-                            html.Div(
-                                [
                                     html.Div(
                                         [
-                                            html.H6(id="caseText" + disp_type), 
-                                            html.P("Cases")
+                                            html.Div(
+                                                [
+                                                    html.H6(id="caseText" + disp_type), 
+                                                    html.P("Cases")
+                                                ],
+                                                id="cases" + disp_type,
+                                                className="pretty_container four columns",
+                                                style = {'text-align' : 'center'}
+                                            ),
+                                            html.Div(
+                                                [
+                                                    html.H6(id="controlText" + disp_type), 
+                                                    html.P("Controls")
+                                                ],
+                                                id="controls" + disp_type,
+                                                className="pretty_container four columns",
+                                                style = {'text-align' : 'center'}
+                                            ),
+                                            html.Div(
+                                                [
+                                                    html.H6(id="prevalenceText" + disp_type), 
+                                                    html.P("Prevalence")
+                                                ],
+                                                id="prevalence" + disp_type,
+                                                className="pretty_container four columns",
+                                                style = {'text-align' : 'center'}
+                                            )
                                         ],
-                                        id="cases" + disp_type,
-                                        className="mini_container",
-                                        style = {'text-align' : 'center'}
+                                        className="row container-display"
                                     ),
-                                    html.Div(
-                                        [
-                                            html.H6(id="controlText" + disp_type), 
-                                            html.P("Controls")
-                                        ],
-                                        id="controls" + disp_type,
-                                        className="mini_container",
-                                        style = {'text-align' : 'center'}
-                                    ),
-                                    html.Div(
-                                        [
-                                            html.H6(id="prevalenceText" + disp_type), 
-                                            html.P("Prevalence")
-                                        ],
-                                        id="prevalence" + disp_type,
-                                        className="mini_container",
-                                        style = {'text-align' : 'center'}
-                                    )
-                                ],
-                                className="row container-display"
-                            ),
-
-                            html.Br(),
-                            
-                            html.Div(
-                                [
-                                    html.H5(
-                                        "Disease Prevalence Disparities",
-                                        className="control_label",
-                                    ),
-                                    html.P(
-                                        "Disparities defined by variance and maximum difference of prevalence values.",
-                                        className="control_label",
-                                    ),
-                                    html.Br(),
-                                    # Reading in table from our component library
-                                    components.get_dash_table(view_data, disp_type)
 
                                 ],
                                 className="pretty_container",
+                                style = {'align-items' : 'center'},
+                                # id="cross-filter-options" ,
                             ),
 
-                            
+                            html.Div(
+                                [                                    
+                                    html.Div(
+                                        [
+                                            html.H5(
+                                                "Disease Prevalence Disparities",
+                                                className="control_label",
+                                            ),
+                                            html.P(
+                                                "Disparities defined by variance and maximum difference of prevalence values.",
+                                                className="control_label",
+                                            ),
+                                            html.Br(),
+                                            # Reading in table from our component library
+                                            components.get_dash_table(view_data, disp_type)
+
+                                        ],
+                                        className="pretty_container",
+                                        style = {
+                                            'borderStyle' : 'none',
+                                        }
+                                    ),
+
+                                    html.Br()
+                                ],
+                                className="pretty_container",
+                                style = {'align-items' : 'center'},
+                                # id="cross-filter-options" ,
+                            ),
                         ],
-                        className="pretty_container eight columns",
-                        style = {'align-items' : 'center'},
-                        # id="cross-filter-options" ,
+                        className = 'container eight columns'
                     ),
+
                     html.Div(
                         [
                             

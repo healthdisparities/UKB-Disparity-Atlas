@@ -27,6 +27,7 @@ def get_dash_table(view_data, disp_type):
                                     virtualization=True,
 
                                     style_cell={
+                                        'borderStyle' : 'none',
                                         'height': '4me',
                                         # all three widths are needed
                                         'minWidth': '2em', 
@@ -114,7 +115,7 @@ def get_age_disp_plot(plotting_data, active_row_id):
                         '#214084', # 60-69
                         '#EDB88B', # 40-49
                         '#FAA51A', # 50-59
-                        '#006C67', # 30-39
+                        # '#006C67', # 30-39
                         '#7AC74F', # Overall  
 
                         '#FFFFFF', # Blank
@@ -139,9 +140,7 @@ def get_age_disp_plot(plotting_data, active_row_id):
                         categoryorder = 'array',
                         categoryarray = ['Overall', 
                                         ' ',
-                                        '70-79', '60-69', '50-59', '40-49', '30-39', 
-                                        '  ',
-                                        'Black (all)', 'African', 'Caribbean', 'Other Black'][::-1],
+                                        '70-79', '60-69', '50-59', '40-49'][::-1],
                         automargin = True
                     )
 
@@ -333,7 +332,7 @@ Disease cohorts were defined by mapping ICD-10 disease codes from the UK Biobank
 
 <br>
 
-[Age](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003): UK Biobank participant ages at the time they attended the assessment centers were divided into four decades – 40-49, 50-59, 60-69, 70-79. 
+[Age](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003): The UK Biobank recruited participants aged 40 and over.  Participant ages at the time they attended the assessment centers were divided into four decades – 40-49, 50-59, 60-69, 70-79.
 
 [Ethnicity](https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=21000): UK Biobank participants self-identify as belonging to one of six ethnic groups – Asian, Black, Chinese, Mixed, White, or Other – and a specific ethnic background within each group.
 

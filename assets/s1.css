@@ -215,6 +215,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: -0.1rem;
   margin-bottom: 2rem;
+  color : #214084;
 }
 h2 {
   font-size: 3.6rem;
@@ -564,6 +565,7 @@ there.
   .pretty_container {
     margin: 0 !important;
     margin-bottom: 25px !important;
+    border-color : #214084;
   }
   #individual_graph,
   #count_graph,
@@ -601,7 +603,8 @@ there.
     background-color: #f9f9f9;
     padding: 15px;
     position: relative;
-    box-shadow: 2px 2px 2px lightgrey;
+    border-color : #214084;
+    /* box-shadow: 2px 2px 2px lightgrey; */
   }
 
   #plotly-image {

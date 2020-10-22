@@ -114,6 +114,7 @@ sex_prev_data.set_index('id', inplace = True, drop = False)
 age_prev_data = pd.read_csv(DATA_PATH.joinpath("age_prev_table.txt"), sep = '\t')
 
 age_prev_data = age_prev_data.rename(columns = {'Phenotype' : 'Disease'})
+age_prev_data = age_prev_data.loc[:, [colname for colname in age_prev_data.columns if colname != '30-39']]
 
 age_prev_data['id'] = age_prev_data['Disease']
 age_prev_data.set_index('id', inplace = True, drop = False)
@@ -154,6 +155,7 @@ age_plotting_data = pd.read_csv(DATA_PATH.joinpath("age_plotting.txt"), sep = '\
 age_plotting_data['id'] = age_plotting_data['Phenotype']
 age_plotting_data.set_index('id', inplace = True, drop = False)
 age_plotting_data.columns = ['PheCode', 'Phenotype', 'Trait', 'Prevalence', 'Cases', 'Controls', 'id']
+age_plotting_data = age_plotting_data.loc[age_plotting_data['Trait'] != '30-39', :]
 age_plotting_data = age_plotting_data.astype({'Cases': 'int32', 'Controls' : 'int32'})
 age_plotting_data['Pretty_cases'] = age_plotting_data['Cases'].map("{:,}".format)
 age_plotting_data['Pretty_controls'] = age_plotting_data['Controls'].map("{:,}".format)
@@ -190,25 +192,73 @@ ses_plotting_data.loc[ses_plotting_data['Trait'] == '5', 'Trait'] = 'Fifth Quint
 ses_plotting_data.loc[ses_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
 # Defining style elements
-unselected_tab = {
+left_unselected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : 'bold',
                     'height' : '4vh',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
+                    'borderRadius' : '8px 0px 0px 8px',
                 }
 
-selected_tab = {
+left_selected_tab = {
+                    'width' : '15rem',
+                    'margin': '0 auto',
+                    'fontWeight' : '700',
+                    'height' : '4vh',
+                    # 'height': '1rem',
+                    'paddingBottom' : '5%',
+                    'backgroundColor': '#214084',
+                    'borderTop': '1px solid #d6d6d6',
+                    'color' : '#ffffff',
+                    'borderRadius' : '8px 0px 0px 8px',
+                }
+
+right_unselected_tab = {
                     'width' : '15rem',
                     'margin': '0 auto',
                     'fontWeight' : 'bold',
                     'height' : '4vh',
                     # 'height': '1rem',
                     'paddingBottom' : '5%',
-                    'backgroundColor': '#119DFF',
-                    'borderTop': '1px solid #d6d6d6',
+                    'borderRadius' : '0px 8px 8px 0px',
+                }
 
+right_selected_tab = {
+                    'width' : '15rem',
+                    'margin': '0 auto',
+                    'fontWeight' : '700',
+                    'height' : '4vh',
+                    # 'height': '1rem',
+                    'paddingBottom' : '5%',
+                    'backgroundColor': '#214084',
+                    'borderTop': '1px solid #d6d6d6',
+                    'color' : '#ffffff',
+                    'borderRadius' : '0px 8px 8px 0px',
+                }
+
+middle_unselected_tab = {
+                    'width' : '15rem',
+                    'margin': '0 auto',
+                    'fontWeight' : 'bold',
+                    'height' : '4vh',
+                    # 'height': '1rem',
+                    'paddingBottom' : '5%',
+                    'borderRadius' : '0px',
+                }
+
+middle_selected_tab = {
+                    'width' : '15rem',
+                    'margin': '0 auto',
+                    'fontWeight' : '700',
+                    'height' : '4vh',
+                    # 'height': '1rem',
+                    'paddingBottom' : '5%',
+                    'backgroundColor': '#214084',
+                    'borderTop': '1px solid #d6d6d6',
+                    'color' : '#ffffff',
+                    'borderRadius' : '0px',
                 }
 
 ###############################################################################
@@ -281,8 +331,8 @@ app.layout = html.Div(
                 dcc.Tab(
                     label = 'Home',
                     value = 'about_tab',
-                    style = unselected_tab,
-                    selected_style = selected_tab,
+                    style = left_unselected_tab,
+                    selected_style = left_selected_tab,
                     children = [
                         html.Br(),
                         dcc.Markdown(
@@ -295,97 +345,134 @@ app.layout = html.Div(
                 dcc.Tab(
                     label = 'Age',
                     value = 'age_tab',
-                    style = unselected_tab,
-                    selected_style = selected_tab,
+                    style = middle_unselected_tab,
+                    selected_style = middle_selected_tab,
                     children = [
                         tab_populator.get_tab_content(age_table_data, age_plotting_data, 'Age'),
 
                         html.Div(
                             [
-                                html.H5(
-                                    "Phenotype Prevalence",
-                                    className="control_label",
-                                ),
-                                html.Br(),
-                                # Reading in table from our component library
-                                components.get_dash_table(age_prev_data, 'AgePrev'),
+                                html.Div(
+                                    [
+                                        html.H5(
+                                            "Disease Percent Prevalence",
+                                            className="control_label",
+                                        ),
+                                        html.Br(),
+                                        # Reading in table from our component library
+                                        components.get_dash_table(ses_prev_data, 'AgePrev'),
+
+                                        html.Br()
+                                    ],
+                                
+                                    className="pretty_container",
+                                    style = {
+                                        'borderStyle' : 'none',
+                                    }
+                                )
                             ],
-                        
-                        className="pretty_container",
-                        
-                        )
+                            className = 'pretty_container'
+                        ),
                     ]
                 ),
                 dcc.Tab(
                     label = 'Ethnicity',
                     value = 'ethnic_tab',
-                    style = unselected_tab,
-                    selected_style = selected_tab,
+                    style = middle_unselected_tab,
+                    selected_style = middle_selected_tab,
                     children = [
                         tab_populator.get_tab_content(ethnic_table_data, ethnic_plotting_data, 'Ethnic'),
 
                         html.Div(
                             [
-                                html.H5(
-                                    "Disease Percent Prevalence",
-                                    className="control_label",
-                                ),
-                                html.Br(),
-                                # Reading in table from our component library
-                                components.get_dash_table(ethnic_prev_data, 'EthnicPrev'),
+                                html.Div(
+                                    [
+                                        html.H5(
+                                            "Disease Percent Prevalence",
+                                            className="control_label",
+                                        ),
+                                        html.Br(),
+                                        # Reading in table from our component library
+                                        components.get_dash_table(ses_prev_data, 'EthnicPrev'),
+
+                                        html.Br()
+                                    ],
+                                
+                                    className="pretty_container",
+                                    style = {
+                                        'borderStyle' : 'none',
+                                    }
+                                )
                             ],
-                        
-                        className="pretty_container",
-                        
-                        )
+                            className = 'pretty_container'
+                        ),
                     ]
                 ),
                 dcc.Tab(
                     label = 'Sex',
                     value = 'sex_tab',
-                    style = unselected_tab,
-                    selected_style = selected_tab,
+                    style = middle_unselected_tab,
+                    selected_style = middle_selected_tab,
                     children = [
                         tab_populator.get_tab_content(sex_table_data, sex_plotting_data, 'Sex'),
 
                         html.Div(
                             [
-                                html.H5(
-                                    "Phenotype Prevalence",
-                                    className="control_label",
-                                ),
-                                html.Br(),
-                                # Reading in table from our component library
-                                components.get_dash_table(sex_prev_data, 'SexPrev'),
+                                html.Div(
+                                    [
+                                        html.H5(
+                                            "Disease Percent Prevalence",
+                                            className="control_label",
+                                        ),
+                                        html.Br(),
+                                        # Reading in table from our component library
+                                        components.get_dash_table(ses_prev_data, 'SexPrev'),
+
+                                        html.Br()
+                                    ],
+                                
+                                    className="pretty_container",
+                                    style = {
+                                        'borderStyle' : 'none',
+                                    }
+                                )
                             ],
-                        
-                        className="pretty_container",
-                        
-                        )
+                            className = 'pretty_container'
+                        ),
                     ]
                 ),
                 dcc.Tab(
                     label = 'Socioeconomic',
                     value = 'ses_tab',
-                    style = unselected_tab,
-                    selected_style = selected_tab,
+                    style = right_unselected_tab,
+                    selected_style = right_selected_tab,
                     children = [
                         tab_populator.get_tab_content(ses_table_data, ses_plotting_data, 'SES'),
 
                         html.Div(
                             [
-                                html.H5(
-                                    "Phenotype Prevalence",
-                                    className="control_label",
-                                ),
-                                html.Br(),
-                                # Reading in table from our component library
-                                components.get_dash_table(ses_prev_data, 'SESPrev'),
+                                html.Div(
+                                    [
+                                        html.H5(
+                                            "Disease Percent Prevalence",
+                                            className="control_label",
+                                        ),
+                                        html.Br(),
+                                        # Reading in table from our component library
+                                        components.get_dash_table(ses_prev_data, 'SESPrev'),
+
+                                        html.Br()
+                                    ],
+                                
+                                    className="pretty_container",
+                                    style = {
+                                        'borderStyle' : 'none',
+                                    }
+                                )
                             ],
-                        
-                        className="pretty_container",
-                        
-                        )
+                            className = 'pretty_container',
+                            # style = {'height' : '20%'}
+                        ),
                     ]
                 ),
             ]
