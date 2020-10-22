@@ -109,6 +109,7 @@ sex_prev_data = sex_prev_data.rename(columns = {'Phenotype' : 'Disease', 'PheCod
 
 sex_prev_data['id'] = sex_prev_data['Disease']
 sex_prev_data.set_index('id', inplace = True, drop = False)
+sex_prev_data = sex_prev_data.sort_values(by = ['Male'], ascending = False)
 
 ## Grouping - Age
 age_prev_data = pd.read_csv(DATA_PATH.joinpath("age_prev_table.txt"), sep = '\t')
@@ -118,6 +119,7 @@ age_prev_data = age_prev_data.loc[:, [colname for colname in age_prev_data.colum
 
 age_prev_data['id'] = age_prev_data['Disease']
 age_prev_data.set_index('id', inplace = True, drop = False)
+age_prev_data = age_prev_data.sort_values(by = ['70-79'], ascending = False)
 
 ## Grouping - Ethnic Group
 ethnic_prev_data = pd.read_csv(DATA_PATH.joinpath("ethnic_prev_table.txt"), sep = '\t')
@@ -126,6 +128,7 @@ ethnic_prev_data = ethnic_prev_data.rename(columns = {'Phenotype' : 'Disease', '
 
 ethnic_prev_data['id'] = ethnic_prev_data['Disease']
 ethnic_prev_data.set_index('id', inplace = True, drop = False)
+ethnic_prev_data = ethnic_prev_data.sort_values(by = ['Asian (all)'], ascending = False)
 
 ## Grouping - Socio-economic status
 ses_prev_data = pd.read_csv(DATA_PATH.joinpath("ses_prev_table.txt"), sep = '\t')
@@ -135,6 +138,8 @@ ses_prev_data = ses_prev_data.rename(columns = {'Phenotype' : 'Disease', 'PheCod
 
 ses_prev_data['id'] = ses_prev_data['Disease']
 ses_prev_data.set_index('id', inplace = True, drop = False)
+ses_prev_data = ses_prev_data.sort_values(by = ['Fifth Quintile of Deprivation'], ascending = False)
+
 
 '''
 Fianlly, we process data for visualization.
@@ -376,7 +381,7 @@ app.layout = html.Div(
                                                         ),
                                                         html.Br(),
                                                         # Reading in table from our component library
-                                                        components.get_dash_table(ses_prev_data, 'AgePrev'),
+                                                        components.get_dash_table(age_prev_data, 'AgePrev'),
 
                                                         html.Br()
                                                     ],
@@ -426,7 +431,7 @@ app.layout = html.Div(
                                                         ),
                                                         html.Br(),
                                                         # Reading in table from our component library
-                                                        components.get_dash_table(ses_prev_data, 'EthnicPrev'),
+                                                        components.get_dash_table(ethnic_prev_data, 'EthnicPrev'),
 
                                                         html.Br()
                                                     ],
@@ -476,7 +481,7 @@ app.layout = html.Div(
                                                         ),
                                                         html.Br(),
                                                         # Reading in table from our component library
-                                                        components.get_dash_table(ses_prev_data, 'SexPrev'),
+                                                        components.get_dash_table(sex_prev_data, 'SexPrev'),
 
                                                         html.Br()
                                                     ],
