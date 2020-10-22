@@ -59,13 +59,14 @@ def get_tab_content(view_data, plotting_data, disp_type):
                             html.Div(
                                 [
                                     html.H5(
-                                        "Disease Phenotypes",
+                                        "Disease Prevalence Disparities",
                                         className="control_label",
                                     ),
                                     html.P(
-                                        "Cohorts defined using PheCode-to-ICD10 inclusion and exclusion criteria.",
+                                        "Disparities defined by variance and maximum difference of prevalence values.",
                                         className="control_label",
                                     ),
+                                    html.Br(),
                                     # Reading in table from our component library
                                     components.get_dash_table(view_data, disp_type)
 

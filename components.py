@@ -80,7 +80,7 @@ def get_sex_disp_plot(plotting_data, active_row_id):
                     )
 
     fig.update_xaxes(
-                        range = [min(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence), max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
+                        range = [0, max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
                         title_text = "Percent Prevalence",
                         automargin = True
                     )
@@ -146,7 +146,7 @@ def get_age_disp_plot(plotting_data, active_row_id):
                     )
 
     fig.update_xaxes(
-                        range = [min(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence), max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
+                        range = [0, max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
                         title_text = "Percent Prevalence",
                         automargin = True
                     )
@@ -239,7 +239,7 @@ def get_ethnic_disp_plot(plotting_data, active_row_id):
                     )
 
     fig.update_xaxes(
-                        range = [min(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence), max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
+                        range = [0, max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
                         title_text = "Percent Prevalence",
                         automargin = True
                     )
@@ -306,7 +306,7 @@ def get_ses_disp_plot(plotting_data, active_row_id):
                     )
 
     fig.update_xaxes(
-                        range = [min(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence), max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
+                        range = [0, max(plotting_data[(plotting_data.Phenotype == active_row_id)].Prevalence)],
                         title_text = "Percent Prevalence",
                         automargin = True
                     )
@@ -323,26 +323,25 @@ def get_ses_disp_plot(plotting_data, active_row_id):
     return fig
 
 ABOUT_US = '''
-### Welcome to the UK Biobank Health Disparities Atlas!
+<br>
 
-#### Health Disparities
+Health disparities can be defined as differences in health outcomes between groups of people, where groups (or populations) can be defined in a variety of ways.  We created the UK Health Disparities Browser as a means for researchers to explore the landscape of health disparities in the United Kingdom, for age, ethnicity, sex, and socioeconomic status groups.  The browser includes prevalence data for 1,513 diseases based on a cohort of ~500,000 participants from the [UK Biobank](https://www.ukbiobank.ac.uk/).  Users can browse and sort by disease prevalence, and prevalence differences, to quantify and visualize health disparities for each of these four characteristics.
 
-Health Disparities are defined as differences in health ourcomes between different groups of people.  
+<br>
 
+Disease cohorts were defined by mapping ICD-10 disease codes from the UK Biobank to phenotype codes (phecodes).  Phecodes aggregate one or more related ICD-10 codes into distinct diseases, and they use both inclusion and exclusion criteria to define disease case and control cohorts.  For each disease phecode, prevalence values were calculated by dividing the number of cases by the sum of the number of cases and controls.  For each of the four groups – age, ethnicity, sex, and socioeconomic status – disease percent prevalence values were computed for all subgroups, and the magnitude of the disparities were calculated by both the variances of the prevalence and the maximum prevalence differences among the subgroups.
 
-##### Grouping systems
+<br>
 
-These groups can be defined in many different ways &ndash; here, we defined groups based on 
+[Age](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21003): UK Biobank participant ages at the time they attended the assessment centers were divided into four decades – 40-49, 50-59, 60-69, 70-79. 
 
-(1) Sex,  (2) Age,  (3) Ethnicity, and (4) Socio-economic status
+[Ethnicity](https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=21000): UK Biobank participants self-identify as belonging to one of six ethnic groups – Asian, Black, Chinese, Mixed, White, or Other – and a specific ethnic background within each group.
 
+[Sex](https://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=31): UK Biobank participant sex – Male or Female – were obtained from the UK National Healthcare Service (NHS) Primary Care Trust registries.    
 
-#### _Browser name_
-For _Browser name_, we measure health disparities as the difference in the prevalence of diseases across these different grouping systems.  This is a tool for investigators to explore the landscape of health disparities across different grouping schemes to identifiy the largest disprities in disease prevalence between groups.  Identification of large health disparities will enable investigators to work towards ameliorating them.
+[Socioeconomic](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=189): The Townsend deprivation index, a measure of material deprivation within a population, was used to measure participant socioeconomic status.  Postcode normalized Townsend index values were partitioned into five equal quintiles.
 
+<br>
 
-
-#### About Us
-Developed by [Shashwat Deepali Nagar](www.sdnagar.com), under the tutelage of Prof. [I. King Jordan](jordan.biology.gatech.edu) at Georgia Tech in collaboration with Prof. [Leonardo Mariño-Ramírez](https://scholar.google.com/citations?user=GQIBkAcAAAAJ&hl=en&oi=ao) at the 
-[National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
+Developed by [Shashwat Deepali Nagar](www.sdnagar.com) from the [Jordan Lab](jordan.biology.gatech.edu) at Georgia Tech in collaboration with the Mariño-Ramírez group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
 '''
