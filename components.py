@@ -332,7 +332,7 @@ def get_ses_disp_plot(plotting_data, active_row_id):
 ABOUT_US = '''
 <br>
 
-Health disparities can be defined as differences in health outcomes between groups of people, where groups (or populations) can be defined in a variety of ways.  We created the UK Health Disparities Browser as a means for researchers to explore the landscape of health disparities in the United Kingdom, for age, ethnicity, sex, and socioeconomic status groups.  The browser includes prevalence data for 1,513 diseases based on a cohort of ~500,000 participants from the [UK Biobank](https://www.ukbiobank.ac.uk/).  Users can browse and sort by disease prevalence, and prevalence differences, to quantify and visualize health disparities for each of these four characteristics.
+Health disparities (or inequalities) can be defined as differences in health outcomes between groups of people, where the groups can be delineated in a variety of ways. We created the UK Health Disparities Browser as a means for researchers to explore the landscape of health disparities in the United Kingdom, for groups defined by age, ethnicity, sex, and socioeconomic status. The browser includes prevalence data for 1,513 diseases based on a cohort of ~500,000 participants from the UK Biobank. Users can browse and sort by disease prevalence and differences to visualize health disparities for each of these four groups, and users can search for diseases of interest by disease names or codes.
 
 <br>
 
@@ -350,9 +350,9 @@ Disease cohorts were defined by mapping ICD-10 disease codes from the UK Biobank
 
 <br>
 
-Developed by [Shashwat Deepali Nagar](http://www.sdnagar.com) from the [Jordan Lab](http://jordan.biology.gatech.edu) at Georgia Tech in collaboration with the Mariño-Ramírez group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
+All of the health disparities data published here are released freely for the benefit of the research community.  It should be noted that the disease prevalence and disparities values were calculated using the UK Biobank Resource (project ID 65206), and use of these data are subject to the terms of the UK Biobank.
 
 <br>
 
-All of the health disparities data published here are released freely for the benefit of the research community.  It should be noted that the disease prevalence and disparities values were calculated using the UK Biobank Resource (project ID 65206), and use of these data are subject to the terms of the UK Biobank.
+Developed by [Shashwat Deepali Nagar](http://www.sdnagar.com) from the [Jordan Lab](http://jordan.biology.gatech.edu) at Georgia Tech in collaboration with the Mariño-Ramírez group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
 '''
