@@ -318,6 +318,29 @@ app.layout = html.Div(
                 html.Div(
                     [
                         html.Div(
+                            # html.Img(
+                            #     src = PATH.joinpath('assets').joinpath('logo.png').resolve()
+                            # )
+                            [
+                                html.Img(
+                                    src=app.get_asset_url('logo.png'),
+                                    style = {
+                                        'height' : '6.3em',
+                                        'width' : '8em',
+                                        # 'alignItems' : 'center',
+                                        # 'justifyContent' : 'center',
+                                    }
+                                )
+                            ],
+                            style = {
+                                'verticalAlign' : 'middle',
+                                'alignItems' : 'center',
+                                'justifyContent' : 'center',
+                                'display' : 'flex'
+                            }
+                        ),
+
+                        html.Div(
                             [
                                 html.H2(
                                     "UK Health Disparities Browser",
@@ -332,7 +355,7 @@ app.layout = html.Div(
                             ]
                         )
                     ],
-                    className="one-half column",
+                    className="one-half column row container-display",
                     id="title",
                 ),
                 html.Div(
