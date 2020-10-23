@@ -1146,6 +1146,6 @@ def make_figure(active_cell, prev_cell):
 
 # Main
 if __name__ == '__main__':
-    app.run_server(host = '127.0.0.1', port = '8080', debug=True)
-    # app.run_server()
+    # app.run_server(host = '127.0.0.1', port = '8080', debug=True)
+    app.run_server()
 
