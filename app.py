@@ -196,6 +196,22 @@ ses_plotting_data.loc[ses_plotting_data['Trait'] == '4', 'Trait'] = 'Fourth Quin
 ses_plotting_data.loc[ses_plotting_data['Trait'] == '5', 'Trait'] = 'Fifth Quintile of Deprivation<br>(Most Deprived)'
 ses_plotting_data.loc[ses_plotting_data['Trait'] == 'Total', 'Trait'] = 'Overall'
 
+# Setting default values
+AGE_DEF_TRAIT = 'Essential hypertension'
+ETHNIC_DEF_TRAIT = 'Essential hypertension'
+SES_DEF_TRAIT = 'Tobacco use disorder'
+SEX_DEF_TRAIT = 'Inguinal hernia'
+
+# Storing current selections globally
+CURR_AGE_PREV = {'disease': AGE_DEF_TRAIT, 'cases' : AGE_DEF_TRAIT, 'controls': AGE_DEF_TRAIT, 'prev': AGE_DEF_TRAIT, 'figure': AGE_DEF_TRAIT}
+CURR_AGE_TABLE = {'disease': AGE_DEF_TRAIT, 'cases' : AGE_DEF_TRAIT, 'controls': AGE_DEF_TRAIT, 'prev': AGE_DEF_TRAIT, 'figure': AGE_DEF_TRAIT}
+CURR_SEX_PREV = {'disease': SEX_DEF_TRAIT, 'cases' : SEX_DEF_TRAIT, 'controls': SEX_DEF_TRAIT, 'prev': SEX_DEF_TRAIT, 'figure': SEX_DEF_TRAIT}
+CURR_SEX_TABLE = {'disease': SEX_DEF_TRAIT, 'cases' : SEX_DEF_TRAIT, 'controls': SEX_DEF_TRAIT, 'prev': SEX_DEF_TRAIT, 'figure': SEX_DEF_TRAIT}
+CURR_ETHNIC_PREV = {'disease': ETHNIC_DEF_TRAIT, 'cases' : ETHNIC_DEF_TRAIT, 'controls': ETHNIC_DEF_TRAIT, 'prev': ETHNIC_DEF_TRAIT, 'figure': ETHNIC_DEF_TRAIT}
+CURR_ETHNIC_TABLE = {'disease': ETHNIC_DEF_TRAIT, 'cases' : ETHNIC_DEF_TRAIT, 'controls': ETHNIC_DEF_TRAIT, 'prev': ETHNIC_DEF_TRAIT, 'figure': ETHNIC_DEF_TRAIT}
+CURR_SES_PREV = {'disease': SES_DEF_TRAIT, 'cases' : SES_DEF_TRAIT, 'controls': SES_DEF_TRAIT, 'prev': SES_DEF_TRAIT, 'figure': SES_DEF_TRAIT}
+CURR_SES_TABLE = {'disease': SES_DEF_TRAIT, 'cases' : SES_DEF_TRAIT, 'controls': SES_DEF_TRAIT, 'prev': SES_DEF_TRAIT, 'figure': SES_DEF_TRAIT}
+
 # Defining style elements
 left_unselected_tab = {
                     'width' : '15rem',
@@ -206,7 +222,6 @@ left_unselected_tab = {
                     'paddingBottom' : '5%',
                     'borderRadius' : '15px 0px 0px 15px',
                     'verticalAlign' : 'middle',
-
                 }
 
 left_selected_tab = {
@@ -586,43 +601,96 @@ def human_format(num):
 @app.callback(
     Output('disease_textSex', 'children'),
     [
-        Input('datatable-row-idsSex', 'active_cell')
+        Input('datatable-row-idsSex', 'active_cell'),
+        Input('datatable-row-idsSexPrev', 'active_cell'),
     ]
     )
-def update_disease_name(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
+def update_disease_name(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SEX_PREV
+    global CURR_SEX_TABLE
+    
+    curr_prev = CURR_SEX_PREV['disease'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SEX_TABLE['disease'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SEX_TABLE['disease'] else curr_prev
+
+    # Updating for next round
+    CURR_SEX_TABLE['disease'] = curr_table
+    CURR_SEX_PREV['disease'] = curr_prev
+
     return f"{active_row_id} ({(sex_table_data.loc[sex_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 @app.callback(
     Output('disease_textAge', 'children'),
     [
-        Input('datatable-row-idsAge', 'active_cell')
+        Input('datatable-row-idsAge', 'active_cell'),
+        Input('datatable-row-idsAgePrev', 'active_cell'),
     ]
     )
-def update_disease_name(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_name(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_AGE_PREV
+    global CURR_AGE_TABLE
+    
+    curr_prev = CURR_AGE_PREV['disease'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_AGE_TABLE['disease'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_AGE_TABLE['disease'] else curr_prev
+
+    # Updating for next round
+    CURR_AGE_TABLE['disease'] = curr_table
+    CURR_AGE_PREV['disease'] = curr_prev
 
     return f"{active_row_id} ({(age_table_data.loc[age_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 @app.callback(
     Output('disease_textEthnic', 'children'),
     [
-        Input('datatable-row-idsEthnic', 'active_cell')
+        Input('datatable-row-idsEthnic', 'active_cell'),
+        Input('datatable-row-idsEthnicPrev', 'active_cell'),
     ]
     )
-def update_disease_name(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_name(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_ETHNIC_PREV
+    global CURR_ETHNIC_TABLE
+    
+    curr_prev = CURR_ETHNIC_PREV['disease'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_ETHNIC_TABLE['disease'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_ETHNIC_TABLE['disease'] else curr_prev
+
+    # Updating for next round
+    CURR_ETHNIC_TABLE['disease'] = curr_table
+    CURR_ETHNIC_PREV['disease'] = curr_prev
 
     return f"{active_row_id} ({(ethnic_table_data.loc[ethnic_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
 @app.callback(
     Output('disease_textSES', 'children'),
     [
-        Input('datatable-row-idsSES', 'active_cell')
+        Input('datatable-row-idsSES', 'active_cell'),
+        Input('datatable-row-idsSESPrev', 'active_cell'),
     ]
     )
-def update_disease_name(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+def update_disease_name(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SES_PREV
+    global CURR_SES_TABLE
+    
+    curr_prev = CURR_SES_PREV['disease'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SES_TABLE['disease'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SES_TABLE['disease'] else curr_prev
+
+    # Updating for next round
+    CURR_SES_TABLE['disease'] = curr_table
+    CURR_SES_PREV['disease'] = curr_prev
 
     return f"{active_row_id} ({(ses_table_data.loc[ses_table_data['Disease'] == active_row_id, 'Phecode'].values[0])})"
 
@@ -631,10 +699,24 @@ def update_disease_name(active_cell):
     Output('caseTextSex', 'children'),
     [
         Input('datatable-row-idsSex', 'active_cell'),
+        Input('datatable-row-idsSexPrev', 'active_cell'),
     ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SEX_PREV
+    global CURR_SEX_TABLE
+    
+    curr_prev = CURR_SEX_PREV['cases'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SEX_TABLE['cases'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SEX_TABLE else curr_prev
+
+    # Updating for next round
+    CURR_SEX_TABLE['cases'] = curr_table
+    CURR_SEX_PREV['cases'] = curr_prev
+
     # Null value
     cases = 0
     cases = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Cases.unique()[0]
@@ -643,10 +725,26 @@ def update_disease_title(active_cell):
 
 @app.callback(
     Output('controlTextSex', 'children'),
-    [Input('datatable-row-idsSex', 'active_cell')]
+    [
+        Input('datatable-row-idsSex', 'active_cell'),
+        Input('datatable-row-idsSexPrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SEX_PREV
+    global CURR_SEX_TABLE
+    
+    curr_prev = CURR_SEX_PREV['controls'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SEX_TABLE['controls'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SEX_TABLE['controls'] else curr_prev
+
+    # Updating for next round
+    CURR_SEX_TABLE['controls'] = curr_table
+    CURR_SEX_PREV['controls'] = curr_prev
+    
     controls = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Controls.unique()[0]
     # return human_format(int(controls))
     return format(controls, ',d')
@@ -654,10 +752,26 @@ def update_disease_title(active_cell):
 
 @app.callback(
     Output('prevalenceTextSex', 'children'),
-    [Input('datatable-row-idsSex', 'active_cell')]
+    [
+        Input('datatable-row-idsSex', 'active_cell'),
+        Input('datatable-row-idsSexPrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SEX_PREV
+    global CURR_SEX_TABLE
+    
+    curr_prev = CURR_SEX_PREV['prev'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SEX_TABLE['prev'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SEX_TABLE['prev'] else curr_prev
+
+    # Updating for next round
+    CURR_SEX_TABLE['prev'] = curr_table
+    CURR_SEX_PREV['prev'] = curr_prev
+    
     prevalence = sex_plotting_data[(sex_plotting_data.Phenotype == active_row_id) & (sex_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
@@ -667,10 +781,24 @@ def update_disease_title(active_cell):
     Output('caseTextAge', 'children'),
     [
         Input('datatable-row-idsAge', 'active_cell'),
+        Input('datatable-row-idsAgePrev', 'active_cell'),
     ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_AGE_PREV
+    global CURR_AGE_TABLE
+    
+    curr_prev = CURR_AGE_PREV['cases'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_AGE_TABLE['cases'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_AGE_TABLE['cases'] else curr_prev
+
+    # Updating for next round
+    CURR_AGE_TABLE['cases'] = curr_table
+    CURR_AGE_PREV['cases'] = curr_prev
+
     # Null value
     cases = 0
     cases = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Cases.unique()[0]
@@ -679,20 +807,52 @@ def update_disease_title(active_cell):
 
 @app.callback(
     Output('controlTextAge', 'children'),
-    [Input('datatable-row-idsAge', 'active_cell')]
+    [
+        Input('datatable-row-idsAge', 'active_cell'),
+        Input('datatable-row-idsAgePrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_AGE_PREV
+    global CURR_AGE_TABLE
+    
+    curr_prev = CURR_AGE_PREV['controls'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_AGE_TABLE['controls'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_AGE_TABLE['controls'] else curr_prev
+
+    # Updating for next round
+    CURR_AGE_TABLE['controls'] = curr_table
+    CURR_AGE_PREV['controls'] = curr_prev
+    
     controls = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Controls.unique()[0]
     # return human_format(int(controls))
     return format(controls, ',d')
 
 @app.callback(
     Output('prevalenceTextAge', 'children'),
-    [Input('datatable-row-idsAge', 'active_cell')]
+    [
+        Input('datatable-row-idsAge', 'active_cell'),
+        Input('datatable-row-idsAgePrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_AGE_PREV
+    global CURR_AGE_TABLE
+    
+    curr_prev = CURR_AGE_PREV['prev'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_AGE_TABLE['prev'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_AGE_TABLE['prev'] else curr_prev
+
+    # Updating for next round
+    CURR_AGE_TABLE['prev'] = curr_table
+    CURR_AGE_PREV['prev'] = curr_prev
+    
     prevalence = age_plotting_data[(age_plotting_data.Phenotype == active_row_id) & (age_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
@@ -702,10 +862,24 @@ def update_disease_title(active_cell):
     Output('caseTextEthnic', 'children'),
     [
         Input('datatable-row-idsEthnic', 'active_cell'),
+        Input('datatable-row-idsEthnicPrev', 'active_cell'),
     ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_ETHNIC_PREV
+    global CURR_ETHNIC_TABLE
+    
+    curr_prev = CURR_ETHNIC_PREV['cases'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_ETHNIC_TABLE['cases'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_ETHNIC_TABLE['cases'] else curr_prev
+
+    # Updating for next round
+    CURR_ETHNIC_TABLE['cases'] = curr_table
+    CURR_ETHNIC_PREV['cases'] = curr_prev
+
     # Null value
     cases = 0
     cases = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Cases.unique()[0]
@@ -714,20 +888,52 @@ def update_disease_title(active_cell):
 
 @app.callback(
     Output('controlTextEthnic', 'children'),
-    [Input('datatable-row-idsEthnic', 'active_cell')]
+    [
+        Input('datatable-row-idsEthnic', 'active_cell'),
+        Input('datatable-row-idsEthnicPrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_ETHNIC_PREV
+    global CURR_ETHNIC_TABLE
+    
+    curr_prev = CURR_ETHNIC_PREV['controls'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_ETHNIC_TABLE['controls'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_ETHNIC_TABLE['controls'] else curr_prev
+
+    # Updating for next round
+    CURR_ETHNIC_TABLE['controls'] = curr_table
+    CURR_ETHNIC_PREV['controls'] = curr_prev
+
     controls = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Controls.unique()[0]
     # return human_format(int(controls))
     return format(controls, ',d')
 
 @app.callback(
     Output('prevalenceTextEthnic', 'children'),
-    [Input('datatable-row-idsEthnic', 'active_cell')]
+    [
+        Input('datatable-row-idsEthnic', 'active_cell'),
+        Input('datatable-row-idsEthnicPrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_ETHNIC_PREV
+    global CURR_ETHNIC_TABLE
+    
+    curr_prev = CURR_ETHNIC_PREV['prev'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_ETHNIC_TABLE['prev'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_ETHNIC_TABLE['prev'] else curr_prev
+
+    # Updating for next round
+    CURR_ETHNIC_TABLE['prev'] = curr_table
+    CURR_ETHNIC_PREV['prev'] = curr_prev
+
     prevalence = ethnic_plotting_data[(ethnic_plotting_data.Phenotype == active_row_id) & (ethnic_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
@@ -736,10 +942,24 @@ def update_disease_title(active_cell):
     Output('caseTextSES', 'children'),
     [
         Input('datatable-row-idsSES', 'active_cell'),
+        Input('datatable-row-idsSESPrev', 'active_cell'),
     ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SES_PREV
+    global CURR_SES_TABLE
+    
+    curr_prev = CURR_SES_PREV['cases'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SES_TABLE['cases'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SES_TABLE['cases'] else curr_prev
+
+    # Updating for next round
+    CURR_SES_TABLE['cases'] = curr_table
+    CURR_SES_PREV['cases'] = curr_prev
+
     # Null value
     cases = 0
     cases = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Cases.unique()[0]
@@ -748,20 +968,52 @@ def update_disease_title(active_cell):
 
 @app.callback(
     Output('controlTextSES', 'children'),
-    [Input('datatable-row-idsSES', 'active_cell')]
+    [
+        Input('datatable-row-idsSES', 'active_cell'),
+        Input('datatable-row-idsSESPrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SES_PREV
+    global CURR_SES_TABLE
+    
+    curr_prev = CURR_SES_PREV['controls'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SES_TABLE['controls'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SES_TABLE['controls'] else curr_prev
+
+    # Updating for next round
+    CURR_SES_TABLE['controls'] = curr_table
+    CURR_SES_PREV['controls'] = curr_prev
+
     controls = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Controls.unique()[0]
     # return human_format(int(controls))
     return format(controls, ',d')
 
 @app.callback(
     Output('prevalenceTextSES', 'children'),
-    [Input('datatable-row-idsSES', 'active_cell')]
+    [
+        Input('datatable-row-idsSES', 'active_cell'),
+        Input('datatable-row-idsSESPrev', 'active_cell'),
+    ]
     )
-def update_disease_title(active_cell):
-    active_row_id = active_cell['row_id'] if active_cell else 'Type 2 diabetes'
+def update_disease_title(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SES_PREV
+    global CURR_SES_TABLE
+    
+    curr_prev = CURR_SES_PREV['prev'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SES_TABLE['prev'] if active_cell is None else active_cell['row_id']
+
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SES_TABLE['prev'] else curr_prev
+
+    # Updating for next round
+    CURR_SES_TABLE['prev'] = curr_table
+    CURR_SES_PREV['prev'] = curr_prev
+    
     prevalence = ses_plotting_data[(ses_plotting_data.Phenotype == active_row_id) & (ses_plotting_data.Trait == "Overall")].Prevalence.unique()[0]
     return str(prevalence) + "%"
 
@@ -770,24 +1022,50 @@ def update_disease_title(active_cell):
 # Sex
 @app.callback(
     Output('disp_graphSex', 'figure'),
-    [Input('datatable-row-idsSex', 'active_cell')]
+    [
+        Input('datatable-row-idsSex', 'active_cell'),
+        Input('datatable-row-idsSexPrev', 'active_cell')
+    ]
     )
-def make_figure(active_cell):
+def make_figure(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SEX_PREV
+    global CURR_SEX_TABLE
+    
+    curr_prev = CURR_SEX_PREV['figure'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SEX_TABLE['figure'] if active_cell is None else active_cell['row_id']
 
-    # Setting default value
-    active_row_id = active_cell['row_id'] if active_cell else 'Inguinal hernia'
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SEX_TABLE['figure'] else curr_prev
+
+    # Updating for next round
+    CURR_SEX_TABLE['figure'] = curr_table
+    CURR_SEX_PREV['figure'] = curr_prev
 
     return components.get_sex_disp_plot(sex_plotting_data, active_row_id)
 
 # Age
 @app.callback(
     Output('disp_graphAge', 'figure'),
-    [Input('datatable-row-idsAge', 'active_cell')]
+    [
+        Input('datatable-row-idsAge', 'active_cell'),
+        Input('datatable-row-idsAgePrev', 'active_cell')
+    ]
     )
-def make_figure(active_cell):
+def make_figure(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_AGE_PREV
+    global CURR_AGE_TABLE
+    
+    curr_prev = CURR_AGE_PREV['figure'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_AGE_TABLE['figure'] if active_cell is None else active_cell['row_id']
 
-    # Setting default value
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_AGE_TABLE['figure'] else curr_prev
+
+    # Updating for next round
+    CURR_AGE_TABLE['figure'] = curr_table
+    CURR_AGE_PREV['figure'] = curr_prev
     
     return components.get_age_disp_plot(age_plotting_data, active_row_id)
 
@@ -795,12 +1073,25 @@ def make_figure(active_cell):
 
 @app.callback(
     Output('disp_graphEthnic', 'figure'),
-    [Input('datatable-row-idsEthnic', 'active_cell')]
+    [
+        Input('datatable-row-idsEthnic', 'active_cell'),
+        Input('datatable-row-idsEthnicPrev', 'active_cell')
+    ]
     )
-def make_figure(active_cell):
+def make_figure(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_ETHNIC_PREV
+    global CURR_ETHNIC_TABLE
+    
+    curr_prev = CURR_ETHNIC_PREV['figure'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_ETHNIC_TABLE['figure'] if active_cell is None else active_cell['row_id']
 
-    # Setting default value
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_ETHNIC_TABLE['figure'] else curr_prev
+
+    # Updating for next round
+    CURR_ETHNIC_TABLE['figure'] = curr_table
+    CURR_ETHNIC_PREV['figure'] = curr_prev
     
     return components.get_ethnic_disp_plot(ethnic_plotting_data, active_row_id)
 
@@ -808,12 +1099,25 @@ def make_figure(active_cell):
 
 @app.callback(
     Output('disp_graphSES', 'figure'),
-    [Input('datatable-row-idsSES', 'active_cell')]
+    [
+        Input('datatable-row-idsSES', 'active_cell'),
+        Input('datatable-row-idsSESPrev', 'active_cell')
+    ]
     )
-def make_figure(active_cell):
+def make_figure(active_cell, prev_cell):
+    # Using global variables to store older state
+    global CURR_SES_PREV
+    global CURR_SES_TABLE
+    
+    curr_prev = CURR_SES_PREV['figure'] if prev_cell is None else prev_cell['row_id']
+    curr_table = CURR_SES_TABLE['figure'] if active_cell is None else active_cell['row_id']
 
-    # Setting default value
-    active_row_id = active_cell['row_id'] if active_cell else 'Essential hypertension'
+    # Checking which one changed
+    active_row_id = curr_table if curr_table != CURR_SES_TABLE['figure'] else curr_prev
+
+    # Updating for next round
+    CURR_SES_TABLE['figure'] = curr_table
+    CURR_SES_PREV['figure'] = curr_prev
     
     return components.get_ses_disp_plot(ses_plotting_data, active_row_id)
 

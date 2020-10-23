@@ -78,7 +78,7 @@ def get_sex_disp_plot(plotting_data, active_row_id):
                         categoryorder = 'array',
                         categoryarray = ['Overall', 
                                         ' ',
-                                        'Male', 'Female'][::-1],
+                                        'Female', 'Male'][::-1],
                         automargin = True
                     )
 
@@ -351,4 +351,8 @@ Disease cohorts were defined by mapping ICD-10 disease codes from the UK Biobank
 <br>
 
 Developed by [Shashwat Deepali Nagar](http://www.sdnagar.com) from the [Jordan Lab](http://jordan.biology.gatech.edu) at Georgia Tech in collaboration with the Mariño-Ramírez group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
+
+<br>
+
+All of the health disparities data published here are released freely for the benefit of the research community.  It should be noted that the disease prevalence and disparities values were calculated using the UK Biobank Resource (project ID 65206), and use of these data are subject to the terms of the UK Biobank.
 '''
