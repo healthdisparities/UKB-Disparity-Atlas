@@ -1,0 +1,12 @@
+runtime: python38
+
+handlers:
+  - url: /assets
+    static_dir: assets
+
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto
+
+entrypoint: gunicorn -b :8080 app:server
