@@ -1,1514 +1,1148 @@
-Phenotype	PheCode	30-39	40-49	50-59	60-69	70-79
-Intestinal infection	8.0	0.0	0.11	0.13	0.15	0.13
-Bacterial enteritis	8.5	0.0	0.42	0.54	0.73	1.09
-Gram negative septicemia	38.1	0.0	0.12	0.22	0.44	0.9
-Intestinal e.coli	8.51	0.0	0.0	0.01	0.01	0.08
-Intestinal infection due to C. difficile	8.52	0.0	0.09	0.14	0.31	0.42
-Intestinal infection due to protozoa	8.7	0.0	0.01	0.02	0.02	0.0
-Viral Enteritis	8.6	0.0	0.17	0.26	0.32	0.55
-Tuberculosis	10.0	0.0	0.06	0.07	0.07	0.05
-Bacterial infection NOS	41.0	0.0	1.06	1.65	2.63	3.72
-Other local infections of skin and subcutaneous tissue	686.0	0.0	0.28	0.37	0.52	0.73
-Bacterial pneumonia	480.1	0.0	0.14	0.26	0.44	0.71
-Infection of the eye	369.0	0.0	0.05	0.07	0.1	0.09
-Gram positive septicemia	38.2	0.0	0.09	0.14	0.21	0.09
-Arthropathy associated with infections	711.0	0.0	0.0	0.0	0.0	0.0
-Glossitis	529.1	0.0	0.05	0.09	0.1	0.0
-Sepsis	994.2	0.0	0.47	0.81	1.45	2.15
-Spirochetal infection	130.0	0.0	0.01	0.02	0.01	0.08
-Viral infection	79.0	0.0	0.89	0.73	0.7	0.84
-Diseases due to other mycobacteria	31.0	0.0	0.01	0.0	0.01	0.0
-Infections specific to the perinatal period	657.0	0.0	0.0	0.0	0.0	0.0
-Complications following abortion or ectopic and molar pregnancies	639.0	0.0	0.05	0.0	0.0	0.0
-Acute upper respiratory infections of multiple or unspecified sites	465.0	0.0	0.35	0.35	0.42	0.5
-Streptococcus infection	41.2	0.0	0.41	0.42	0.61	1.26
-Meningitis	320.0	0.0	0.14	0.11	0.09	0.08
-Carditis	420.0	0.0	0.0	0.0	0.0	0.0
-Septicemia	38.0	0.0	0.5	0.88	1.6	2.44
-Arthropod-borne diseases	133.0	0.0	0.06	0.04	0.03	0.04
-Staphylococcus infections	41.1	0.0	0.66	0.84	1.19	1.83
-Sexually transmitted infections (not HIV or hepatitis)	90.0	0.0	0.01	0.02	0.01	0.0
-Gonococcal infections	90.2	0.0	0.0	0.0	0.0	0.0
-Venereal diseases due to Chlamydia trachomatis	90.3	0.0	0.01	0.0	0.0	0.0
-Protozoan infection	131.0	0.0	0.0	0.0	0.01	0.0
-Herpes simplex	54.0	0.0	0.07	0.07	0.07	0.04
-Viral warts & HPV	78.0	0.0	0.26	0.23	0.26	0.25
-Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue	528.0	0.0	0.39	0.57	0.65	0.67
-Lyme disease	130.1	0.0	0.01	0.01	0.01	0.0
-Other infectious and parasitic diseases	136.0	0.0	0.05	0.06	0.08	0.12
-Other CNS infection and poliomyelitis	324.0	0.0	0.04	0.08	0.11	0.17
-Jakob-Creutzfeldt disease	324.1	0.0	0.0	0.0	0.01	0.0
-Encephalitis	323.0	0.0	0.06	0.09	0.08	0.08
-Peripheral or central vertigo	386.2	0.0	0.07	0.11	0.18	0.51
-Eye infection, viral	369.2	0.0	0.02	0.04	0.05	0.22
-Varicella infection	79.1	0.0	0.03	0.01	0.01	0.04
-Viral pneumonia	480.2	0.0	0.02	0.03	0.03	0.0
-Herpes zoster	53.0	0.0	0.05	0.09	0.15	0.38
-Herpes zoster with nervous system complications	53.1	0.0	0.01	0.02	0.05	0.04
-Otitis media	381.1	0.0	0.19	0.26	0.34	0.21
-Viral hepatitis A	70.1	0.0	0.02	0.02	0.02	0.04
-Viral hepatitis B	70.2	16.67	0.06	0.08	0.05	0.0
-Viral hepatitis	70.0	16.67	0.08	0.09	0.07	0.04
-Viral hepatitis C	70.3	0.0	0.14	0.15	0.05	0.08
-HIV infection, symptomatic	71.1	0.0	0.08	0.05	0.02	0.0
-Candidiasis	112.0	0.0	0.45	0.55	0.97	1.24
-Pneumonia due to fungus (mycoses)	480.3	0.0	0.02	0.03	0.05	0.04
-Kaposi's sarcoma	230.0	0.0	0.01	0.0	0.0	0.0
-Non-Hodgkins lymphoma	202.2	0.0	0.2	0.35	0.61	0.72
-Malignant neoplasm, other	195.1	0.0	2.04	3.83	7.36	11.48
-Encephalopathy, not elsewhere classified	348.8	0.0	0.02	0.05	0.06	0.09
-Other alveolar and parietoalveolar pneumonopathy	504.0	0.0	0.04	0.09	0.17	0.23
-Malaise and fatigue	798.0	0.0	0.63	0.77	1.07	1.24
-Cachexia	260.1	0.0	0.01	0.02	0.02	0.0
-Acute pancreatitis	577.1	0.0	0.2	0.33	0.45	0.37
-Infectious mononucleosis	79.2	0.0	0.02	0.02	0.01	0.0
-Dermatophytosis	110.1	0.0	0.01	0.02	0.02	0.04
-Dermatophytosis of nail	110.11	0.0	0.01	0.02	0.03	0.0
-Althete's foot	110.12	0.0	0.04	0.03	0.05	0.08
-Dermatophytosis of the body	110.13	0.0	0.0	0.01	0.01	0.08
-Dermatomycoses	110.2	0.0	0.0	0.0	0.0	0.0
-Candidiasis of skin and nails	112.3	0.0	0.01	0.01	0.02	0.0
-Endocarditis	420.3	0.0	0.09	0.16	0.32	0.54
-Coccidioidomycosis	117.2	0.0	0.0	0.0	0.0	0.0
-Histoplasmosis	117.1	0.0	0.0	0.0	0.0	0.0
-Blastomycotic infection	117.3	0.0	0.0	0.0	0.0	0.0
-Mycoses	117.0	0.0	0.03	0.03	0.06	0.04
-Aspergillosis	117.4	0.0	0.02	0.05	0.07	0.0
-Nephrotic syndrome without mention of glomerulonephritis	580.2	0.0	0.09	0.16	0.21	0.36
-Pneumonia	480.0	0.0	0.57	0.97	1.99	2.56
-Helminthiases	134.0	0.0	0.01	0.01	0.01	0.0
-Intestinal helminthiases	134.1	0.0	0.04	0.03	0.03	0.04
-Pediculosis and phthirus infestation	132.1	0.0	0.0	0.0	0.0	0.0
-Infestation (lice, mites)	132.0	0.0	0.01	0.01	0.01	0.0
-E. coli	41.4	0.0	0.48	0.79	1.32	2.14
-Cancer of lip	145.1	0.0	0.01	0.01	0.02	0.04
-Cancer of tongue	145.2	0.0	0.05	0.1	0.09	0.08
-Cancer of the gums	145.4	0.0	0.0	0.01	0.01	0.04
-Cancer of the mouth floor	145.5	0.0	0.01	0.02	0.02	0.0
-Cancer of mouth	145.0	0.0	0.02	0.05	0.05	0.0
-Cancer of larynx, pharynx, nasal cavities	149.0	0.0	0.01	0.02	0.02	0.0
-Cancer of major salivary glands	145.3	0.0	0.02	0.03	0.03	0.0
-Cancer of oropharynx	149.1	0.0	0.05	0.09	0.07	0.04
-Cancer of nasopharynx	149.2	0.0	0.01	0.02	0.01	0.0
-Cancer of hypopharynx	149.3	0.0	0.01	0.01	0.02	0.04
-Cancer of esophagus	150.0	0.0	0.04	0.17	0.36	0.72
-Cancer of stomach	151.0	0.0	0.05	0.13	0.29	0.63
-Malignant neoplasm of small intestine, including duodenum	159.2	0.0	0.02	0.05	0.09	0.14
-Colon cancer	153.2	0.0	0.24	0.7	1.53	2.3
-Malignant neoplasm of rectum, rectosigmoid junction, and anus	153.3	0.0	0.17	0.54	0.98	1.47
-Colorectal cancer	153.0	0.0	0.0	0.0	0.01	0.0
-Cancer of liver and intrahepatic bile duct	155.0	0.0	0.02	0.07	0.13	0.41
-Malignant neoplasm of liver, primary	155.1	0.0	0.01	0.05	0.08	0.32
-Malignant neoplasm of gallbladder and extrahepatic bile ducts	159.3	0.0	0.02	0.05	0.1	0.18
-Pancreatic cancer	157.0	0.0	0.06	0.15	0.32	0.5
-Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum	159.0	0.0	0.47	1.18	2.42	3.94
-Cancer of of nasal cavities	149.9	0.0	0.01	0.01	0.02	0.0
-Cancer of larynx	149.4	0.0	0.02	0.04	0.11	0.25
-Cancer of bronchus; lung	165.1	0.0	0.16	0.55	1.2	1.78
-Cancer of intrathoracic organs	164.0	0.0	0.01	0.01	0.02	0.0
-Cancer within the respiratory system	165.0	0.0	0.08	0.23	0.57	1.09
-Bone cancer	170.1	0.0	0.02	0.04	0.05	0.08
-Melanomas of skin	172.11	0.0	0.42	0.62	1.06	1.49
-Other non-epithelial cancer of skin	172.2	0.0	0.97	2.21	5.14	8.44
-Malignant neoplasm of retroperitoneum and peritoneum	159.4	0.0	0.02	0.04	0.1	0.32
-Cancer of connective tissue	170.2	0.0	0.06	0.09	0.11	0.17
-Malignant neoplasm of female breast	174.11	0.0	1.93	3.26	4.31	4.88
-Cancer of other female genital organs, excluding uterus and ovary	184.2	0.0	0.07	0.1	0.09	0.13
-Malignant neoplasm of ovary and other uterine adnexa	184.1	0.0	0.01	0.02	0.04	0.04
-Cervical cancer	180.1	0.0	0.09	0.08	0.05	0.04
-Malignant neoplasm of uterus	182.0	0.0	0.13	0.34	0.58	0.62
-Malignant neoplasm of ovary	184.11	0.0	0.15	0.25	0.37	0.61
-Malignant neoplasm of unspecified male genital organ	187.1	0.0	0.01	0.02	0.03	0.09
-Cancer of prostate	185.0	0.0	0.18	1.08	3.37	4.99
-Malignant neoplasm of testis	187.2	0.0	0.13	0.06	0.04	0.04
-Malignant neoplasm of kidney, except pelvis	189.11	0.0	0.09	0.23	0.46	0.72
-Malignant neoplasm of renal pelvis	189.12	0.0	0.0	0.01	0.04	0.04
-Malignant neoplasm of other urinary organs	189.4	0.0	0.01	0.02	0.06	0.08
-Malignant neoplasm of bladder	189.21	0.0	0.11	0.35	1.04	1.59
-Cancer of eye	190.0	0.0	0.02	0.05	0.06	0.13
-Cancer of brain and nervous system	191.1	0.0	0.01	0.01	0.02	0.0
-Cancer of brain	191.11	0.0	0.09	0.14	0.17	0.21
-Thyroid cancer	193.0	0.0	0.1	0.11	0.11	0.17
-Cancer of other endocrine glands	194.0	0.0	0.02	0.03	0.03	0.0
-Secondary malignancy of lymph nodes	198.1	0.0	0.89	1.65	2.42	2.41
-Secondary malignant neoplasm	198.0	0.0	0.15	0.33	0.59	0.97
-Secondary malignancy of respiratory organs	198.2	0.0	0.28	0.68	1.23	1.57
-Secondary malignant neoplasm of digestive systems	198.3	0.0	0.2	0.46	0.83	1.67
-Secondary malignant neoplasm of liver	198.4	0.0	0.35	0.77	1.44	2.56
-Secondary malignant neoplasm of skin	198.7	0.0	0.03	0.05	0.1	0.1
-Secondary malignancy of brain/spine	198.5	0.0	0.11	0.27	0.42	0.56
-Secondary malignancy of bone	198.6	0.0	0.24	0.61	1.24	2.16
-Hodgkin's disease	201.0	0.0	0.08	0.07	0.07	0.13
-Nodular lymphoma	202.21	0.0	0.05	0.09	0.15	0.21
-Lymphosarcoma	202.23	0.0	0.0	0.0	0.0	0.0
-Large cell lymphoma	202.24	0.0	0.06	0.13	0.27	0.21
-Multiple myeloma	204.4	0.0	0.06	0.12	0.28	0.67
-Macroglobulinemia	270.35	0.0	0.01	0.02	0.03	0.0
-Myeloproliferative disease	200.0	0.0	0.09	0.16	0.31	0.63
-Leukemia	204.0	0.0	0.08	0.1	0.18	0.13
-Lymphoid leukemia	204.1	0.0	0.01	0.01	0.03	0.0
-Lymphoid leukemia, acute	204.11	0.0	0.02	0.02	0.02	0.0
-Lymphoid leukemia, chronic	204.12	0.0	0.04	0.09	0.26	0.17
-Myeloid leukemia	204.2	0.0	0.0	0.01	0.02	0.04
-Myeloid leukemia, acute	204.21	0.0	0.05	0.07	0.13	0.13
-Myeloid leukemia, chronic	204.22	0.0	0.03	0.03	0.06	0.08
-Monocytic leukemia	204.3	0.0	0.0	0.01	0.02	0.08
-Cancer of other lymphoid, histiocytic tissue	202.0	0.0	0.18	0.3	0.47	0.59
-Other disorders of metabolism	277.0	0.0	0.18	0.27	0.38	0.54
-Carcinoma in situ of skin	172.3	0.0	0.04	0.11	0.38	0.77
-Breast cancer [female]	174.1	0.0	0.37	0.6	0.7	0.66
-Cancer, suspected or other	195.0	0.0	0.16	0.22	0.36	0.31
-Cancer of other male genital organs	187.0	0.0	0.03	0.05	0.05	0.0
-Cervical intraepithelial neoplasia [CIN] [Cervical dysplasia]	180.3	0.0	0.97	0.58	0.3	0.04
-Cancer of bladder	189.2	0.0	0.05	0.15	0.37	0.38
-Cancer of urinary organs (incl. kidney and bladder)	189.0	0.0	0.16	0.54	1.38	2.16
-Benign neoplasm of lip, oral cavity, and pharynx	210.0	0.0	0.21	0.24	0.29	0.33
-Benign neoplasm of colon	208.0	0.0	2.72	5.25	8.73	9.62
-Benign neoplasm of other parts of digestive system	211.0	0.0	0.65	1.53	2.47	2.56
-Benign neoplasm of unspecified sites	229.0	0.0	0.63	0.57	0.6	0.7
-Benign neoplasm of respiratory and intrathoracic organs	212.0	0.0	0.07	0.09	0.12	0.0
-Benign neoplasm of bone and articular cartilage	213.0	0.0	0.09	0.09	0.09	0.09
-Lipoma	214.0	0.0	0.29	0.42	0.59	0.63
-Lipoma of skin and subcutaneous tissue	214.1	0.0	1.2	1.42	1.37	1.25
-Hemangioma and lymphangioma, any site	228.0	0.0	0.32	0.42	0.49	0.45
-Other benign neoplasm of connective and other soft tissue	215.0	0.0	0.25	0.31	0.31	0.25
-Neoplasm of uncertain behavior	199.0	0.0	0.22	0.31	0.48	0.66
-Benign neoplasm of skin	216.0	0.0	2.17	2.14	2.29	2.11
-Benign neoplasm of breast	610.4	0.0	0.54	0.42	0.27	0.21
-Uterine leiomyoma	218.1	0.0	3.72	3.37	1.89	1.3
-Other benign neoplasm of uterus	218.2	0.0	0.1	0.12	0.08	0.0
-Benign neoplasm of other female genital organs	221.0	0.0	0.06	0.06	0.06	0.04
-Benign neoplasm of male genital organs	222.0	0.0	0.03	0.03	0.06	0.09
-Benign neoplasm of kidney and other urinary organs	223.0	0.0	0.03	0.05	0.09	0.05
-Benign neoplasm of eye	224.0	0.0	0.02	0.02	0.02	0.0
-Benign neoplasm of eye, uveal	224.1	0.0	0.0	0.01	0.03	0.04
-Benign neoplasm of brain, cranial nerves, meninges	225.1	0.0	0.12	0.22	0.27	0.46
-Benign neoplasm of spinal cord, meninges	225.2	0.0	0.01	0.02	0.02	0.0
-Benign neoplasm of brain and other parts of nervous system	225.0	0.0	0.0	0.0	0.0	0.0
-Benign neoplasm of thyroid glands	226.0	0.0	0.08	0.07	0.08	0.08
-Benign neoplasm of adrenal gland	227.1	0.0	0.04	0.05	0.08	0.08
-Benign neoplasm of parathyroid gland	227.2	0.0	0.04	0.11	0.16	0.12
-Benign neoplasm of pituitary gland and craniopharyngeal duct (pouch)	227.3	0.0	0.08	0.1	0.11	0.12
-Benign neoplasm of other endocrine glands and related structures	227.0	0.0	0.0	0.0	0.0	0.0
-Benign neoplasm of lymph nodes	229.1	0.0	0.01	0.01	0.01	0.04
-Neoplasm of unspecified nature of digestive system	158.0	0.0	0.11	0.28	0.49	0.72
-Cancer of other female genital organs	184.0	0.0	0.04	0.04	0.04	0.04
-Neoplasm of uncertain behavior of male genital organs	187.8	0.0	0.02	0.02	0.03	0.0
-Manlignant and unknown neoplasms of brain and nervous system	191.0	0.0	0.05	0.06	0.07	0.13
-Paraproteinemia	270.32	0.0	0.02	0.05	0.12	0.17
-Neoplasm of uncertain behavior of skin	173.0	0.0	0.03	0.05	0.06	0.09
-Neoplasm of uncertain behavior of breast	174.3	0.0	0.03	0.03	0.03	0.04
-Iron deficiency anemias, unspecified or not due to blood loss	280.1	0.0	1.91	2.2	3.21	4.04
-Iron deficiency anemia secondary to blood loss (chronic)	280.2	0.0	0.21	0.15	0.13	0.18
-Other vitamin B12 deficiency anemia	281.12	0.0	0.04	0.06	0.08	0.14
-Pernicious anemia	281.11	0.0	0.13	0.19	0.32	0.51
-Folate-deficiency anemia	281.13	0.0	0.03	0.06	0.09	0.09
-Other deficiency anemia	281.0	0.0	0.0	0.0	0.0	0.0
-Megaloblastic anemia	281.1	0.0	0.0	0.0	0.0	0.0
-Deficiency anemias	281.9	0.0	0.02	0.01	0.02	0.0
-Other hereditary hemolytic anemias	282.9	0.0	0.03	0.02	0.04	0.05
-Other hemoglobinopathies	282.8	0.0	0.1	0.08	0.06	0.05
-Sickle cell anemia	282.5	0.0	0.2	0.1	0.05	0.05
-Other diseases of blood and blood-forming organs	289.0	0.0	0.07	0.12	0.22	0.51
-Acquired hemolytic anemias	283.0	0.0	0.0	0.01	0.01	0.0
-Autoimmune hemolytic anemias	283.1	0.0	0.02	0.03	0.05	0.09
-Non-autoimmune hemolytic anemias	283.2	0.0	0.0	0.01	0.0	0.0
-Hemolytic-uremic syndrome	283.21	0.0	0.0	0.0	0.0	0.0
-Hemoglobinuria	285.8	0.0	0.0	0.0	0.01	0.0
-Aplastic anemia	284.0	0.0	0.06	0.13	0.22	0.51
-Constitutional aplastic anemia	284.2	0.0	0.0	0.0	0.01	0.0
-Acute posthemorrhagic anemia	285.1	0.0	0.1	0.06	0.08	0.09
-Anemia in neoplastic disease	285.22	0.0	0.06	0.1	0.21	0.37
-Anemia of chronic disease	285.2	0.0	0.04	0.08	0.15	0.28
-Other anemias	285.0	0.0	2.4	3.06	4.83	7.12
-Sideroblastic anemia	285.3	0.0	0.0	0.0	0.01	0.0
-Defibrination syndrome	286.6	0.0	0.01	0.01	0.01	0.0
-Congenital factor VIII disorder	286.13	0.0	0.02	0.02	0.02	0.04
-Congenital coagulation defects	286.1	0.0	0.01	0.01	0.01	0.04
-Other and unspecified coagulation defects	286.7	0.0	0.11	0.1	0.13	0.25
-Von willebrand's disease	286.11	0.0	0.04	0.03	0.03	0.0
-Congenital deficiency of other clotting factors (including factor VII)	286.12	0.0	0.09	0.08	0.08	0.04
-Hemorrhagic disorder due to intrinsic circulating anticoagulants	286.5	0.0	0.01	0.02	0.04	0.0
-Acquired coagulation factor deficiency	286.4	0.0	0.0	0.0	0.0	0.0
-Purpura and other hemorrhagic conditions	287.0	0.0	0.01	0.02	0.04	0.17
-Allergic purpura	287.2	0.0	0.01	0.01	0.01	0.04
-Qualitative platelet defects	287.4	0.0	0.01	0.0	0.0	0.04
-Primary thrombocytopenia	287.31	0.0	0.08	0.09	0.17	0.29
-Secondary thrombocytopenia	287.32	0.0	0.01	0.02	0.04	0.04
-Thrombocytopenia	287.3	0.0	0.22	0.35	0.54	0.58
-Neutropenia	288.11	0.0	0.57	0.92	1.27	1.73
-Diseases of white blood cells	288.0	0.0	0.13	0.18	0.22	0.3
-Eosinophilia	288.3	0.0	0.01	0.02	0.03	0.0
-Diseases of spleen	289.5	0.0	0.1	0.15	0.2	0.3
-Abnormality of red blood cells	289.9	0.0	0.01	0.02	0.04	0.04
-Immunity deficiency	279.1	0.0	0.02	0.02	0.03	0.04
-Deficiency of humoral immunity	279.11	0.0	0.03	0.04	0.05	0.08
-Other disorders of purine and pyrimidine metabolism	277.2	0.0	0.0	0.0	0.0	0.0
-Other specified disorders involving the immune mechanism	279.8	0.0	0.0	0.01	0.01	0.0
-Sarcoidosis	697.0	0.0	0.15	0.19	0.19	0.04
-Polyclonal hypergammaglobulinemia	270.31	0.0	0.0	0.0	0.01	0.0
-Disorders involving the immune mechanism	279.0	0.0	0.01	0.01	0.01	0.04
-Congenital hypothyroidism	244.5	0.0	0.0	0.01	0.01	0.0
-Simple and unspecified goiter	240.0	0.0	0.13	0.17	0.21	0.14
-Nontoxic multinodular goiter	241.2	0.0	0.12	0.21	0.26	0.32
-Acquired hypothyroidism	244.2	0.0	0.03	0.03	0.04	0.05
-Secondary hypothyroidism	244.1	0.0	0.2	0.34	0.49	0.45
-Other disorders of thyroid	246.0	0.0	0.08	0.11	0.17	0.27
-Coma	348.7	0.0	0.08	0.08	0.14	0.31
-Hypothyroidism NOS	244.4	0.0	2.24	3.78	5.56	7.98
-Nontoxic uninodular goiter	241.1	0.0	0.12	0.16	0.17	0.09
-Nontoxic nodular goiter	241.0	0.0	0.0	0.0	0.0	0.0
-Thyrotoxicosis with or without goiter	242.0	0.0	0.28	0.41	0.56	0.5
-Graves' disease	242.1	0.0	0.15	0.15	0.13	0.23
-Toxic multinodular goiter	242.2	0.0	0.02	0.02	0.04	0.05
-Pituitary hyperfunction	253.1	0.0	0.04	0.03	0.02	0.0
-Thyroiditis	245.0	0.0	0.01	0.02	0.02	0.05
-Thyroiditis, acute and subacute	245.1	0.0	0.0	0.0	0.0	0.05
-Chronic thyroiditis	245.2	0.0	0.01	0.0	0.0	0.05
-Chronic lymphocytic thyroiditis	245.21	0.0	0.05	0.06	0.07	0.14
-Type 1 diabetes	250.1	0.0	0.53	0.75	1.01	1.15
-Type 1 diabetes with ketoacidosis	250.11	0.0	0.1	0.07	0.07	0.0
-Type 1 diabetes with renal manifestations	250.12	0.0	0.02	0.03	0.03	0.05
-Type 2 diabetes with ophthalmic manifestations	250.23	0.0	0.19	0.4	0.71	0.65
-Diabetic retinopathy	250.7	0.0	0.2	0.39	0.7	0.69
-Type 1 diabetes with ophthalmic manifestations	250.13	0.0	0.1	0.15	0.18	0.09
-Type 1 diabetes with neurological manifestations	250.14	0.0	0.04	0.05	0.06	0.19
-Type 2 diabetes with neurological manifestations	250.24	0.0	0.09	0.2	0.29	0.33
-Peripheral angiopathy in diseases classified elsewhere	443.7	0.0	0.05	0.11	0.18	0.26
-Type 2 diabetes	250.2	0.0	2.58	5.03	8.46	11.04
-Type 2 diabetes with ketoacidosis	250.21	0.0	0.04	0.05	0.05	0.09
-Type 2 diabetes with renal manifestations	250.22	0.0	0.03	0.07	0.12	0.05
-severe protein-calorie malnutrition	260.2	0.0	0.0	0.0	0.0	0.0
-Secondary diabetes mellitus	249.0	0.0	0.0	0.0	0.0	0.0
-Hypoglycemia	251.1	0.0	0.2	0.27	0.49	0.66
-Other disorders of pancreatic internal secretion	251.0	0.0	0.0	0.0	0.0	0.0
-Abnormality of secretion of glucagon or gastrin	251.8	0.0	0.0	0.0	0.0	0.0
-Hypoparathyroidism	252.2	0.0	0.03	0.04	0.07	0.08
-Disorders of calcium/phosphorus metabolism	275.5	0.0	0.16	0.3	0.54	0.75
-Hyperparathyroidism	252.1	0.0	0.11	0.21	0.35	0.42
-Disorders of parathyroid gland	252.0	0.0	0.0	0.01	0.01	0.04
-Acromegaly and gigantism	253.11	0.0	0.02	0.02	0.03	0.04
-Other disorders of neurohypophysis	253.7	0.0	0.01	0.04	0.09	0.17
-Pituitary hypofunction	253.2	0.0	0.07	0.08	0.09	0.04
-Iatrogenic endocrine disorders	258.0	0.0	0.02	0.03	0.04	0.0
-Diabetes insipidus	253.3	0.0	0.02	0.03	0.03	0.0
-Disorders of the pituitary gland and its hypothalamic control	253.0	0.0	0.02	0.03	0.03	0.0
-Cushing's syndrome	255.11	0.0	0.02	0.04	0.03	0.04
-Adrenogenital disorders	255.3	0.0	0.01	0.0	0.0	0.04
-Hyperaldosteronism	255.12	0.0	0.01	0.03	0.02	0.0
-Adrenal hyperfunction	255.1	0.0	0.0	0.0	0.0	0.0
-Glucocorticoid deficiency	255.21	0.0	0.09	0.11	0.12	0.08
-Medulloadrenal hyperfunction	255.13	0.0	0.0	0.0	0.0	0.0
-Disorders of adrenal glands	255.0	0.0	0.03	0.05	0.06	0.08
-Ovarian dysfunction	256.0	0.0	0.03	0.01	0.0	0.04
-Polycystic ovaries	256.4	0.0	0.21	0.04	0.01	0.0
-Premature menopause and other ovarian failure	627.5	0.0	0.02	0.01	0.01	0.04
-Testicular dysfunction	257.0	0.0	0.0	0.01	0.0	0.0
-Testicular hypofunction	257.1	0.0	0.04	0.05	0.05	0.0
-Delay in sexual development and puberty NEC	259.3	0.0	0.0	0.0	0.0	0.0
-Other endocrine disorders	259.0	0.0	0.04	0.03	0.03	0.08
-Diseases of thymus gland	254.0	0.0	0.0	0.01	0.01	0.0
-Carcinoid syndrome	259.2	0.0	0.0	0.01	0.02	0.0
-Nutritional marasmus	260.22	0.0	0.0	0.0	0.0	0.0
-Other nutritional deficiency	263.0	0.0	0.0	0.01	0.01	0.04
-Protein-calorie malnutrition	260.0	0.0	0.03	0.05	0.08	0.08
-Vitamin A deficiency	261.1	0.0	0.0	0.0	0.0	0.0
-Vitamin B-complex deficiencies	261.2	0.0	0.19	0.22	0.36	0.67
-Vitamin C deficiencies	261.3	0.0	0.0	0.0	0.0	0.0
-Vitamin D deficiency	261.4	0.0	0.24	0.25	0.31	0.42
-Rickets or osteomalacia	261.41	0.0	0.01	0.01	0.01	0.0
-Vitamin deficiency	261.0	0.0	0.01	0.0	0.01	0.04
-Mineral deficiency NEC	262.0	0.0	0.08	0.08	0.11	0.21
-Localized adiposity	278.3	0.0	0.02	0.03	0.02	0.0
-Obesity	278.1	0.0	2.95	3.85	4.26	4.51
-Hypoventilation	513.3	0.0	0.03	0.02	0.04	0.08
-Overweight, obesity and other hyperalimentation	278.0	0.0	0.0	0.0	0.0	0.0
-Disturbances of amino-acid transport	270.1	0.0	0.01	0.01	0.01	0.04
-Phenylketonuria [PKU]	270.12	0.0	0.0	0.0	0.0	0.0
-Other disorders of lipoid metabolism	277.5	0.0	0.04	0.05	0.08	0.12
-Disturbances of sulphur-bearing amino-acid metabolism	270.11	0.0	0.0	0.0	0.0	0.0
-Disorders of urea cycle metabolism	270.21	0.0	0.0	0.0	0.0	0.0
-Disorders of amino-acid metabolism	270.2	0.0	0.0	0.0	0.0	0.0
-Intestinal disaccharidase deficiencies and disaccharide malabsorption	271.3	0.0	0.03	0.05	0.06	0.0
-Other disorders of carbohydrate transport and metabolism	271.9	0.0	0.01	0.01	0.01	0.0
-Other cerebral degenerations	331.0	0.0	0.03	0.06	0.13	0.36
-Lipoprotein disorders	277.51	0.0	0.01	0.02	0.02	0.04
-Hypercholesterolemia	272.11	0.0	2.99	7.66	15.54	20.82
-Hyperglyceridemia	272.12	0.0	0.01	0.02	0.03	0.05
-Mixed hyperlipidemia	272.13	0.0	0.02	0.05	0.07	0.0
-Hyperchylomicronemia	272.14	0.0	0.0	0.0	0.01	0.0
-Hyperlipidemia	272.1	0.0	0.46	1.28	2.83	3.52
-Unspecified disorder of lipoid metabolism	272.9	0.0	0.03	0.06	0.15	0.16
-Other abnormal blood chemistry	790.6	0.0	0.64	1.53	3.09	3.6
-Disorders of porphyrin metabolism	277.1	0.0	0.01	0.01	0.01	0.04
-Disorders of bilirubin excretion	277.4	0.0	0.08	0.11	0.12	0.17
-Disorders of mineral metabolism	275.0	0.0	0.0	0.0	0.0	0.0
-Disorders of copper metabolism	275.2	0.0	0.0	0.0	0.0	0.0
-Disorders of iron metabolism	275.1	0.0	0.13	0.19	0.23	0.25
-Disorders of phosphorus metabolism	275.53	0.0	0.04	0.07	0.11	0.13
-Disorders of magnesium metabolism	275.3	0.0	0.07	0.13	0.24	0.46
-Cystic fibrosis	499.0	0.0	0.01	0.01	0.0	0.0
-Amyloidosis	270.33	0.0	0.01	0.02	0.07	0.08
-Hypovolemia	276.5	0.0	0.44	0.76	1.51	2.7
-Hyperosmolality and/or hypernatremia	276.11	0.0	0.04	0.07	0.16	0.39
-Hyposmolality and/or hyponatremia	276.12	0.0	0.21	0.5	1.14	1.9
-Acidosis	276.41	0.0	0.17	0.32	0.58	0.66
-Alkalosis	276.42	0.0	0.02	0.04	0.07	0.09
-Acid-base balance disorder	276.4	0.0	0.0	0.0	0.0	0.0
-Hyperpotassemia	276.13	0.0	0.11	0.27	0.57	0.74
-Hypopotassemia	276.14	0.0	0.24	0.41	0.83	1.17
-Fluid overload	276.6	0.0	0.07	0.15	0.32	0.48
-Electrolyte imbalance	276.1	0.0	0.03	0.03	0.07	0.13
-Postablative ovarian failure	258.1	0.0	0.0	0.01	0.01	0.04
-Dementias	290.1	0.0	0.03	0.12	0.64	1.64
-Alzheimer's disease	290.11	0.0	0.01	0.07	0.38	0.96
-Vascular dementia	290.16	0.0	0.01	0.03	0.21	0.44
-Tics and choreas	333.3	0.0	0.01	0.0	0.01	0.05
-Dementia with cerebral degenerations	290.12	0.0	0.0	0.01	0.05	0.18
-Other persistent mental disorders due to conditions classified elsewhere	290.3	0.0	0.06	0.02	0.01	0.04
-Delirium due to conditions classified elsewhere	290.2	0.0	0.08	0.17	0.58	1.09
-Specific nonpsychotic mental disorders due to brain damage	291.4	0.0	0.02	0.02	0.01	0.0
-Psychosis	295.3	0.0	0.09	0.05	0.06	0.0
-Transient mental disorders due to conditions classified elsewhere	291.1	0.0	0.07	0.05	0.02	0.0
-Mood disorders	296.0	0.0	0.03	0.03	0.02	0.05
-Anxiety disorder	300.1	0.0	1.84	2.08	2.39	3.33
-Mild cognitive impairment	292.2	0.0	0.02	0.05	0.13	0.39
-Delirium dementia and amnestic and other cognitive disorders	290.0	0.0	0.03	0.07	0.26	0.7
-Substance addiction and disorders	316.0	0.0	0.25	0.13	0.06	0.04
-Alcohol-related disorders	317.0	0.0	1.74	1.82	1.55	1.64
-Alcoholism	317.1	0.0	2.09	2.58	2.95	2.33
-Tobacco use disorder	318.0	16.67	5.61	5.77	5.9	5.57
-Schizophrenia	295.1	0.0	0.3	0.22	0.16	0.1
-Major depressive disorder	296.22	0.0	0.13	0.12	0.13	0.05
-Schizoid personality disorder	301.1	0.0	0.01	0.01	0.01	0.05
-Paranoid disorders	295.2	0.0	0.08	0.07	0.06	0.05
-Bipolar	296.1	0.0	0.39	0.37	0.33	0.46
-Personality disorders	301.0	0.0	0.15	0.09	0.05	0.05
-Dysthymic disorder	300.4	0.0	0.02	0.01	0.01	0.0
-Phobia	300.13	0.0	0.17	0.18	0.3	0.61
-Agorophobia, social phobia, and panic disorder	300.12	0.0	0.26	0.26	0.32	0.46
-Generalized anxiety disorder	300.11	0.0	0.05	0.05	0.05	0.05
-Obsessive-compulsive disorders	300.3	0.0	0.07	0.06	0.04	0.05
-Acute reaction to stress	300.8	0.0	0.06	0.04	0.03	0.0
-Posttraumatic stress disorder	300.9	0.0	0.09	0.06	0.02	0.05
-Adjustment reaction	304.0	0.0	0.13	0.1	0.07	0.0
-Dissociative disorder	303.1	0.0	0.01	0.02	0.01	0.0
-Psychogenic and somatoform disorders	303.0	0.0	0.0	0.0	0.0	0.0
-Schizophrenia and other psychotic disorders	295.0	0.0	0.0	0.01	0.0	0.0
-Somatoform disorder	303.4	0.0	0.05	0.04	0.03	0.0
-Psychogenic disorder	303.3	0.0	0.09	0.11	0.12	0.05
-Anxiety, phobic and dissociative disorders	300.0	0.0	0.13	0.11	0.1	0.15
-Other mental disorder	306.0	0.0	4.5	7.62	13.38	16.97
-Eating disorder	305.2	0.0	0.04	0.02	0.01	0.0
-Anorexia nervosa	305.21	0.0	0.03	0.01	0.01	0.0
-Sleep disorders	327.0	0.0	0.21	0.3	0.28	0.13
-Insomnia	327.4	0.0	0.0	0.01	0.01	0.0
-Hypersomnia	327.1	0.0	0.0	0.0	0.0	0.0
-Circadian rhythm sleep disorder	327.6	0.0	0.01	0.01	0.01	0.0
-Parasomnia	327.5	0.0	0.01	0.01	0.0	0.0
-Sexual and gender identity disorders	302.0	0.0	0.07	0.1	0.14	0.21
-Decreased libido	302.1	0.0	0.01	0.01	0.0	0.0
-Erectile dysfunction [ED]	605.0	0.0	0.09	0.13	0.23	0.37
-Antisocial/borderline personality disorder	301.2	0.0	0.11	0.04	0.01	0.0
-Impulse control disorder	312.3	0.0	0.0	0.0	0.0	0.0
-Develomental delays and disorders	315.0	0.0	0.06	0.07	0.12	0.21
-Mental retardation	315.3	0.0	0.03	0.02	0.01	0.04
-Speech and language disorder	315.2	0.0	0.01	0.01	0.05	0.04
-Learning disorder	315.1	0.0	0.09	0.06	0.03	0.0
-Autism	313.3	0.0	0.04	0.02	0.01	0.0
-Conduct disorders	312.0	0.0	0.0	0.0	0.0	0.0
-Pervasive developmental disorders	313.0	0.0	0.0	0.0	0.0	0.0
-Tics and stuttering	313.2	0.0	0.0	0.01	0.0	0.0
-Other paralytic syndromes	344.0	0.0	0.17	0.2	0.22	0.54
-Encephalitis, non-infectious	323.8	0.0	0.01	0.01	0.01	0.0
-Phlebitis and thrombophlebitis of intracranial venous sinuses	325.0	0.0	0.01	0.01	0.01	0.0
-Spinocerebellar disease	334.1	0.0	0.03	0.04	0.05	0.05
-Anterior horn cell disease	334.2	0.0	0.03	0.06	0.11	0.18
-Inflammatory and toxic neuropathy	357.0	0.0	0.24	0.4	0.61	0.71
-Parkinson's disease	332.0	0.0	0.06	0.21	0.72	1.55
-Other and unspecified disorders of the nervous system	349.0	0.0	0.1	0.12	0.13	0.22
-Other degenerative diseases of the basal ganglia	333.8	0.0	0.01	0.01	0.03	0.13
-Torsion dystonia	333.4	0.0	0.06	0.07	0.1	0.13
-Extrapyramidal disease and abnormal movement disorders	333.0	0.0	0.06	0.1	0.15	0.09
-Essential tremor	333.1	0.0	0.02	0.05	0.14	0.4
-Myoclonus	333.2	0.0	0.01	0.03	0.04	0.05
-Cerebral degeneration, unspecified	331.9	0.0	0.05	0.11	0.24	0.18
-Degenerative disease of the spinal cord	334.0	0.0	0.29	0.41	0.58	0.76
-Multiple sclerosis	335.0	0.0	0.42	0.43	0.29	0.18
-Other demyelinating diseases of central nervous system	341.0	0.0	0.08	0.08	0.04	0.05
-Acute (transverse) myelitis	323.2	0.0	0.03	0.02	0.01	0.04
-Epilepsy, recurrent seizures, convulsions	345.0	0.0	0.87	0.91	1.04	1.64
-Partial epilepsy	345.12	0.0	0.1	0.08	0.08	0.27
-Epilepsy	345.1	0.0	0.09	0.09	0.1	0.18
-Generalized convulsive epilepsy	345.11	0.0	0.15	0.11	0.13	0.18
-Convulsions	345.3	0.0	0.63	0.64	0.73	0.98
-Migraine	340.0	0.0	1.05	0.89	0.71	0.81
-Migrain with aura	340.1	0.0	0.09	0.07	0.05	0.04
-Other headache syndromes	339.0	0.0	2.48	2.24	2.15	2.75
-Tension headache	306.9	0.0	0.12	0.11	0.09	0.15
-Transient cerebral ischemia	433.31	0.0	0.17	0.43	1.01	1.59
-Retinal vascular changes and abnomalities	362.4	0.0	0.08	0.19	0.45	0.55
-Cerebrovascular disease	433.0	0.0	0.11	0.33	0.78	1.29
-Organic or persistent insomnia	327.41	0.0	0.05	0.05	0.05	0.0
-Alteration of consciousness	291.8	0.0	0.1	0.15	0.19	0.31
-Sleep apnea	327.3	0.0	1.12	1.44	1.45	0.91
-Cataplexy and narcolepsy	347.0	0.0	0.02	0.01	0.01	0.0
-Trigeminal nerve disorders [CN5]	352.1	0.0	0.09	0.13	0.18	0.17
-Facial nerve disorders [CN7]	352.2	0.0	0.18	0.25	0.31	0.35
-Disorders of other cranial nerves	352.0	0.0	0.01	0.02	0.03	0.04
-Nerve root and plexus disorders	353.0	0.0	0.17	0.29	0.44	0.56
-Nerve plexus lesions	353.1	0.0	0.04	0.03	0.03	0.04
-Nerve root lesions	353.2	0.0	0.01	0.01	0.02	0.04
-Other and unspecified disc disorder	722.9	0.0	1.18	1.08	1.22	1.74
-Injuries to the nervous system	907.0	0.0	0.36	0.37	0.35	0.29
-Other peripheral nerve disorders	351.0	0.0	2.33	3.51	3.88	4.14
-Complex regional/central pain syndrome	355.0	0.0	0.0	0.01	0.01	0.0
-Hereditary and idiopathic peripheral neuropathy	356.0	0.0	0.03	0.03	0.06	0.04
-Polyneuropathy due to drugs	316.1	0.0	0.01	0.02	0.03	0.09
-Polyneuropathy in diabetes	250.6	0.0	0.06	0.13	0.2	0.14
-Myasthenia gravis	358.1	0.0	0.02	0.05	0.07	0.17
-Myoneural disorders	358.0	0.0	0.01	0.01	0.01	0.04
-Myopathy	359.2	0.0	0.06	0.07	0.09	0.21
-Muscular dystrophies	359.1	0.0	0.05	0.03	0.03	0.04
-Infantile cerebral palsy	343.0	0.0	0.05	0.05	0.03	0.13
-Hemiplegia	342.0	0.0	0.28	0.4	0.7	1.11
-Disorders of the autonomic nervous system	337.0	0.0	0.03	0.05	0.07	0.05
-Peripheral autonomic neuropathy	337.1	0.0	0.0	0.01	0.03	0.05
-Other specified congenital anomalies of nervous system	752.2	0.0	0.02	0.02	0.02	0.0
-Hydrocephalus	331.1	0.0	0.1	0.13	0.2	0.63
-Cerebral cysts	348.4	0.0	0.03	0.05	0.04	0.05
-Other conditions of brain	348.0	0.0	0.03	0.04	0.06	0.18
-Cerebral edema and compression of brain	348.2	0.0	0.08	0.09	0.09	0.27
-Chronic fatigue syndrome	798.1	0.0	0.18	0.21	0.14	0.17
-Other conditions of brain, NOS	348.9	0.0	0.07	0.13	0.16	0.45
-Adverse effects of sedatives or other central nervous system depressants and anesthetics	967.0	0.0	0.14	0.14	0.17	0.14
-Inflammation of eyelids	371.3	0.0	0.55	0.64	0.72	1.04
-Noninfectious dermatoses of eyelid	371.33	0.0	0.0	0.0	0.01	0.0
-Other disorders of eyelids	374.0	0.0	0.52	0.79	1.08	1.25
-Ectropion or entropion	374.1	0.0	0.06	0.18	0.57	1.3
-Lagophthalmos	374.2	0.0	0.01	0.01	0.01	0.0
-Ptosis of eyelid	374.3	0.0	0.18	0.44	0.82	1.51
-Disorders of lacrimal system	375.0	0.0	0.2	0.4	0.74	1.06
-Epiphora	375.2	0.0	0.09	0.19	0.42	0.71
-Disorders of the orbit	376.0	0.0	0.02	0.02	0.03	0.04
-Chronic inflammatory disorders of orbit	371.9	0.0	0.0	0.0	0.0	0.0
-Exophthalmos	242.3	0.0	0.03	0.04	0.04	0.05
-Conjunctivitis, infectious	369.5	0.0	0.04	0.06	0.11	0.22
-Conjunctivitis, noninfectious	371.2	0.0	0.0	0.01	0.01	0.0
-Disorders of conjunctiva	372.0	0.0	0.18	0.2	0.33	0.52
-Pemphigus and pemphigoid	695.22	0.0	0.02	0.02	0.04	0.08
-Inflammation of the eye	371.0	0.0	0.02	0.02	0.04	0.09
-Other disorders of eye	379.0	0.0	0.06	0.08	0.12	0.13
-Scleritis and episcleritis	379.1	0.0	0.01	0.01	0.01	0.04
-Keratitis	370.0	0.0	0.03	0.04	0.05	0.09
-Corneal ulcer	370.1	0.0	0.03	0.04	0.05	0.13
-Keratoconjunctivitis	370.3	0.0	0.01	0.01	0.01	0.09
-Corneal opacity	364.1	0.0	0.02	0.02	0.05	0.14
-Corneal opacity and other disorders of cornea	364.0	0.0	0.04	0.06	0.1	0.27
-Corneal edema	364.2	0.0	0.01	0.02	0.04	0.14
-Corneal degenerations	364.4	0.0	0.01	0.03	0.08	0.23
-Corneal dystrophy	364.5	0.0	0.02	0.04	0.12	0.27
-Keratoconus	364.41	0.0	0.04	0.03	0.02	0.05
-Disorders of the globe	360.0	0.0	0.01	0.02	0.03	0.05
-Uveitis, noninfectious or NOS	371.1	0.0	0.1	0.15	0.18	0.44
-Disorders of iris and ciliary body	379.5	0.0	0.05	0.09	0.17	0.13
-Senile cataract	366.2	0.0	0.36	1.65	5.78	13.5
-Aphakia and other disorders of lens	379.3	0.0	0.09	0.34	1.17	3.39
-Cataract	366.0	0.0	0.91	3.14	9.65	20.71
-Nonsenile Cataract	366.1	0.0	0.01	0.03	0.03	0.05
-Traumatic cataract	366.3	0.0	0.02	0.03	0.04	0.05
-Chorioretinal inflammations, scars, and other disorders of choroid	363.0	0.0	0.01	0.02	0.04	0.0
-Chorioretinal scars	363.3	0.0	0.01	0.02	0.04	0.05
-Choroidal degenerations	363.4	0.0	0.0	0.01	0.01	0.0
-Retinal detachment with retinal defect	361.1	0.0	0.21	0.42	0.51	0.46
-Retinoschisis and retinal cysts	361.2	0.0	0.01	0.02	0.03	0.09
-Retinal detachments and defects	361.0	0.0	0.23	0.53	0.81	0.68
-Other retinal disorders	362.0	0.0	0.09	0.22	0.49	0.64
-Retinopathy of prematurity	362.1	0.0	0.0	0.0	0.0	0.0
-Other nondiabetic retinopathy	362.3	0.0	0.01	0.02	0.03	0.05
-Macular degeneration (senile) of retina NOS	362.29	0.0	0.12	0.4	1.5	3.73
-Peripheral retinal degenerations	362.6	0.0	0.03	0.05	0.06	0.14
-Hereditary retinal dystrophies	362.7	0.0	0.02	0.03	0.03	0.05
-Retinal hemorrhage/ischemia	362.8	0.0	0.01	0.02	0.05	0.09
-Separation of retinal layers	362.31	0.0	0.01	0.02	0.04	0.05
-Glaucoma	365.0	0.0	0.27	0.78	2.01	4.09
-Primary open angle glaucoma	365.11	0.0	0.06	0.23	0.67	1.71
-Primary angle-closure glaucoma	365.2	0.0	0.06	0.17	0.36	0.5
-Disorders of vitreous body	379.2	0.0	0.14	0.32	0.65	1.23
-Progressive myopia	360.2	0.0	0.02	0.05	0.1	0.09
-Hypotony of eye	360.3	0.0	0.0	0.01	0.01	0.0
-Optic neuritis/neuropathy	377.3	0.0	0.04	0.05	0.06	0.0
-Disorders of optic nerve and visual pathways	377.0	0.0	0.04	0.05	0.08	0.22
-Optic atrophy	377.1	0.0	0.01	0.02	0.03	0.04
-Paralytic strabismus	378.5	0.0	0.05	0.08	0.1	0.31
-Strabismus and other disorders of binocular eye movements	378.0	0.0	0.02	0.01	0.02	0.09
-Strabismus (not specified as paralytic)	378.1	0.0	0.24	0.25	0.26	0.49
-Disorders of refraction and accommodation; blindness and low vision	367.0	0.0	0.02	0.03	0.03	0.04
-Hypermetropia	367.8	0.0	0.03	0.06	0.12	0.29
-Myopia	367.1	0.0	0.15	0.38	0.59	0.79
-Astigmatism	367.2	0.0	0.03	0.06	0.1	0.17
-Anisometropia	368.3	0.0	0.01	0.04	0.08	0.13
-Presbyopia	367.4	0.0	0.01	0.0	0.01	0.04
-Disorders of accommodation	368.7	0.0	0.0	0.0	0.0	0.0
-Visual disturbances	368.0	0.0	0.28	0.28	0.4	0.46
-Amblyopia	368.1	0.0	0.07	0.12	0.28	0.63
-Subjective visual disturbances	368.9	0.0	0.21	0.19	0.21	0.25
-Diplopia and disorders of binocular vision	368.2	0.0	0.15	0.2	0.26	0.46
-Visual field defects	368.4	0.0	0.05	0.1	0.14	0.29
-Color vision deficiencies	368.5	0.0	0.0	0.0	0.0	0.0
-Blindness and low vision	367.9	0.0	0.13	0.19	0.29	0.42
-Nystagmus and other irregular eye movements	378.2	0.0	0.05	0.06	0.08	0.27
-Anomalies of pupillary function	379.4	0.0	0.02	0.02	0.04	0.09
-Pain, swelling or discharge of eye	379.9	0.0	0.05	0.05	0.06	0.13
-Otitis externa	380.1	0.0	0.15	0.12	0.15	0.17
-Carbuncle and furuncle	686.1	0.0	0.77	0.72	0.64	0.51
-Cholesteatoma	385.3	0.0	0.11	0.13	0.17	0.17
-Disorders of external ear	380.0	0.0	0.1	0.15	0.24	0.25
-Impacted cerumen	380.4	0.0	0.06	0.09	0.11	0.17
-Suppurative and unspecified otitis media	381.11	0.0	0.19	0.19	0.24	0.46
-Eustachian tube disorders	381.2	0.0	0.05	0.05	0.06	0.13
-Mastoiditis & related conditions	381.3	0.0	0.04	0.04	0.04	0.13
-Perforation of tympanic membrane	384.4	0.0	0.23	0.26	0.29	0.08
-Other disorders of tympanic membrane	384.0	0.0	0.09	0.1	0.1	0.08
-Myringitis	384.1	0.0	0.0	0.0	0.01	0.0
-Other disorders of middle ear and mastoid	385.0	0.0	0.03	0.03	0.04	0.0
-Tympanosclerosis and middle ear disease related to otitis media	385.5	0.0	0.05	0.06	0.06	0.0
-Otosclerosis	383.0	0.0	0.09	0.09	0.07	0.08
-Vertiginous syndromes and other disorders of vestibular system	386.0	0.0	0.02	0.02	0.02	0.0
-Meniere's disease	386.1	0.0	0.09	0.14	0.22	0.3
-Central origin vertigo	386.21	0.0	0.0	0.0	0.0	0.0
-Labyrinthitis	386.3	0.0	0.14	0.19	0.27	0.43
-Degenerative and vascular disorders of ear	389.3	0.0	0.0	0.01	0.02	0.04
-Hearing loss	389.0	0.0	0.41	0.74	1.64	2.91
-Conductive hearing loss	389.2	0.0	0.1	0.12	0.12	0.26
-Sensorineural hearing loss	389.1	0.0	0.09	0.14	0.2	0.17
-Otalgia	382.0	0.0	0.08	0.08	0.08	0.04
-Otorrhea	381.9	0.0	0.06	0.06	0.08	0.08
-Tinnitus	389.4	0.0	0.09	0.16	0.22	0.21
-Disorders of acoustic nerve	389.5	0.0	0.01	0.0	0.01	0.0
-Other disorders of ear	388.0	0.0	0.03	0.02	0.03	0.0
-Rheumatic fever / chorea	41.21	0.0	0.0	0.0	0.01	0.0
-Acute rheumatic heart disease	394.4	0.0	0.0	0.01	0.02	0.0
-Acute pericarditis	420.21	0.0	0.05	0.05	0.07	0.0
-Myocarditis	420.1	0.0	0.02	0.03	0.04	0.0
-Mitral valve disease	394.2	0.0	0.33	0.68	1.59	2.3
-Rheumatic disease of the heart valves	394.0	0.0	0.07	0.2	0.59	1.03
-Aortic valve disease	394.3	0.0	0.12	0.28	0.71	1.2
-Disease of tricuspid valve	394.7	0.0	0.13	0.26	0.69	0.86
-Nonrheumatic mitral valve disorders	395.1	0.0	0.32	0.65	1.54	2.3
-Nonrheumatic aortic valve disorders	395.2	0.0	0.02	0.04	0.15	0.26
-Chronic pericarditis	420.22	0.0	0.01	0.02	0.03	0.04
-Essential hypertension	401.1	0.0	8.06	18.11	33.61	43.34
-Hypertensive heart disease	401.21	0.0	0.02	0.06	0.12	0.15
-Hypertensive chronic kidney disease	401.22	0.0	0.15	0.34	0.98	2.21
-Hypertensive heart and/or renal disease	401.2	0.0	0.0	0.01	0.03	0.07
-Other hypertensive complications	401.3	0.0	0.03	0.04	0.07	0.15
-Angina pectoris	411.3	0.0	1.09	3.32	7.88	11.11
-Unstable angina (intermediate coronary syndrome)	411.1	0.0	0.42	1.11	2.39	4.06
-Myocardial infarction	411.2	0.0	1.03	2.72	5.9	9.11
-Other forms of chronic heart disease	414.0	0.0	0.18	0.48	1.2	1.83
-Other acute and subacute forms of ischemic heart disease	411.9	0.0	0.16	0.35	0.69	0.72
-Coronary atherosclerosis	411.4	0.0	1.46	4.25	9.37	13.11
-Other chronic ischemic heart disease, unspecified	411.8	0.0	0.92	2.94	7.82	12.56
-Atherosclerosis	440.0	0.0	0.01	0.03	0.09	0.17
-Aneurysm and dissection of heart	411.41	0.0	0.1	0.18	0.35	0.36
-Pulmonary embolism and infarction, acute	415.11	0.0	0.0	0.01	0.02	0.09
-Pulmonary heart disease	415.0	0.0	0.51	0.91	1.54	1.65
-Primary pulmonary hypertension	415.21	0.0	0.04	0.09	0.21	0.34
-Chronic pulmonary heart disease	415.2	0.0	0.02	0.04	0.1	0.09
-Pericarditis	420.2	0.0	0.21	0.27	0.47	0.54
-Congenital anomalies of great vessels	747.13	0.0	0.12	0.34	1.01	1.49
-Nonrheumatic tricuspid valve disorders	395.3	0.0	0.01	0.03	0.06	0.17
-Nonrheumatic pulmonary valve disorders	395.4	0.0	0.02	0.04	0.05	0.04
-Primary/intrinsic cardiomyopathies	425.1	0.0	0.16	0.28	0.45	0.38
-Hypertrophic obstructive cardiomyopathy	425.11	0.0	0.02	0.04	0.06	0.04
-Other hypertrophic cardiomyopathy	425.12	0.0	0.04	0.06	0.07	0.0
-Other cardiomyopathy	425.8	0.0	0.01	0.02	0.02	0.0
-Cardiomyopathy	425.0	0.0	0.0	0.01	0.01	0.0
-Secondary/extrinsic cardiomyopathies	425.2	0.0	0.0	0.0	0.0	0.0
-First degree AV block	426.21	0.0	0.08	0.2	0.71	1.31
-Second degree AV block	426.23	0.0	0.05	0.09	0.29	0.56
-Atrioventricular block, complete	426.24	0.0	0.04	0.12	0.39	0.76
-Atrioventricular [AV] block	426.2	0.0	0.01	0.03	0.07	0.2
-Left bundle branch block	426.32	0.0	0.15	0.39	1.13	1.81
-Bundle branch block	426.3	0.0	0.02	0.05	0.19	0.51
-Right bundle branch block	426.31	0.0	0.18	0.37	0.94	1.66
-Other heart block	426.25	0.0	0.01	0.02	0.07	0.05
-Anomalous atrioventricular excitation	426.4	0.0	0.06	0.06	0.07	0.0
-Other cardiac conduction disorders	426.8	0.0	0.01	0.02	0.03	0.05
-Cardiac conduction disorders	426.0	0.0	0.02	0.03	0.09	0.31
-Cardiac arrest	427.42	0.0	0.11	0.26	0.56	0.86
-Paroxysmal tachycardia, unspecified	427.1	0.0	0.02	0.03	0.05	0.05
-Paroxysmal ventricular tachycardia	427.12	0.0	0.12	0.22	0.47	0.76
-Paroxysmal supraventricular tachycardia	427.11	16.67	0.38	0.63	1.04	1.26
-Atrial fibrillation and flutter	427.2	0.0	0.89	2.7	7.9	13.02
-Ventricular fibrillation and flutter	427.41	0.0	0.04	0.1	0.17	0.36
-Supraventricular premature beats	427.61	0.0	0.01	0.03	0.07	0.0
-Premature beats	427.6	0.0	0.11	0.19	0.33	0.36
-Other specified cardiac dysrhythmias	427.3	0.0	0.42	0.78	1.72	2.68
-Sinoatrial node dysfunction (Bradycardia)	427.8	0.0	0.04	0.08	0.27	0.41
-Arrhythmia (cardiac) NOS	427.5	0.0	0.12	0.22	0.49	0.86
-Heart failure NOS	428.2	0.0	0.33	0.91	2.37	3.77
-Congestive heart failure (CHF) NOS	428.1	0.0	0.14	0.39	1.3	1.96
-Cardiomegaly	416.0	0.0	0.32	0.62	1.41	1.73
-Subarachnoid hemorrhage	430.1	0.0	0.16	0.23	0.25	0.27
-Circulatory disease NEC	459.9	0.0	2.18	3.94	7.57	11.4
-Intracerebral hemorrhage	430.2	0.0	0.08	0.16	0.36	0.8
-Subdural hemorrhage	430.3	0.0	0.03	0.06	0.15	0.18
-Intracranial hemorrhage	430.0	0.0	0.03	0.03	0.05	0.18
-Occlusion of cerebral arteries	433.2	0.0	0.3	0.62	1.48	2.5
-Cerebral artery occlusion, with cerebral infarction	433.21	0.0	0.17	0.39	0.89	1.81
-Occlusion of cerebral arteries, with cerebral infarction	433.11	0.0	0.01	0.03	0.07	0.09
-Occlusion and stenosis of precerebral arteries	433.1	0.0	0.06	0.18	0.55	1.2
-Cerebral ischemia	433.3	0.0	0.07	0.19	0.64	1.72
-Arterial dissection	442.4	0.0	0.01	0.02	0.01	0.0
-Cerebral aneurysm	433.5	0.0	0.1	0.1	0.13	0.09
-Cerebral atherosclerosis	433.12	0.0	0.02	0.04	0.14	0.31
-Moyamoya disease	433.32	0.0	0.0	0.0	0.0	0.0
-Late effects of cerebrovascular disease	433.8	0.0	0.18	0.29	0.63	1.07
-Atherosclerosis of aorta	440.9	0.0	0.01	0.03	0.09	0.04
-Atherosclerosis of renal artery	440.1	0.0	0.01	0.01	0.04	0.0
-Atherosclerosis of the extremities	440.2	0.0	0.02	0.08	0.23	0.31
-Aortic aneurysm	442.1	0.0	0.06	0.13	0.31	0.35
-Abdominal aortic aneurysm	442.11	0.0	0.01	0.1	0.58	1.51
-Other aneurysm	442.0	0.0	0.0	0.01	0.01	0.04
-Aneurysm of other specified artery	442.8	0.0	0.04	0.06	0.09	0.09
-Aneurysm of iliac artery	442.2	0.0	0.0	0.01	0.06	0.09
-Aneurysm of artery of lower extremity	442.3	0.0	0.01	0.03	0.09	0.0
-Other specified peripheral vascular diseases	443.8	0.0	0.0	0.02	0.02	0.0
-Raynaud's syndrome	443.1	0.0	0.25	0.35	0.44	0.35
-Thromboangiitis obliterans	446.1	0.0	0.0	0.0	0.0	0.0
-Peripheral vascular disease, unspecified	443.9	0.0	0.18	0.51	1.35	2.26
-Arterial embolism and thrombosis	444.0	0.0	0.05	0.11	0.18	0.17
-Embolism and thrombosis of abdominal aorta	444.2	0.0	0.0	0.01	0.01	0.0
-Arterial embolism and thrombosis of lower extremity artery	444.1	0.0	0.05	0.11	0.27	0.35
-Other disorders of arteries and arterioles	447.0	0.0	0.08	0.14	0.24	0.39
-Stricture of artery	447.1	0.0	0.05	0.17	0.42	0.65
-Arteritis NOS	446.9	0.0	0.04	0.06	0.11	0.31
-Disease of capillaries	448.0	0.0	0.02	0.03	0.05	0.04
-Nevus, non-neoplastic	217.1	0.0	0.09	0.15	0.21	0.04
-Phlebitis and thrombophlebitis	451.0	0.0	0.07	0.1	0.15	0.1
-Phlebitis and thrombophlebitis of lower extremities	451.2	0.0	0.57	0.93	1.55	1.65
-Other venous embolism and thrombosis	452.0	0.0	0.13	0.18	0.22	0.14
-Varicose veins of lower extremity	454.1	0.0	2.15	2.73	3.41	3.9
-Varicose veins of lower extremity, symptomtic	454.11	0.0	0.1	0.19	0.34	0.48
-Hemorrhoids	455.0	16.67	5.14	6.35	7.59	8.77
-Esophageal bleeding (varices/hemorrhage)	530.2	0.0	0.31	0.53	0.79	0.9
-Varicose veins	454.0	0.0	0.17	0.15	0.15	0.14
-Postphlebitic syndrome	452.8	0.0	0.0	0.01	0.01	0.0
-Other disorders of circulatory system	459.0	0.0	0.02	0.04	0.06	0.0
-Chronic venous insufficiency [CVI]	456.0	0.0	0.03	0.06	0.12	0.19
-Lymphadenitis	289.4	0.0	0.58	0.75	0.97	1.23
-Noninfectious disorders of lymphatic channels	450.0	0.0	0.15	0.22	0.3	0.45
-Hypotension NOS	458.9	0.0	0.55	0.99	1.91	2.87
-Orthostatic hypotension	458.1	0.0	0.12	0.32	0.89	1.52
-Iatrogenic hypotension	458.2	0.0	0.02	0.05	0.13	0.19
-Heart transplant/surgery	429.1	0.0	0.01	0.01	0.02	0.04
-Acute sinusitis	464.0	0.0	0.05	0.05	0.05	0.13
-Acute pharyngitis	465.2	0.0	0.23	0.25	0.26	0.33
-Acute tonsillitis	474.1	0.0	0.38	0.14	0.06	0.13
-Acute laryngitis and tracheitis	465.4	0.0	0.04	0.04	0.05	0.04
-Acute bronchitis and bronchiolitis	483.0	0.0	0.05	0.07	0.09	0.13
-Influenza	481.0	0.0	0.1	0.12	0.16	0.4
-Pneumococcal pneumonia	480.11	0.0	0.93	1.53	2.96	4.67
-Pseudomonal pneumonia	480.12	0.0	0.01	0.02	0.05	0.09
-Bronchopneumonia and lung abscess	480.5	0.0	0.06	0.1	0.18	0.49
-Pulmonary congestion and hypostasis	503.0	0.0	0.06	0.13	0.25	0.23
-Other diseases of respiratory system, NEC	519.8	0.0	1.63	2.23	3.72	5.3
-Allergic rhinitis	476.0	0.0	0.43	0.41	0.37	0.48
-Chronic pharyngitis and nasopharyngitis	472.0	0.0	0.24	0.27	0.26	0.31
-Chronic sinusitis	475.0	0.0	0.58	0.76	0.73	0.61
-Nasal polyps	471.0	0.0	0.66	0.81	1.0	0.91
-Other upper respiratory disease	479.0	0.0	0.99	1.11	1.18	1.43
-Septal Deviations/Turbinate Hypertrophy	470.0	0.0	1.53	1.33	1.03	0.7
-Chronic tonsillitis and adenoiditis	474.2	0.0	0.55	0.23	0.17	0.13
-Acute and chronic tonsillitis	474.0	0.0	0.23	0.1	0.07	0.09
-Chronic laryngitis	473.1	0.0	0.01	0.02	0.03	0.09
-Paralysis/spasm of vocal cords or larynx	473.3	0.0	0.04	0.07	0.12	0.18
-Diseases of the larynx and vocal cords	473.0	0.0	0.3	0.4	0.53	0.83
-Bronchitis	497.0	0.0	0.11	0.17	0.29	0.58
-Chronic bronchitis	496.2	0.0	0.03	0.08	0.16	0.29
-Emphysema	496.1	0.0	0.14	0.44	1.0	1.63
-Obstructive chronic bronchitis	496.21	0.0	0.18	0.66	1.64	2.85
-Chronic airway obstruction	496.0	0.0	0.61	1.83	4.24	6.44
-Asthma	495.0	0.0	6.65	7.1	8.48	10.53
-Asthma with exacerbation	495.2	0.0	0.09	0.08	0.08	0.1
-Bronchiectasis	496.3	0.0	0.15	0.49	1.15	1.63
-Pneumoconiosis	500.2	0.0	0.0	0.03	0.15	0.63
-Extrinsic allergic alveolitis	500.1	0.0	0.01	0.02	0.04	0.09
-Lung disease due to external agents	500.0	0.0	0.01	0.02	0.05	0.05
-Pneumonitis due to inhalation of food or vomitus	501.0	0.0	0.08	0.15	0.37	0.76
-Respiratory insufficiency	509.2	0.0	0.2	0.41	0.86	0.94
-Other pulmonary inflamation or edema	505.0	0.0	0.01	0.02	0.02	0.0
-Postinflammatory pulmonary fibrosis	502.0	0.0	0.06	0.17	0.56	0.85
-Empyema and pneumothorax	506.0	0.0	0.22	0.28	0.48	0.85
-Pleurisy; pleural effusion	507.0	0.0	0.81	1.51	3.21	5.3
-Pulmonary insufficiency or respiratory failure following trauma and surgery	509.3	0.0	0.0	0.0	0.01	0.0
-Respiratory complications	519.2	0.0	0.03	0.06	0.13	0.22
-Respiratory failure	509.1	0.0	0.22	0.46	1.0	1.2
-Pulmonary collapse; interstitial and compensatory emphysema	508.0	0.0	0.31	0.6	1.08	1.16
-Other diseases of lung	510.0	0.0	0.12	0.23	0.43	0.58
-Disorders of diaphragm	513.8	0.0	0.02	0.04	0.07	0.0
-Other diseases of respiratory system, not elsewhere classified	519.0	0.0	0.01	0.02	0.04	0.0
-Rheumatoid arthritis	714.1	0.0	0.37	0.71	1.11	1.25
-Disorders of tooth development	520.0	0.0	0.01	0.01	0.01	0.0
-Hereditary disturbances in tooth structure	520.1	0.0	0.01	0.01	0.01	0.0
-Disturbances in tooth eruption	520.2	0.0	1.0	0.46	0.31	0.17
-Dental caries	521.1	0.0	1.17	0.98	0.84	0.84
-Dental abrasion, erosion and attrition	521.2	0.0	0.0	0.0	0.0	0.0
-Tooth complications likely association with other diseases	521.4	0.0	0.01	0.01	0.01	0.0
-Gingival and periodontal diseases	523.0	0.0	0.1	0.13	0.16	0.25
-Diseases of hard tissues of teeth	521.0	0.0	0.01	0.0	0.01	0.0
-Diseases of pulp and periapical tissues	522.0	0.0	0.16	0.17	0.15	0.17
-Pulpitis and necrosis of tooth pulp	522.1	0.0	0.01	0.02	0.01	0.04
-Acute periodontitis	523.31	0.0	0.04	0.05	0.03	0.0
-Chronic periodontitis	523.32	0.0	0.46	0.32	0.24	0.13
-Periapical abscess	522.5	0.0	0.37	0.39	0.31	0.47
-Gingivitis	523.1	0.0	0.03	0.03	0.04	0.0
-Periodontitis (acute or chronic)	523.3	0.0	0.0	0.0	0.0	0.0
-Anomalies of jaw size/symmetry	526.3	0.0	0.02	0.02	0.01	0.0
-Anomalies of tooth position/malocclusion	524.3	0.0	0.15	0.08	0.04	0.04
-Dentofacial anomalies, including malocclusion	524.0	0.0	0.02	0.01	0.01	0.0
-Temporomandibular joint disorder, unspecified	526.41	0.0	0.08	0.08	0.05	0.04
-Other diseases of the teeth and supporting structures	525.0	0.0	0.72	0.72	0.83	1.09
-Atrophy of edentulous alveolar ridge	525.2	0.0	0.01	0.01	0.03	0.09
-Cysts of the jaws	526.1	0.0	0.07	0.1	0.09	0.09
-Sebaceous cyst	706.2	0.0	1.95	2.15	2.31	2.41
-Cysts of oral soft tissues	528.4	0.0	0.01	0.01	0.01	0.0
-Jaw disease NOS	526.9	0.0	0.04	0.08	0.08	0.09
-Diseases of the jaws	526.0	0.0	0.01	0.0	0.0	0.0
-Inflammatory conditions of jaw	526.5	0.0	0.02	0.03	0.04	0.09
-Diseases of the salivary glands	527.0	0.0	0.02	0.02	0.04	0.0
-Hypertrophy of salivary gland	527.1	0.0	0.02	0.02	0.02	0.13
-Sialoadenitis	527.2	0.0	0.07	0.1	0.12	0.04
-Cellulitis and abscess of oral soft tissues	528.3	0.0	0.06	0.04	0.05	0.08
-Sialolithiasis	528.7	0.0	0.07	0.08	0.08	0.04
-Cyst of the salivary gland	528.41	0.0	0.03	0.03	0.03	0.08
-Disturbance of salivary secretion	527.7	0.0	0.01	0.02	0.02	0.04
-Other specified diseases of the salivary glands	527.8	0.0	0.03	0.04	0.04	0.08
-Oral aphthae	528.12	0.0	0.02	0.02	0.02	0.04
-Stomatitis and mucositis (ulcerative)	528.11	0.0	0.09	0.13	0.14	0.13
-Cellulitis and abscess of face/neck	681.2	0.0	0.13	0.13	0.16	0.13
-Diseases of lips	528.5	0.0	0.16	0.18	0.22	0.46
-Leukoplakia of oral mucosa	528.6	0.0	0.06	0.09	0.11	0.08
-Diseases and other conditions of the tongue	529.0	0.0	0.19	0.27	0.31	0.42
-Glossodynia	529.6	0.0	0.01	0.0	0.01	0.0
-Esophagitis, GERD and related diseases	530.1	0.0	1.57	2.53	3.79	4.39
-GERD	530.11	0.0	3.04	4.64	6.52	8.02
-Reflux esophagitis	530.14	0.0	1.85	3.02	4.2	5.12
-Disorders of esophageal motility	530.5	0.0	0.11	0.19	0.28	0.15
-Ulcer of esophagus	530.12	0.0	0.64	1.24	2.21	2.84
-Stricture and stenosis of esophagus	530.3	0.0	0.26	0.54	0.92	1.64
-Diseases of esophagus	530.0	0.0	0.1	0.17	0.28	0.25
-Diverticulum of esophagus, acquired	530.6	0.0	0.01	0.04	0.1	0.15
-Gastroesophageal laceration-hemorrhage syndrome	530.7	0.0	0.1	0.08	0.11	0.1
-Gastric ulcer	531.2	0.0	0.57	1.07	1.68	2.56
-Hemorrhage from gastrointestinal ulcer	531.1	0.0	0.07	0.14	0.29	0.43
-Duodenal ulcer	531.3	0.0	0.42	0.7	1.09	1.06
-Peptic ulcer, site unspecified	531.4	0.0	0.05	0.11	0.16	0.13
-Gastrojejunal ulcer	531.5	0.0	0.01	0.01	0.01	0.04
-Gastritis and duodenitis	535.0	0.0	3.05	4.88	6.85	8.65
-Acute gastritis	535.1	0.0	0.19	0.31	0.53	0.58
-Other specified gastritis	535.8	0.0	1.42	2.42	3.64	4.87
-Atrophic gastritis	535.2	0.0	0.04	0.1	0.18	0.29
-Duodenitis	535.6	0.0	1.33	2.13	2.97	3.67
-Abdominal pain	785.0	16.67	10.62	10.72	11.78	13.03
-Other disorders of stomach and duodenum	537.0	0.0	0.57	1.0	1.5	2.03
-Disorders of function of stomach	536.0	0.0	0.0	0.0	0.0	0.0
-Acute appendicitis	540.11	0.0	0.72	0.57	0.49	0.29
-Appendicitis	540.1	0.0	0.21	0.15	0.12	0.08
-Appendiceal conditions	540.0	0.0	0.08	0.07	0.07	0.08
-Inguinal hernia	550.1	0.0	2.08	3.66	6.79	9.28
-Femoral hernia	550.3	0.0	0.1	0.17	0.28	0.59
-Umbilical hernia	550.4	0.0	0.96	1.13	1.44	1.54
-Ventral hernia	550.5	0.0	0.72	0.96	1.47	2.36
-Abdominal hernia	550.0	0.0	0.74	1.0	1.53	2.72
-Diaphragmatic hernia	550.2	0.0	4.01	7.24	11.41	16.08
-Regional enteritis	555.1	0.0	0.54	0.57	0.65	1.04
-Ulcerative colitis	555.2	0.0	0.77	0.93	1.26	1.41
-Ulcerative colitis (chronic)	555.21	0.0	0.19	0.19	0.22	0.25
-Effects radiation NOS	990.0	0.0	0.52	0.92	1.67	2.19
-Toxic gastroenteritis and colitis	569.1	0.0	0.02	0.06	0.1	0.09
-Diarrhea	561.1	0.0	0.09	0.17	0.29	0.43
-Noninfectious gastroenteritis	558.0	0.0	3.47	4.53	5.99	7.79
-Vascular insufficiency of intestine	441.0	0.0	0.04	0.08	0.15	0.22
-Acute vascular insufficiency of intestine	441.1	0.0	0.03	0.06	0.13	0.09
-Chronic vascular insufficiency of intestine	441.2	0.0	0.01	0.01	0.02	0.0
-Other disorders of intestine	569.0	0.0	0.58	1.01	1.52	1.86
-Paralytic ileus	560.1	0.0	0.1	0.17	0.33	0.43
-Other intestinal obstruction	560.4	0.0	0.57	1.05	1.78	3.07
-Impaction of intestine	560.2	0.0	0.07	0.09	0.15	0.19
-Peritoneal or intestinal adhesions	560.3	0.0	0.15	0.29	0.47	0.62
-Diverticulosis	562.1	0.0	3.29	7.52	14.3	20.18
-Irritable Bowel Syndrome	564.1	0.0	1.67	2.05	2.23	3.13
-Functional digestive disorders	564.0	0.0	0.18	0.27	0.4	0.98
-Constipation	563.0	0.0	2.43	3.36	5.59	8.99
-Anal and rectal conditions	565.0	16.67	2.24	2.31	2.55	2.68
-Anal and rectal polyp	565.1	0.0	1.32	2.01	3.02	3.74
-Hemorrhage of rectum and anus	578.8	0.0	2.79	3.6	4.04	4.17
-Ulceration of the lower GI tract	556.0	0.0	0.1	0.15	0.2	0.06
-Peritonitis and retroperitoneal infections	567.0	0.0	0.17	0.25	0.35	0.45
-Ulceration of intestine	556.1	0.0	0.19	0.24	0.36	0.43
-Other disorders of peritoneum	568.0	0.0	0.05	0.07	0.09	0.05
-Peritoneal adhesions (postoperative) (postinfection)	568.1	0.0	0.85	0.96	1.23	1.03
-Alcoholic liver damage	317.11	0.0	0.21	0.31	0.25	0.18
-Liver abscess and sequelae of chronic liver disease	571.8	0.0	0.1	0.18	0.23	0.26
-Hepatitis NOS	70.9	0.0	0.1	0.14	0.17	0.13
-Other disorders of liver	573.0	0.0	0.26	0.45	0.71	1.08
-Chronic hepatitis	70.4	0.0	0.05	0.08	0.1	0.13
-Cirrhosis of liver without mention of alcohol	571.51	0.0	0.12	0.22	0.27	0.26
-Other chronic nonalcoholic liver disease	571.5	0.0	0.46	0.61	0.63	0.61
-Primary biliary cirrhosis	571.6	0.0	0.03	0.07	0.1	0.17
-Chronic passive congestion of liver	573.1	0.0	0.01	0.0	0.01	0.09
-Acute and subacute necrosis of liver	573.4	0.0	0.0	0.0	0.0	0.0
-Portal hypertension	571.81	0.0	0.11	0.19	0.21	0.3
-Cholelithiasis	574.1	0.0	1.63	2.32	3.06	3.75
-Cholelithiasis with acute cholecystitis	574.11	0.0	0.29	0.41	0.61	0.49
-Cholelithiasis with other cholecystitis	574.12	0.0	1.11	1.45	1.87	1.66
-Calculus of bile duct	574.2	0.0	0.47	0.67	0.98	1.66
-Cholecystitis without cholelithiasis	574.3	0.0	0.49	0.7	0.99	1.01
-Other disorders of gallbladder	575.7	0.0	0.29	0.38	0.53	0.35
-Cholesterolosis of gallbladder	575.6	0.0	0.13	0.13	0.13	0.0
-Other disorders of biliary tract	575.8	0.0	0.13	0.29	0.47	0.7
-Cholangitis	575.1	0.0	0.06	0.14	0.26	0.35
-Obstruction of bile duct	575.2	0.0	0.15	0.22	0.36	0.53
-Chronic pancreatitis	577.2	0.0	0.11	0.15	0.17	0.12
-Cyst and pseudocyst of pancreas	577.3	0.0	0.06	0.11	0.15	0.08
-Diseases of pancreas	577.0	0.0	0.09	0.15	0.26	0.25
-Intestinal malabsorption (non-celiac)	557.0	0.0	0.08	0.11	0.12	0.37
-Celiac disease	557.1	0.0	0.43	0.58	0.78	1.29
-Gastrointestinal complications	569.2	0.0	0.1	0.13	0.2	0.09
-Bariatric surgery	539.0	0.0	0.01	0.01	0.01	0.0
-Complication of colostomy or enterostomy	853.0	0.0	0.09	0.15	0.2	0.14
-Hematemesis	578.1	0.0	0.44	0.51	0.7	1.17
-Blood in stool	578.2	0.0	0.45	0.69	1.09	1.21
-Hemorrhage of gastrointestinal tract	578.9	0.0	1.56	1.73	2.2	2.26
-Other specified erythematous conditions	695.8	0.0	0.04	0.05	0.06	0.0
-Impetigo	686.2	0.0	0.01	0.01	0.01	0.0
-Superficial cellulitis and abscess	681.0	0.0	0.11	0.14	0.18	0.13
-Cellulitis and abscess of fingers/toes	681.1	0.0	0.14	0.17	0.19	0.26
-Cellulitis and abscess of leg, except foot	681.5	0.0	1.13	1.46	2.05	2.56
-Cellulitis and abscess of foot, toe	681.6	0.0	1.13	1.46	2.05	2.56
-Cellulitis and abscess of arm/hand	681.3	0.0	1.13	1.46	2.05	2.56
-Cellulitis and abscess of trunk	681.7	0.0	0.14	0.17	0.21	0.13
-Pilonidal cyst	686.3	0.0	0.25	0.12	0.08	0.04
-Pyoderma	686.5	0.0	0.02	0.02	0.01	0.0
-Keratoderma, acquired	701.1	0.0	0.01	0.02	0.02	0.0
-Degenerative skin conditions and other dermatoses	702.0	0.0	0.0	0.0	0.0	0.0
-Other hypertrophic and atrophic conditions of skin	701.0	0.0	0.29	0.44	0.56	0.5
-Dermatitis herpetiformis	695.21	0.0	0.02	0.01	0.02	0.0
-Toxic erythema	695.1	0.0	0.03	0.03	0.03	0.0
-Bullous dermatoses	695.2	0.0	0.0	0.0	0.0	0.0
-Atopic/contact dermatitis due to other or unspecified	939.0	0.0	0.52	0.62	0.79	1.04
-Seborrheic dermatitis	690.1	0.0	0.02	0.02	0.02	0.0
-Diaper or napkin rash	949.1	0.0	0.0	0.0	0.0	0.04
-Allergic reaction to food	930.0	0.0	0.07	0.05	0.05	0.04
-Contact dermatitis and other eczema due to plants [except food]	931.0	0.0	0.0	0.0	0.0	0.0
-Unspecified erythematous condition	695.9	0.0	0.1	0.14	0.18	0.17
-Rash and other nonspecific skin eruption	687.1	0.0	0.49	0.61	0.77	1.55
-Prurigo and Lichen	695.7	0.0	0.13	0.21	0.28	0.38
-Pruritus and related conditions	698.0	0.0	0.2	0.21	0.25	0.29
-Dyshidrosis	705.1	0.0	0.0	0.0	0.0	0.0
-Erythematosquamous dermatosis	690.0	0.0	0.01	0.01	0.01	0.0
-Pityriasis	696.3	0.0	0.01	0.02	0.02	0.04
-Parapsoriasis	696.2	0.0	0.01	0.0	0.01	0.0
-Disorder of skin and subcutaneous tissue NOS	689.0	0.0	1.08	1.38	2.11	2.85
-Urticaria	947.0	0.0	0.12	0.16	0.2	0.17
-Erythema nodosum	695.81	0.0	0.03	0.02	0.02	0.04
-Acute dermatitis due to solar radiation	938.1	0.0	0.01	0.01	0.0	0.0
-Dermatitis due to solar radiation	938.0	0.0	0.01	0.03	0.04	0.17
-Chronic dermatitis due to solar radiation	938.2	0.0	0.02	0.06	0.12	0.21
-Other dyschromia	694.2	0.0	0.14	0.2	0.3	0.17
-Diseases of nail, NOS	703.0	0.0	0.06	0.08	0.12	0.21
-Ingrowing nail	703.1	0.0	0.22	0.2	0.23	0.34
-Osteitis deformans and osteopathies associated with other disorders classified elsewhere	731.0	0.0	0.0	0.0	0.0	0.0
-Alopecia Areata	704.11	0.0	0.01	0.01	0.0	0.0
-Alopecia	704.1	0.0	0.05	0.04	0.04	0.0
-Telogen effluvium	704.12	0.0	0.0	0.0	0.0	0.0
-Other specified diseases of hair and hair follicles	704.8	0.0	0.02	0.02	0.02	0.0
-Diseases of hair and hair follicles	704.0	0.0	1.3	1.35	1.33	1.33
-Hirsutism	704.2	0.0	0.01	0.01	0.01	0.0
-Acne	706.1	0.0	0.03	0.02	0.02	0.04
-Rosacea	695.3	0.0	0.06	0.09	0.11	0.29
-Hidradenitis	705.3	0.0	0.1	0.05	0.03	0.0
-Disorders of sweat glands	705.0	0.0	0.01	0.01	0.01	0.0
-Vitiligo	694.1	0.0	0.02	0.02	0.02	0.0
-Acquired acanthosis nigricans	701.6	0.0	0.01	0.03	0.04	0.04
-Corns and callosities	700.0	0.0	0.05	0.08	0.11	0.25
-Other specified diseases of sebaceous glands	706.8	0.0	0.0	0.0	0.0	0.0
-Decubitus ulcer	707.1	0.0	0.03	0.06	0.11	0.21
-Scar conditions and fibrosis of skin	701.2	0.0	0.53	0.59	0.71	0.84
-Keloid scar	701.4	0.0	0.09	0.07	0.06	0.04
-Abnormal granulation tissue	701.5	0.0	0.1	0.12	0.14	0.17
-Degenerative skin disorders	702.4	0.0	0.0	0.0	0.0	0.0
-Pyogenic granuloma	686.4	0.0	0.08	0.1	0.11	0.09
-Cutaneous lupus erythematosus	695.41	0.0	0.04	0.05	0.05	0.13
-Circumscribed scleroderma	701.3	0.0	0.01	0.01	0.02	0.08
-Vascular disorders of skin	694.3	0.0	0.03	0.03	0.04	0.34
-Chronic ulcer of skin	707.0	0.0	0.17	0.32	0.58	0.66
-Pyogenic arthritis	711.1	0.0	0.01	0.02	0.02	0.05
-Arthropathy associated with other disorders classified elsewhere	713.0	0.0	0.02	0.02	0.01	0.05
-Arthropathy NOS	716.9	0.0	3.06	6.41	11.18	14.7
-Reiter's disease	711.2	0.0	0.01	0.01	0.0	0.0
-Hypersensitivity angiitis	446.3	0.0	0.0	0.01	0.01	0.0
-Rheumatoid arthritis and other inflammatory polyarthropathies	714.0	0.0	0.04	0.11	0.18	0.17
-Juvenile rheumatoid arthritis	714.2	0.0	0.01	0.01	0.0	0.0
-Ankylosing spondylitis	715.2	0.0	0.07	0.12	0.14	0.17
-Gout	274.1	0.0	0.21	0.47	1.0	1.45
-Gouty arthropathy	274.11	0.0	0.0	0.01	0.01	0.08
-Disorders resulting from impaired renal function	588.0	0.0	0.02	0.03	0.03	0.23
-Crystal arthropathies	274.2	0.0	0.0	0.0	0.01	0.0
-Chondrocalcinosis	274.21	0.0	0.08	0.07	0.09	0.0
-Symptoms and disorders of the joints	741.0	0.0	0.16	0.13	0.14	0.17
-Villonodular synovitis	741.6	0.0	0.0	0.0	0.0	0.0
-Palindromic rheumatism	716.8	0.0	0.0	0.0	0.01	0.0
-Traumatic arthropathy	836.0	0.0	0.04	0.07	0.08	0.04
-Other arthropathies	716.0	0.0	0.01	0.02	0.03	0.05
-Unspecified monoarthritis	716.2	0.0	2.13	4.21	6.94	8.9
-Osteoarthrosis NOS	740.9	0.0	0.57	1.36	2.74	3.84
-Arthropathy associated with neurological disorders	713.5	0.0	0.01	0.02	0.03	0.1
-Osteoarthrosis, generalized	740.2	0.0	0.03	0.11	0.27	0.57
-Osteoarthritis; localized	740.1	0.0	0.78	2.21	4.61	7.28
-Osteoarthrosis, localized, primary	740.11	0.0	0.67	1.8	3.9	5.76
-Osteoarthrosis, localized, secondary	740.12	0.0	0.05	0.08	0.09	0.1
-Acquired deformities of finger	736.2	0.0	0.05	0.06	0.08	0.09
-Hallux valgus (Bunion)	735.3	0.0	0.91	1.85	2.26	1.81
-Hallux rigidus	735.23	0.0	0.18	0.41	0.55	0.6
-Acquired toe deformities	735.2	0.0	0.25	0.52	0.85	0.85
-Hammer toe (acquired)	735.21	0.0	0.18	0.46	0.81	0.68
-Other acquired deformities of limbs	736.0	0.0	0.04	0.07	0.11	0.09
-Contracture of joint	739.0	0.0	0.01	0.02	0.03	0.0
-Flat foot	735.1	0.0	0.03	0.04	0.06	0.04
-Acquired foot deformities	735.0	0.0	0.03	0.04	0.05	0.0
-Internal derangement of knee	835.0	0.0	1.05	1.08	1.0	0.83
-Pathological, developmental or recurrent dislocation	742.2	0.0	0.04	0.01	0.01	0.0
-Other derangement of joint	742.9	0.0	0.26	0.19	0.15	0.25
-Loose body in joint	742.1	0.0	0.01	0.01	0.02	0.04
-Articular cartilage disorder	742.8	0.0	0.04	0.03	0.02	0.04
-Laxity of ligament or hypermobility syndrome	728.2	0.0	0.07	0.04	0.02	0.0
-Ankylosis of joint	741.1	0.0	0.0	0.0	0.0	0.0
-Derangement of joint, non-traumatic	742.0	0.0	0.0	0.01	0.01	0.04
-Hemarthrosis	741.5	0.0	0.0	0.01	0.0	0.0
-Joint effusions	741.4	0.0	0.05	0.06	0.08	0.04
-Pain in joint	745.0	0.0	0.36	0.41	0.5	0.45
-Stiffness of joint	741.2	0.0	0.02	0.02	0.04	0.0
-Enthesopathy	726.1	0.0	1.18	1.97	2.5	2.87
-Polyarteritis nodosa and allied conditions	446.0	0.0	0.0	0.0	0.0	0.0
-Polyarteritis nodosa	446.6	0.0	0.0	0.01	0.02	0.0
-Wegener's granulomatosis	446.4	0.0	0.02	0.05	0.07	0.09
-Acute febrile mucocutaneous lymph node syndrome (Kawasaki disease)	446.2	0.0	0.0	0.0	0.0	0.0
-Thrombotic microangiopathy	446.8	0.0	0.0	0.01	0.01	0.0
-Takayasu's disease	446.7	0.0	0.0	0.0	0.0	0.0
-Giant cell arteritis	446.5	0.0	0.01	0.06	0.23	0.31
-Systemic lupus erythematosus	695.42	0.0	0.11	0.12	0.11	0.08
-Behcet's syndrome	711.3	0.0	0.01	0.01	0.01	0.0
-Polymyalgia Rheumatica	717.0	0.0	0.04	0.18	0.74	0.79
-Symptoms of the muscles	772.0	0.0	0.04	0.06	0.08	0.08
-Panniculitis	729.3	0.0	0.01	0.02	0.01	0.0
-Kyphosis (acquired)	737.1	0.0	0.01	0.01	0.03	0.09
-Other allied disorders of spine	721.8	0.0	0.02	0.03	0.05	0.13
-Other unspecified back disorders	724.9	0.0	0.1	0.12	0.17	0.3
-Lordosis (acquired)	737.2	0.0	0.0	0.0	0.0	0.0
-Kyphoscoliosis and scoliosis	737.3	0.0	0.09	0.11	0.2	0.38
-Osteochondropathies	732.0	0.0	0.09	0.07	0.05	0.0
-Juvenile osteochondrosis	732.1	0.0	0.06	0.05	0.04	0.04
-Acquired spondylolisthesis	738.4	0.0	0.03	0.07	0.11	0.09
-Torticollis	723.1	0.0	0.02	0.02	0.02	0.0
-Curvature of spine	737.0	0.0	0.0	0.01	0.01	0.0
-Other inflammatory spondylopathies	715.0	0.0	0.05	0.09	0.15	0.13
-Spinal enthesopathy	715.3	0.0	0.0	0.0	0.0	0.0
-Sacroiliitis NEC	715.1	0.0	0.02	0.02	0.03	0.04
-Unspecified osteomyelitis	710.19	0.0	0.02	0.03	0.04	0.1
-Osteomyelitis, periostitis, and other infections involving bone	710.0	0.0	0.0	0.0	0.0	0.0
-Spondylosis and allied disorders	721.0	0.0	0.14	0.29	0.47	0.77
-Spondylosis with myelopathy	721.2	0.0	0.0	0.01	0.01	0.04
-Spondylosis without myelopathy	721.1	0.0	0.13	0.24	0.43	0.3
-Spinal stenosis	720.0	0.0	0.06	0.16	0.37	0.52
-Stress fracture	743.4	0.0	0.0	0.0	0.0	0.0
-Pathologic fracture of vertebrae	743.21	0.0	0.0	0.01	0.02	0.0
-Other symptoms referable to back	724.8	0.0	0.0	0.0	0.01	0.0
-Fracture of vertebral column without mention of spinal cord injury	805.0	0.0	0.07	0.09	0.12	0.04
-Other disorders of cervical region	723.0	0.0	0.09	0.11	0.15	0.17
-Intervertebral disc disorder with myelopathy	722.7	0.0	0.09	0.11	0.14	0.17
-Cervical radiculitis	765.0	0.0	0.17	0.16	0.12	0.12
-Displacement of intervertebral disc	722.1	0.0	0.12	0.12	0.09	0.09
-Degeneration of intervertebral disc	722.6	0.0	0.64	0.79	1.06	1.45
-Schmorl's nodes	722.3	0.0	0.01	0.01	0.01	0.0
-Back pain	760.0	0.0	1.5	1.68	2.02	2.32
-Neuralgia, neuritis, and radiculitis NOS	766.0	0.0	0.07	0.1	0.11	0.12
-Cervicalgia	761.0	0.0	0.24	0.3	0.32	0.21
-Sciatica	764.0	0.0	0.3	0.36	0.47	0.41
-Myalgia and myositis unspecified	770.0	0.0	0.04	0.05	0.05	0.0
-Infective connective tissue disorders	712.0	0.0	0.01	0.0	0.01	0.0
-Disorders of muscle, ligament, and fascia	728.0	0.0	0.01	0.01	0.02	0.0
-Muscular calcification and ossification	728.1	0.0	0.0	0.0	0.0	0.09
-Rhabdomyolysis	772.4	0.0	0.0	0.0	0.0	0.0
-Contracture of tendon (sheath)	727.7	0.0	0.03	0.04	0.04	0.09
-Muscular wasting and disuse atrophy	772.1	0.0	0.0	0.0	0.01	0.0
-Other disorders of soft tissues	729.0	0.0	0.25	0.3	0.41	0.53
-Synovitis and tenosynovitis	727.1	0.0	0.38	0.71	0.89	0.84
-Other disorders of synovium, tendon, and bursa	727.0	0.0	0.26	0.27	0.28	0.36
-Rupture of synovium	727.5	0.0	0.06	0.1	0.17	0.22
-Rupture of tendon, nontraumatic	727.6	0.0	0.02	0.03	0.03	0.04
-Ganglion and cyst of synovium, tendon, and bursa	727.4	0.0	0.73	0.83	0.86	0.75
-Symptoms involving nervous and musculoskeletal systems	781.0	0.0	0.47	0.53	0.68	0.79
-Bursitis disorders	727.2	0.0	0.0	0.01	0.01	0.0
-Bursitis	726.3	0.0	0.16	0.17	0.16	0.13
-Fasciitis	728.7	0.0	0.08	0.07	0.07	0.0
-Contracture of palmar fascia [Dupuytren's disease]	728.71	0.0	0.18	0.58	1.17	1.54
-Peripheral enthesopathies and allied syndromes	726.0	0.0	1.8	2.5	2.87	2.87
-Synoviopathy	726.2	0.0	0.13	0.12	0.08	0.0
-Calcaneal spur; Exostosis NOS	726.4	0.0	0.02	0.01	0.01	0.0
-Rheumatism, unspecified and fibrositis	729.1	0.0	0.09	0.11	0.09	0.04
-Pain in limb	773.0	0.0	0.31	0.33	0.43	0.58
-Swelling of limb	771.1	0.0	0.15	0.2	0.3	0.5
-Pathologic fracture	743.2	0.0	0.0	0.0	0.01	0.0
-Osteoporosis NOS	743.11	0.0	0.25	0.84	1.91	2.98
-Other disorders of bone and cartilage	733.0	0.0	0.13	0.22	0.33	0.47
-Malunion and nonunion of fracture	733.8	0.0	0.03	0.05	0.04	0.22
-Cyst of bone	733.2	0.0	0.01	0.01	0.02	0.0
-Osteopenia or other disorder of bone and cartilage	743.9	0.0	0.04	0.05	0.07	0.04
-Acute osteomyelitis	710.11	0.0	0.0	0.0	0.0	0.0
-Chronic osteomyelitis	710.12	0.0	0.01	0.01	0.01	0.05
-Aseptic necrosis of bone	733.4	0.0	0.02	0.02	0.03	0.13
-Osteitis deformans [Paget's disease of bone]	731.1	0.0	0.01	0.01	0.02	0.13
-Osteopathy resulting from poliomyelitis	710.3	0.0	0.0	0.0	0.0	0.0
-Congenital osteodystrophies	756.5	0.0	0.04	0.05	0.04	0.04
-Osteochondritis dissecans	732.7	0.0	0.02	0.02	0.01	0.0
-Other acquired musculoskeletal deformity	738.0	0.0	0.14	0.1	0.08	0.09
-Complication of internal orthopedic device	858.0	0.0	0.48	0.87	1.52	2.46
-Postlaminectomy syndrome	722.8	0.0	0.02	0.02	0.01	0.0
-Nonallopathic lesions NEC	769.0	0.0	0.0	0.0	0.0	0.0
-Dislocation	830.0	0.0	0.63	0.5	0.52	0.54
-Proliferative glomerulonephritis	580.11	0.0	0.01	0.02	0.03	0.05
-Non-proliferative glomerulonephritis	580.12	0.0	0.02	0.04	0.06	0.05
-Hematuria	593.0	0.0	2.47	3.85	5.95	7.82
-Chronic glomerulonephritis, NOS	580.14	0.0	0.05	0.13	0.38	0.94
-Nephritis and nephropathy with pathological lesion	580.32	0.0	0.04	0.08	0.09	0.09
-Proteinuria	269.0	0.0	0.08	0.1	0.12	0.17
-Pyelonephritis	590.0	0.0	0.43	0.43	0.47	0.57
-Stricture/obstruction of ureter	586.4	0.0	0.17	0.25	0.36	0.41
-Urinary obstruction	599.1	0.0	0.02	0.04	0.08	0.05
-Hydronephrosis	595.0	0.0	0.38	0.53	0.82	0.8
-Vesicoureteral reflux	586.12	0.0	0.01	0.01	0.01	0.0
-Acute renal failure	585.1	0.0	0.58	1.32	3.04	4.95
-Chronic renal failure [CKD]	585.3	0.0	0.29	0.6	1.66	2.99
-Renal failure NOS	585.2	0.0	0.16	0.33	0.64	1.08
-Urinary calculus	594.0	0.0	0.11	0.14	0.14	0.09
-Calculus of kidney	594.1	0.0	0.67	0.88	1.05	1.18
-Calculus of ureter	594.3	0.0	0.53	0.67	0.71	0.42
-Calculus of lower urinary tract	594.2	0.0	0.09	0.16	0.35	0.59
-Renal colic	594.8	0.0	0.48	0.54	0.48	0.51
-Renal osteodystrophy	588.1	0.0	0.0	0.0	0.0	0.0
-Small kidney	586.11	0.0	0.04	0.05	0.09	0.09
-Vascular disorders of kidney/hypertrophy	586.3	0.0	0.01	0.02	0.04	0.05
-Cyst of kidney, acquired	586.2	0.0	0.15	0.33	0.69	0.99
-Other disorders of the kidney and ureters	586.0	0.0	0.17	0.31	0.49	0.59
-Cystitis	592.1	0.0	0.29	0.49	0.83	1.05
-Acute cystitis	592.11	0.0	0.02	0.03	0.06	0.1
-Chronic interstitial cystitis	592.13	0.0	0.06	0.07	0.1	0.05
-Chronic cystitis	592.12	0.0	0.14	0.21	0.38	0.29
-Functional disorders of bladder	596.5	0.0	0.27	0.4	0.54	0.58
-Other disorders of bladder	596.0	0.0	0.91	1.68	3.12	4.9
-Bladder neck obstruction	596.1	0.0	0.17	0.39	0.84	1.24
-Urethritis and urethral syndrome	592.2	0.0	0.02	0.03	0.04	0.1
-Urethral syndrome	592.21	0.0	0.01	0.01	0.01	0.0
-Urethral stricture (not specified as infectious)	597.1	0.0	0.59	0.82	1.28	1.76
-Urethral stricture due to infecton	592.3	0.0	0.0	0.0	0.0	0.0
-Other disorders of urethra and urinary tract	597.0	0.0	0.1	0.18	0.32	0.45
-Prolapse of vaginal walls	618.1	0.0	1.0	1.77	2.62	2.73
-Other symptoms/disorders or the urinary system	599.0	0.0	1.0	1.6	2.71	3.51
-Urinary tract infection	591.0	0.0	2.02	3.06	5.41	7.98
-Urinary incontinence	599.4	0.0	1.75	2.36	2.98	3.99
-stress incontinence, female	624.9	0.0	1.25	1.55	1.6	1.79
-Hyperplasia of prostate	600.0	0.0	0.47	2.06	5.95	9.58
-Prostatitis	601.1	0.0	0.07	0.16	0.27	0.19
-Acute prostatitis	601.11	0.0	0.02	0.06	0.11	0.19
-Chronic prostatitis	601.12	0.0	0.07	0.18	0.44	0.66
-Other disorders of prostate	602.0	0.0	0.06	0.26	0.69	0.8
-Hydrocele	603.1	0.0	0.24	0.31	0.54	0.61
-Spermatocele	603.2	0.0	0.01	0.01	0.01	0.0
-Other disorders of testis	603.0	0.0	0.27	0.23	0.28	0.56
-Infertility, male	609.1	0.0	0.04	0.01	0.0	0.0
-Redundant prepuce and phimosis/BXO	604.1	0.0	0.7	0.7	0.85	0.79
-Disorders of penis	604.0	0.0	0.17	0.21	0.26	0.56
-Balanoposthitis	601.4	0.0	0.05	0.07	0.1	0.14
-Other inflammatory disorders of male genital organs	601.8	0.0	0.06	0.07	0.1	0.1
-Other disorders of male genital organs	608.0	0.0	0.57	0.7	0.92	1.39
-Other specified benign mammary dysplasias	610.8	0.0	0.17	0.19	0.16	0.25
-Cystic mastopathy	610.1	0.0	0.19	0.26	0.18	0.13
-Fibroadenosis of breast	610.2	0.0	0.08	0.08	0.06	0.0
-Fibrosclerosis of breast	610.3	0.0	0.07	0.08	0.07	0.04
-Inflammatory disease of breast	613.1	0.0	0.22	0.18	0.16	0.33
-Hypertrophy of breast (Gynecomastia)	612.2	0.0	0.26	0.23	0.17	0.08
-Lump or mass in breast	611.3	0.0	0.41	0.43	0.4	0.5
-Other nonmalignant breast conditions	613.0	0.0	0.01	0.0	0.0	0.0
-Galactorrhea	612.1	0.0	0.01	0.0	0.0	0.0
-Mastodynia	613.5	0.0	0.03	0.02	0.02	0.04
-Other signs and symptoms in breast	613.7	0.0	0.13	0.12	0.12	0.12
-Other specified disorders of breast	613.8	0.0	0.11	0.09	0.08	0.04
-Breast disorder NOS	613.9	0.0	0.04	0.05	0.05	0.04
-Pelvic inflammatory disease (PID)	614.3	0.0	0.08	0.04	0.02	0.0
-Acute inflammatory pelvic disease	614.31	0.0	0.02	0.02	0.0	0.0
-Chronic inflammatory pelvic disease	614.32	0.0	0.21	0.11	0.06	0.17
-Inflammatory disease of cervix, vagina, and vulva	614.5	0.0	0.03	0.04	0.05	0.04
-Inflammatory diseases of uterus, except cervix	614.4	0.0	0.13	0.08	0.05	0.0
-Cervicitis and endocervicitis	614.51	0.0	0.37	0.34	0.21	0.13
-Inflammatory diseases of female pelvic organs	614.0	0.0	0.01	0.01	0.0	0.0
-Pelvic inflammatory disease, NOS	614.33	0.0	0.17	0.07	0.04	0.0
-Pelvic peritoneal adhesions, female (postoperative) (postinfection)	614.1	0.0	1.28	0.69	0.42	0.42
-Cyst or abscess of Bartholin's gland	614.53	0.0	0.3	0.23	0.1	0.0
-Vaginitis and vulvovaginitis	614.52	0.0	0.12	0.1	0.11	0.04
-Abscess or ulceration of vulva	614.54	0.0	0.11	0.07	0.05	0.04
-Endometriosis	615.0	0.0	2.04	1.05	0.42	0.21
-Uterine/Uterovaginal prolapse	618.2	0.0	0.72	1.31	1.92	1.57
-Vaginal enterocele, congenital or acquired	618.6	0.0	0.07	0.16	0.26	0.43
-Genital prolapse	618.0	0.0	0.07	0.11	0.14	0.04
-Disorders secondary to childbirth, surgery, trauma	617.0	0.0	0.1	0.09	0.08	0.04
-Noninflammatory disorders of ovary, fallopian tube, and broad ligament	619.1	0.0	0.3	0.21	0.14	0.29
-Ovarian cyst	628.0	0.0	2.04	1.38	0.82	0.68
-Atrophy of female genital tract	624.2	0.0	0.04	0.12	0.2	0.17
-Polyp of corpus uteri	622.1	0.0	1.77	2.37	2.13	1.62
-Mucous polyp of cervix	622.2	0.0	0.71	0.97	0.8	0.29
-Polyp of female genital organs	622.0	0.0	0.05	0.05	0.06	0.13
-Endometrial hyperplasia	621.0	0.0	0.25	0.35	0.3	0.08
-Hypertrophy of female genital organs	623.0	0.0	0.53	0.38	0.2	0.08
-Other complications of the puerperium NEC	674.0	0.0	0.29	0.01	0.0	0.0
-Disorders of uterus, NEC	619.2	0.0	0.81	0.95	0.92	0.71
-Disorders of menstruation and other abnormal bleeding from female genital tract	626.0	0.0	0.71	0.48	0.28	0.3
-Noninflammatory disorders of cervix	619.3	0.0	1.01	0.76	0.51	0.54
-Symptoms involving female genital tract	624.0	0.0	0.0	0.0	0.01	0.0
-Dysplasia of female genital organs	620.0	0.0	0.03	0.02	0.02	0.0
-Noninflammatory disorders of vagina	619.4	0.0	0.5	0.43	0.38	0.38
-Irregular menstrual cycle/bleeding	626.1	0.0	0.64	0.62	0.23	0.04
-Dystrophy of female genital tract	624.1	0.0	0.03	0.08	0.1	0.08
-Noninflammatory disorders of vulva and perineum	619.5	0.0	0.47	0.36	0.31	0.17
-Absent or infrequent menstruation	626.11	0.0	0.07	0.04	0.01	0.0
-Excessive or frequent menstruation	626.12	0.0	5.03	2.99	0.48	0.09
-Irregular menstrual bleeding	626.14	0.0	1.83	1.29	0.29	0.09
-Premenopausal menorrhagia	627.4	0.0	0.09	0.13	0.04	0.0
-Irregular menstrual cycle	626.13	0.0	0.67	0.62	0.21	0.04
-Pain and other symptoms associated with female genital organs	625.0	0.0	0.88	0.54	0.23	0.21
-Mittelschmerz	626.21	0.0	0.01	0.01	0.0	0.0
-Dyspareunia	625.1	0.0	0.53	0.26	0.13	0.0
-Premenstrual tension syndromes	626.4	0.0	0.1	0.04	0.0	0.0
-Dysmenorrhea	626.2	0.0	1.05	0.47	0.04	0.0
-Noninflammatory female genital disorders	619.0	0.0	0.07	0.06	0.03	0.0
-Postmenopausal bleeding	627.1	0.0	0.83	2.63	3.17	2.56
-Symptomatic menopause	627.2	0.0	0.03	0.06	0.05	0.13
-Postmenopausal atrophic vaginitis	627.3	0.0	0.07	0.31	0.48	0.47
-Menopausal and postmenopausal disorders	627.0	0.0	0.07	0.19	0.18	0.21
-Miscarriage; stillbirth	634.0	0.0	4.5	0.34	0.0	0.0
-Infertility, female	626.8	0.0	1.09	0.09	0.0	0.0
-Infertility, female, associated with anovulation	626.15	0.0	0.01	0.0	0.0	0.0
-Postoperative infection	80.0	0.0	0.92	1.19	1.45	1.91
-Prolapse of vaginal vault after hysterectomy	618.5	0.0	0.04	0.11	0.2	0.26
-Urinary complications NEC	597.2	0.0	0.01	0.02	0.03	0.0
-Ectopic pregnancy	634.3	0.0	0.31	0.01	0.0	0.0
-Missed abortion/Hydatidiform mole	634.1	0.0	1.25	0.11	0.0	0.0
-Hypertension complicating pregnancy, childbirth, and the puerperium	642.0	0.0	1.07	0.05	0.0	0.0
-Other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium	649.0	0.0	0.13	0.0	0.0	0.0
-Other complications of pregnancy NEC	646.0	0.0	2.55	0.11	0.0	0.0
-Preeclampsia and eclampsia	642.1	0.0	0.35	0.02	0.0	0.0
-Hemorrhage in early pregnancy	636.3	0.0	0.97	0.05	0.0	0.0
-Excessive vomiting in pregnancy	643.0	0.0	0.12	0.0	0.0	0.0
-Hyperemesis gravidarum	643.1	0.0	0.16	0.01	0.0	0.0
-Venous/cerebrovascular complications embolism in pregnancy and the puerperium	671.0	0.0	0.21	0.01	0.0	0.0
-Infections of genitourinary tract during pregnancy	647.1	0.0	0.3	0.01	0.0	0.0
-Diabetes or abnormal glucose tolerance complicating pregnancy	649.1	0.0	0.24	0.01	0.0	0.0
-Mechanical complication of unspecified genitourinary device, implant, and graft	857.0	0.0	0.29	0.35	0.5	0.58
-Complications of labor and delivery NEC	669.0	0.0	2.96	0.13	0.0	0.0
-Other perinatal conditions of fetus or newborn	656.0	0.0	0.57	0.03	0.0	0.0
-Multiple gestation	651.0	0.0	0.37	0.02	0.0	0.0
-Malposition and malpresentation of fetus or obstruction	652.0	0.0	1.87	0.08	0.0	0.0
-Abnormality of organs and soft tissues of pelvis complicating pregnancy, childbirth, or the puerperium	654.1	0.0	1.34	0.06	0.0	0.0
-Cervical incompetence	636.8	0.0	0.05	0.0	0.0	0.0
-Known or suspected fetal abnormality affecting management of mother	655.0	0.0	4.7	0.22	0.0	0.0
-Complications of in utero procedures	679.0	0.0	0.06	0.0	0.0	0.0
-Rhesus isoimmunization in pregnancy	654.2	0.0	0.3	0.01	0.0	0.0
-Problems associated with amniotic cavity and membranes	653.0	0.0	1.7	0.07	0.0	0.0
-Antepartum hemorrhage, abruptio placentae, and placenta previa	635.2	0.0	1.02	0.04	0.0	0.0
-Abnormal results of other function studies (bladder, pancreas, placenta, spleen, etc)	794.0	0.0	0.1	0.01	0.01	0.0
-Early or threatened labor; hemorrhage in early pregnancy	636.0	0.0	1.19	0.03	0.0	0.0
-Late pregnancy and failed induction	645.0	0.0	1.32	0.05	0.0	0.0
-Early onset of delivery	636.2	0.0	0.74	0.03	0.0	0.0
-Fetal distress and abnormal forces of labor	661.0	0.0	2.47	0.08	0.0	0.0
-Umbilical cord complications during labor and delivery	663.0	0.0	0.68	0.04	0.0	0.0
-Obstetrical/birth trauma	665.0	0.0	5.76	0.2	0.0	0.0
-Hemorrhage during pregnancy; childbirth and postpartum	635.0	0.0	0.0	0.0	0.0	0.0
-Placenta previa and abruptio placenta	635.3	0.0	1.45	0.05	0.0	0.0
-Coagulation defects complicating pregnancy or postpartum	286.3	0.0	0.07	0.0	0.0	0.0
-Complications of the administration of anesthetic or other sedation in labor and delivery	668.0	0.0	0.05	0.0	0.0	0.0
-Infectious and parasitic complications affecting pregnancy	647.0	0.0	0.1	0.0	0.0	0.0
-Normal delivery	650.0	0.0	2.11	0.1	0.0	0.0
-Major puerperal infection	647.3	0.0	0.05	0.0	0.0	0.0
-Other and unspecified complications of birth; puerperium affecting management of mother	654.0	0.0	0.08	0.0	0.0	0.0
-Other disorders of the breast associated with childbirth and disorders of lactation	676.0	0.0	0.07	0.0	0.0	0.0
-Anemia during pregnancy	644.0	0.0	0.92	0.05	0.0	0.0
-Maternal complication of pregnancy affecting fetus or newborn	658.0	0.0	0.0	0.0	0.0	0.0
-Short gestation; low birth weight; and fetal growth retardation	637.0	0.0	0.0	0.0	0.0	0.0
-Transitory tachypnea or apnea of newborn	656.26	0.0	0.0	0.0	0.0	0.0
-Interstitial emphysema and related conditions of newborn	656.22	0.0	0.0	0.0	0.0	0.0
-Cardiac and circulatory congenital anomalies	747.0	0.0	0.01	0.01	0.0	0.0
-Hematological disorders of newborn	656.5	0.0	0.0	0.0	0.0	0.0
-Conditions involving the integument and temperature regulation of fetus and newborn	656.7	0.0	0.0	0.0	0.0	0.0
-Neural tube defects	752.1	0.0	0.02	0.02	0.02	0.0
-Nervous system congenital anomalies	752.0	0.0	0.0	0.0	0.0	0.0
-Spina bifida	752.11	0.0	0.08	0.06	0.05	0.08
-Cardiac congenital anomalies	747.1	0.0	0.06	0.06	0.06	0.08
-Congenital anomalies of face and neck	749.0	0.0	0.09	0.07	0.05	0.0
-Congenital anomalies of the eye	753.0	0.0	0.02	0.01	0.01	0.0
-Congenital cataract and lens anomalies	753.1	0.0	0.02	0.02	0.02	0.0
-Congenital anomalies of posterior segment of eye	753.2	0.0	0.0	0.01	0.0	0.0
-Cardiac shunt/ heart septal defect	747.11	0.0	0.18	0.17	0.15	0.17
-Valvular heart disease/ heart chambers	747.12	0.0	0.06	0.07	0.08	0.25
-Congenital anomalies of peripheral vascular system	747.2	0.0	0.04	0.05	0.05	0.04
-Anomalies of respiratory system, congenital	748.0	0.0	0.01	0.01	0.02	0.0
-Congenital anomalies of mouth/tongue	750.13	0.0	0.02	0.04	0.08	0.21
-Upper gastrointestinal congenital anomalies	750.1	0.0	0.01	0.0	0.01	0.04
-Congenital anomalies of esophagus	750.14	0.0	0.0	0.01	0.02	0.0
-Esophageal atresia/tracheoesophageal fistula	750.11	0.0	0.01	0.01	0.01	0.04
-Congenital hypertrophic pyloric stenosis	750.5	0.0	0.0	0.0	0.0	0.0
-Congenital anomalies of stomach	750.15	0.0	0.01	0.01	0.02	0.04
-Congenital anomalies of intestine	750.21	0.0	0.05	0.06	0.07	0.0
-Congenital anomaly of gallbladder, bile ducts, liver, pancreas	750.22	0.0	0.02	0.03	0.04	0.04
-Digestive congenital anomalies	750.0	0.0	0.0	0.0	0.0	0.0
-Lower gastrointestinal congenital anomalies	750.2	0.0	0.0	0.0	0.0	0.0
-Congenital anomalies of female genital organs	751.11	0.0	0.2	0.11	0.07	0.08
-Congenital anomalies of genital organs	751.1	0.0	0.02	0.01	0.01	0.04
-Congenital anomalies of male genital organs	751.12	0.0	0.05	0.04	0.07	0.08
-Other specified congenital anomalies of kidney	751.22	0.0	0.08	0.09	0.12	0.25
-Cystic kidney disease	751.21	0.0	0.08	0.11	0.15	0.17
-Obstructive genitourinary defect	751.3	0.0	0.01	0.0	0.01	0.0
-Congenital anomalies of urinary system	751.2	0.0	0.02	0.02	0.03	0.0
-Congenital hip dysplasia and deformity	755.61	0.0	0.05	0.03	0.02	0.0
-Congenital deformities of feet	755.1	0.0	0.05	0.05	0.07	0.0
-Congenital musculoskeletal deformities of spine	754.0	0.0	0.04	0.03	0.02	0.08
-Pectus excavatum	756.21	0.0	0.0	0.0	0.01	0.0
-Pectus carinatum	756.22	0.0	0.0	0.0	0.0	0.0
-Other congenital musculoskeletal anomalies	756.0	0.0	0.02	0.01	0.01	0.0
-Congenital anomalies of upper limb, including shoulder girdle	755.4	0.0	0.01	0.01	0.01	0.0
-Other congenital anomalies of lower limb, including pelvic girdle	755.6	0.0	0.02	0.02	0.01	0.0
-Congenital anomaly of fingers/toes	755.3	0.0	0.01	0.01	0.01	0.04
-Congenital anomalies of limbs	755.0	0.0	0.0	0.0	0.0	0.0
-Congenital anomalies of skull and face bones	749.2	0.0	0.01	0.01	0.01	0.04
-Spondylolisthesis, congenital	754.2	0.0	0.0	0.0	0.0	0.0
-Pectus and other congenital anomalies of ribs/sternum	756.2	0.0	0.0	0.0	0.0	0.0
-Congenital anomalies of abdominal wall; diaphram	756.1	0.0	0.0	0.01	0.01	0.0
-Congenital anomalies of muscle, tendon, fascia, and connective tissue	756.3	0.0	0.04	0.02	0.02	0.0
-Ichthyosis congenita	691.1	0.0	0.0	0.0	0.0	0.0
-Congenital anomalies of skin	691.0	0.0	0.02	0.02	0.03	0.0
-Congenital anomalies of the integument	757.0	0.0	0.0	0.0	0.01	0.0
-Congenital pigmentary anomalies of skin	691.3	0.0	0.0	0.01	0.01	0.0
-Vascular hamartomas and non-neoplastic nevi	217.0	0.0	0.01	0.02	0.01	0.0
-Congenital anomalies of breast	612.3	0.0	0.05	0.02	0.01	0.0
-Neurofibromatosis	199.4	0.0	0.02	0.03	0.03	0.1
-Other and unspecified congenital anomalies	759.0	0.0	0.03	0.04	0.04	0.04
-Chromosomal anomalies and genetic disorders	758.0	0.0	0.03	0.03	0.02	0.04
-Anomalies of endocrine glands, congenital	759.1	0.0	0.02	0.03	0.02	0.04
-Chromosomal anomalies	758.1	0.0	0.04	0.03	0.03	0.04
-Abnormal heart sounds	396.0	0.0	0.24	0.27	0.45	0.78
-Tachycardia NOS	427.7	0.0	0.49	0.66	1.04	1.46
-Palpitations	427.9	0.0	0.88	1.1	1.49	1.51
-Gangrene	791.0	0.0	0.11	0.17	0.25	0.25
-Elevated blood pressure reading without diagnosis of hypertension	402.0	0.0	0.27	0.45	0.89	0.87
-Hypotension	458.0	0.0	0.17	0.28	0.55	1.15
-Hemoptysis	516.1	0.0	0.33	0.51	0.81	0.7
-Epistaxis or throat hemorrhage	477.0	0.0	0.32	0.54	1.07	1.22
-Cough	512.8	0.0	0.59	0.83	1.21	1.37
-Shortness of breath	512.7	0.0	1.08	1.6	2.51	3.43
-Wheezing	512.1	0.0	0.05	0.07	0.11	0.09
-Apnea	513.31	0.0	0.0	0.0	0.0	0.0
-Hyperventilation	513.4	0.0	0.08	0.07	0.07	0.08
-Symptoms involving head and neck	293.0	0.0	0.55	0.63	0.5	0.25
-Other dyspnea	512.9	0.0	0.18	0.24	0.34	0.3
-Throat pain	478.0	0.0	0.08	0.11	0.13	0.0
-Painful respiration	512.2	0.0	0.05	0.07	0.07	0.09
-Precordial pain	418.1	0.0	0.87	1.21	1.45	1.67
-Nonspecific chest pain	418.0	0.0	5.78	7.79	9.63	11.49
-Respiratory arrest	509.5	0.0	0.02	0.04	0.05	0.05
-Abnormal sputum	516.0	0.0	0.01	0.02	0.04	0.0
-Symptoms involving cardiovascular system	429.3	0.0	0.04	0.05	0.08	0.04
-Nausea and vomiting	789.0	0.0	2.69	3.15	4.07	5.5
-Heartburn	530.9	0.0	0.44	0.66	0.78	1.29
-Dysphagia	532.0	0.0	1.29	2.0	2.88	3.83
-Flatulence	561.2	0.0	0.53	0.61	0.8	1.11
-Symptoms involving digestive system	561.0	0.0	3.19	4.82	6.45	8.37
-Splenomegaly	579.2	0.0	0.09	0.14	0.18	0.36
-Hepatomegaly	573.3	0.0	0.06	0.1	0.11	0.09
-Jaundice (not of newborn)	573.5	0.0	0.14	0.25	0.35	0.56
-Ascites (non malignant)	572.0	0.0	0.25	0.44	0.68	0.99
-Other symptoms involving abdomen and pelvis	579.0	0.0	0.25	0.31	0.41	0.5
-Nonspecific abnormal findings in stool contents	579.8	0.0	0.27	0.62	0.79	0.72
-Disturbance of skin sensation	687.4	0.0	0.89	0.85	0.78	1.26
-Localized superficial swelling, mass, or lump	687.2	0.0	0.05	0.05	0.07	0.21
-Swelling, mass, or lump in head and neck [Space-occupying lesion, intracranial NOS]	293.1	0.0	0.21	0.25	0.27	0.17
-Symptoms involving respiratory system and other chest symptoms	519.9	0.0	0.07	0.08	0.1	0.04
-Musculoskeletal symptoms referable to limbs	771.0	0.0	0.17	0.21	0.28	0.46
-Symptoms affecting skin	687.0	0.0	0.04	0.06	0.1	0.13
-Pallor and flushing	782.6	0.0	0.04	0.05	0.06	0.0
-Spontaneous ecchymoses	287.1	0.0	0.02	0.04	0.04	0.0
-Changes in skin texture	687.3	0.0	0.01	0.03	0.04	0.0
-Abnormal involuntary movements	350.1	0.0	0.22	0.26	0.35	0.67
-Abnormality of gait	350.2	0.0	0.26	0.44	1.0	2.04
-Difficulty in walking	741.3	0.0	0.03	0.04	0.08	0.12
-Lack of coordination	350.3	0.0	0.07	0.09	0.14	0.21
-Abnormal reflex	350.5	0.0	0.01	0.0	0.0	0.0
-Abnormal posture	781.2	0.0	0.0	0.0	0.0	0.0
-Dysuria	599.3	0.0	0.27	0.32	0.44	0.56
-Other symptoms involving urinary system	599.8	0.0	0.01	0.01	0.02	0.09
-Retention of urine	599.2	0.0	0.73	1.53	3.64	6.33
-Oliguria and anuria	599.6	0.0	0.01	0.03	0.06	0.05
-Frequency of urination and polyuria	599.5	0.0	0.64	0.96	1.49	2.04
-Urethral discharge	599.7	0.0	0.01	0.01	0.01	0.0
-Other abnormality of urination	599.9	0.0	0.25	0.44	0.73	1.08
-Abnormal findings on examination of urine	598.0	0.0	0.49	0.78	1.23	1.45
-Neurological disorders	292.0	0.0	0.07	0.12	0.26	0.35
-Altered mental status	292.4	0.0	0.26	0.51	1.24	2.57
-Memory loss	292.3	0.0	0.12	0.18	0.3	0.48
-Dizziness and giddiness (Light-headedness and vertigo)	386.9	0.0	0.93	1.24	1.87	2.84
-Disturbances of sensation of smell and taste	350.6	0.0	0.01	0.01	0.02	0.0
-Hallucinations	292.6	0.0	0.08	0.08	0.15	0.09
-Aphasia/speech disturbance	292.1	0.0	0.27	0.39	0.67	1.0
-Symbolic dysfunction	292.12	0.0	0.01	0.0	0.01	0.04
-Voice disturbance	473.4	0.0	0.16	0.26	0.4	0.31
-Fever of unknown origin	783.0	0.0	0.91	1.09	1.41	1.9
-Acute pain	338.1	0.0	0.1	0.11	0.14	0.25
-Chronic pain	338.2	0.0	0.12	0.14	0.11	0.12
-Syncope and collapse	788.0	0.0	1.53	2.17	3.62	5.71
-Cardiogenic shock	797.1	0.0	0.01	0.02	0.05	0.04
-Shock	797.0	0.0	0.01	0.01	0.02	0.04
-Hemorrhage NOS	459.1	0.0	0.01	0.02	0.04	0.0
-Edema	782.3	0.0	0.23	0.45	0.89	1.49
-Hyperhidrosis	705.8	0.0	0.16	0.16	0.21	0.3
-Lack of normal physiological development, unspecified	264.9	0.0	0.0	0.01	0.01	0.0
-Anorexia	260.6	0.0	0.14	0.21	0.37	0.54
-Polydipsia	276.8	0.0	0.03	0.04	0.03	0.09
-Polyphagia	260.7	0.0	0.0	0.0	0.0	0.0
-Abnormal weight gain	278.4	0.0	0.01	0.02	0.02	0.0
-Hypothermia/Chills	780.0	0.0	0.03	0.06	0.08	0.08
-Elevated sedimentation rate	790.1	0.0	0.01	0.02	0.04	0.0
-Nonspecific findings on examination of blood	790.0	0.0	0.03	0.04	0.08	0.17
-Impaired fasting glucose	250.41	0.0	0.08	0.07	0.13	0.23
-Other abnormal glucose	250.42	0.0	0.09	0.13	0.17	0.09
-Abnormal serum enzyme levels	573.9	0.0	0.04	0.06	0.1	0.04
-Other immunological findings	279.7	0.0	0.02	0.06	0.1	0.41
-Glycosuria or Acetonuria	250.5	0.0	0.09	0.02	0.02	0.05
-Other nonspecific findings on examination of urine	598.9	0.0	0.04	0.07	0.13	0.21
-Nonspecific abnormal findings in cerebrospinal fluid	346.3	0.0	0.01	0.01	0.01	0.0
-Abnormal spermatozoa	609.2	0.0	0.01	0.02	0.08	0.28
-Abnormal findings examination of lungs	514.0	0.0	0.3	0.64	1.2	1.9
-Abnormal mammogram	611.1	0.0	0.01	0.01	0.02	0.0
-Nonspecific abnormal findings on radiological and other examination of skull and head	346.1	0.0	0.03	0.04	0.06	0.09
-Nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)	793.2	0.0	0.1	0.15	0.25	0.12
-Nonspecific abnormal findings on radiological and other examination of biliary tract	575.9	0.0	0.06	0.1	0.16	0.22
-Abnormal findings on exam of gastrointestinal tract/ abdominal area	564.8	0.0	0.31	0.57	0.95	1.47
-Nonspecific abnormal findings on radiological and other examination of musculoskeletal system	793.0	0.0	0.02	0.04	0.06	0.08
-Nonspecific abnormal results of function study of brain and central nervous system	346.2	0.0	0.01	0.0	0.01	0.05
-Abnormal findings on study of brain and/or nervous system	346.0	0.0	0.0	0.0	0.0	0.0
-Abnormal results of function study of pulmonary system	514.1	0.0	0.01	0.01	0.02	0.04
-Abnormal function study of cardiovascular system	429.2	0.0	0.09	0.15	0.24	0.17
-Abnormal results of function study of kidney	589.0	0.0	0.01	0.03	0.06	0.09
-Abnormal results of function study of liver	573.7	0.0	0.66	1.0	1.44	1.84
-Abnormal results of function study of thyroid	246.7	0.0	0.01	0.01	0.02	0.0
-Nonspecific abnormal results of other endocrine function study	259.1	0.0	0.01	0.01	0.01	0.0
-Superficial injury without mention of infection	915.0	0.0	1.03	1.16	1.61	2.99
-Contusion	916.0	0.0	0.31	0.35	0.52	0.74
-Other open wound of head and face	870.3	0.0	0.67	0.78	1.03	1.39
-Open wound or laceration of eye or eyelid	870.1	0.0	0.13	0.14	0.17	0.13
-Open wound of nose and sinus	870.4	0.0	0.06	0.07	0.09	0.09
-Open wound of ear	870.2	0.0	0.05	0.05	0.05	0.04
-Open wound of lip and mouth	870.5	0.0	0.12	0.11	0.11	0.09
-Skull and face fracture and other intercranial injury	819.0	0.0	0.38	0.28	0.22	0.17
-Broken tooth	873.0	0.0	0.02	0.03	0.03	0.0
-Concussion	817.0	0.0	0.02	0.01	0.02	0.04
-Intracranial hemorrhage (injury)	818.0	0.0	0.03	0.03	0.04	0.17
-Traumatic amputation	872.0	0.0	0.11	0.12	0.12	0.13
-Open wound of neck	870.6	0.0	0.04	0.04	0.03	0.0
-Spinal cord injury without evidence of spinal bone injury	952.0	0.0	0.02	0.02	0.03	0.08
-Open wounds of head; neck; and trunk	870.0	0.0	0.07	0.06	0.04	0.0
-Fracture of unspecified bones	809.0	0.0	0.02	0.02	0.03	0.0
-Fracture of ribs	807.0	0.0	0.05	0.08	0.09	0.13
-Fracture of clavicle or scapula	803.3	0.0	0.06	0.07	0.07	0.04
-Open wound of genital organs	870.8	0.0	0.03	0.02	0.01	0.04
-Fracture of pelvis	802.0	0.0	0.02	0.02	0.04	0.0
-Open wounds of extremities	871.0	0.0	1.34	1.15	1.14	1.56
-Fracture of humerus	803.1	0.0	0.03	0.06	0.09	0.08
-Fracture of upper limb	803.0	0.0	0.07	0.06	0.06	0.17
-Fracture of radius and ulna	803.2	0.0	0.13	0.17	0.25	0.29
-Fracture of hand or wrist	804.0	0.0	0.17	0.15	0.13	0.13
-Joint/ligament sprain	840.3	0.0	0.07	0.05	0.04	0.0
-Sprains and strains	840.0	0.0	0.12	0.1	0.08	0.0
-Fracture of unspecified part of femur	800.2	0.0	0.02	0.03	0.03	0.04
-Fracture of neck of femur	800.1	0.0	0.01	0.04	0.09	0.21
-Fracture of lower limb	800.0	0.0	0.09	0.11	0.14	0.04
-Fracture of patella	800.4	0.0	0.02	0.03	0.04	0.13
-Fracture of tibia and fibula	800.3	0.0	0.09	0.1	0.1	0.13
-Fracture of ankle and foot	801.0	0.0	0.08	0.09	0.1	0.25
-Open wound of toe(s)	871.4	0.0	0.02	0.03	0.02	0.04
-Open wound of foot except toe(s) alone	871.3	0.0	0.06	0.04	0.05	0.04
-Fracture of foot	801.1	0.0	0.01	0.0	0.01	0.04
-Poisoning by antibiotics	960.0	0.0	0.83	1.08	1.43	1.46
-Allergy/adverse effect of penicillin	960.2	0.0	3.87	4.69	5.61	6.74
-Adverse effects of antibacterials (not penicillins)	960.1	0.0	0.01	0.02	0.03	0.09
-Poisoning/allergy of sulfonamides	961.1	0.0	0.19	0.26	0.32	0.23
-Poisoning by other anti-infectives	961.0	0.0	0.09	0.13	0.18	0.42
-Hormones and synthetic substitutes causing adverse effects in therapeutic use	962.3	0.0	0.07	0.11	0.14	0.37
-Poisoning by hormones and synthetic substitutes	962.0	0.0	0.05	0.06	0.04	0.09
-Poisoning by primarily systemic agents	963.0	0.0	0.09	0.05	0.03	0.05
-Poisoning by analgesics, antipyretics, and antirheumatics	965.0	0.0	1.7	1.76	2.08	2.84
-Salicylates causing adverse effects in therapeutic use	965.3	0.0	0.1	0.11	0.11	0.23
-Poisoning by psychotropic agents	969.0	0.0	0.83	0.56	0.33	0.14
-Poisoning by anticonvulsants and anti-Parkinsonism drugs	966.0	0.0	0.23	0.16	0.1	0.09
-Poisoning by drugs primarily affecting the autonomic nervous system	971.0	0.0	0.08	0.06	0.04	0.0
-Antineoplastic and immunosuppressive drugs causing adverse effects	963.1	0.0	0.01	0.01	0.01	0.0
-Poisoning by agents primarily affecting blood constituents	964.0	0.0	0.01	0.0	0.0	0.0
-Anticoagulants causing adverse effects	964.1	0.0	0.04	0.07	0.13	0.37
-Poisoning by agents primarily affecting the cardiovascular system	972.0	0.0	0.07	0.09	0.06	0.0
-Poisoning by agents primarily affecting the gastrointestinal system	973.0	0.0	0.04	0.04	0.02	0.05
-Poisoning by agents primarily acting on the smooth and skeletal muscles and respiratory system	975.0	0.0	0.02	0.02	0.01	0.0
-Poisoning by agents primarily affecting skin & mucous membrane, ophthalmological, otorhinolaryngological, & dental drugs	976.0	0.0	0.02	0.01	0.01	0.0
-Poisoning by water, mineral, and uric acid metabolism drugs	974.0	0.0	0.02	0.03	0.05	0.18
-Adverse drug events and drug allergies	979.0	0.0	0.19	0.13	0.09	0.18
-Toxic effect of (non-ethyl) alcohol and petroleum and other solvents	981.0	0.0	0.08	0.05	0.02	0.0
-Toxic effect of other gases, fumes, or vapors	987.0	0.0	0.03	0.03	0.02	0.04
-Toxic effect of corrosive aromatics, acids, and caustic alkalis	983.0	0.0	0.01	0.01	0.01	0.0
-Toxic effect of other substances, chiefly nonmedicinal as to source	989.0	0.0	0.02	0.02	0.02	0.0
-Toxic effect of other metals	985.0	0.0	0.02	0.01	0.01	0.0
-Toxic effect of carbon monoxide	986.0	0.0	0.02	0.02	0.01	0.0
-Toxic effect of noxious substances eaten as food	988.0	0.0	0.01	0.01	0.01	0.0
-Toxic effect of venom	913.0	0.0	0.03	0.03	0.04	0.04
-Anaphylactic shock NOS	946.0	0.0	0.12	0.16	0.19	0.13
-Allergies, other	949.0	0.0	0.16	0.12	0.11	0.17
-Certain early complications of trauma or procedure	958.0	0.0	0.1	0.11	0.12	0.12
-Traumatic and surgical subcutaneous emphysema	958.2	0.0	0.02	0.02	0.03	0.04
-Infusion and transfusion reaction	942.0	0.0	0.0	0.0	0.0	0.0
-Adverse reaction to serum or vaccine	941.0	0.0	0.01	0.06	0.09	0.17
-Hemorrhage or hematoma complicating a procedure	850.0	0.0	1.1	1.36	1.91	2.5
-Postoperative shock	958.1	0.0	0.01	0.02	0.02	0.0
-Complications of cardiac/vascular device, implant, and graft	854.0	0.0	0.37	0.6	1.16	1.42
-Infection/inflammation of internal prosthetic device; implant; and graft	81.0	0.0	0.29	0.32	0.4	0.46
-Complication due to other implant and internal device	859.0	0.0	0.54	0.86	1.23	1.33
-Bone marrow or stem cell transplant	860.0	0.0	0.02	0.03	0.02	0.04
-Lung transplant	510.2	0.0	0.01	0.01	0.01	0.0
-Complications of transplants and reattached limbs	851.0	0.0	0.83	1.49	2.65	3.9
-Complication of amputation stump	874.0	0.0	0.04	0.05	0.05	0.13
-Suicide or self-inflicted injury	297.2	0.0	0.63	0.4	0.24	0.26
-Suicidal ideation or attempt	297.0	0.0	0.01	0.01	0.01	0.0
-Renal dialysis	585.31	0.0	0.11	0.16	0.22	0.32
-Human immunodeficiency virus [HIV] disease	71.0	0.0	0.04	0.03	0.01	0.0
-Other high-risk pregnancy	638.0	0.0	0.08	0.0	0.0	0.0
-Ileostomy status	559.0	0.0	0.27	0.52	0.84	0.98
-Chemotherapy	197.0	0.0	3.54	5.13	7.46	8.99
-Radiotherapy	196.0	0.0	0.0	0.0	0.0	0.0
-Personal history of diseases of blood and blood-forming organs	289.3	0.0	0.09	0.11	0.11	0.13
-Personal history of diseases of digestive system	564.9	0.0	2.89	4.87	7.96	10.21
-Opiates and related narcotics causing adverse effects in therapeutic use	965.1	0.0	0.28	0.37	0.55	0.69
-Kidney replaced by transpant	587.0	0.0	0.09	0.13	0.12	0.09
-Liver replaced by transplant	573.2	0.0	0.03	0.03	0.03	0.0
-Cornea replaced by transplant	364.9	0.0	0.03	0.03	0.04	0.32
-Cardiac pacemaker in situ	426.91	0.0	0.18	0.43	1.46	2.64
-Heart valve replaced	395.6	0.0	0.13	0.3	0.78	1.46
-Cardiac pacemaker/device in situ	426.9	0.0	0.02	0.05	0.13	0.25
-Insulin pump user	250.3	0.0	0.01	0.01	0.02	0.0
-Dependence on respirator [Ventilator] or supplemental oxygen	509.8	0.0	0.06	0.1	0.2	0.23
+Phenotype	PheCode	35-44	45-54	55-64	65-74
+Macular degeneration (senile) of retina NOS	362.29	0.08	0.19	0.86	2.08
+Acute posthemorrhagic anemia	285.1	0.13	0.07	0.06	0.1
+Human immunodeficiency virus [HIV] disease	71.0	0.05	0.04	0.02	0.01
+Toxic effect of venom	913.0	0.02	0.03	0.03	0.04
+Iron deficiency anemia secondary to blood loss (chronic)	280.2	0.21	0.18	0.13	0.14
+Disorders of refraction and accommodation; blindness and low vision	367.0	0.03	0.03	0.03	0.04
+Rheumatism, unspecified and fibrositis	729.1	0.09	0.1	0.1	0.09
+Benign neoplasm of adrenal gland	227.1	0.02	0.04	0.07	0.08
+Benign neoplasm of other parts of digestive system	211.0	0.5	1.03	2.04	2.76
+Congenital anomaly of gallbladder, bile ducts, liver, pancreas	750.22	0.02	0.03	0.03	0.05
+Urethral stricture (not specified as infectious)	597.1	0.56	0.67	1.02	1.48
+Gastrointestinal complications	569.2	0.09	0.11	0.16	0.23
+Diseases of the salivary glands	527.0	0.01	0.02	0.02	0.05
+Malunion and nonunion of fracture	733.8	0.04	0.04	0.04	0.04
+Type 2 diabetes with ketoacidosis	250.21	0.04	0.05	0.05	0.06
+Myalgia and myositis unspecified	770.0	0.05	0.04	0.06	0.05
+Peritonitis and retroperitoneal infections	567.0	0.16	0.22	0.29	0.39
+Septicemia	38.0	0.45	0.67	1.21	1.86
+Cervicitis and endocervicitis	614.51	0.34	0.39	0.27	0.18
+Toxic multinodular goiter	242.2	0.02	0.02	0.03	0.04
+Disorders of uterus, NEC	619.2	0.76	0.92	0.94	0.86
+Malignant neoplasm of renal pelvis	189.12	0.0	0.01	0.02	0.05
+Bronchiectasis	496.3	0.12	0.25	0.8	1.44
+Chronic pharyngitis and nasopharyngitis	472.0	0.26	0.25	0.27	0.26
+Other and unspecified disc disorder	722.9	1.18	1.12	1.14	1.3
+Neoplasm of uncertain behavior	199.0	0.22	0.25	0.39	0.55
+Secondary malignancy of lymph nodes	198.1	0.65	1.27	2.06	2.67
+Broken tooth	873.0	0.02	0.03	0.03	0.03
+Cushing's syndrome	255.11	0.02	0.03	0.03	0.03
+Malignant neoplasm of gallbladder and extrahepatic bile ducts	159.3	0.02	0.03	0.08	0.11
+Other specified diseases of the salivary glands	527.8	0.02	0.03	0.04	0.04
+Gastroesophageal laceration-hemorrhage syndrome	530.7	0.1	0.09	0.09	0.14
+Hormones and synthetic substitutes causing adverse effects in therapeutic use	962.3	0.04	0.09	0.12	0.17
+Obesity	278.1	2.71	3.46	4.07	4.38
+Myocarditis	420.1	0.02	0.03	0.03	0.04
+Irregular menstrual cycle/bleeding	626.1	0.61	0.69	0.41	0.14
+Chronic inflammatory pelvic disease	614.32	0.24	0.17	0.08	0.05
+Intestinal helminthiases	134.1	0.06	0.04	0.03	0.03
+Cancer of liver and intrahepatic bile duct	155.0	0.02	0.04	0.09	0.17
+Pleurisy; pleural effusion	507.0	0.74	1.11	2.19	4.07
+Cancer of other lymphoid, histiocytic tissue	202.0	0.18	0.23	0.38	0.54
+Abscess or ulceration of vulva	614.54	0.11	0.09	0.06	0.05
+Osteoarthritis; localized	740.1	0.55	1.39	3.35	5.56
+Von willebrand's disease	286.11	0.04	0.03	0.03	0.02
+Nevus, non-neoplastic	217.1	0.08	0.12	0.18	0.24
+Cancer within the respiratory system	165.0	0.06	0.13	0.37	0.74
+Glucocorticoid deficiency	255.21	0.08	0.1	0.12	0.12
+Disorders of the autonomic nervous system	337.0	0.04	0.04	0.07	0.07
+Generalized convulsive epilepsy	345.11	0.17	0.13	0.11	0.14
+Alzheimer's disease	290.11	0.01	0.02	0.17	0.61
+Antepartum hemorrhage, abruptio placentae, and placenta previa	635.2	1.62	0.3	0.0	0.0
+Osteoporosis NOS	743.11	0.19	0.47	1.31	2.43
+Lymphadenitis	289.4	0.6	0.64	0.85	1.06
+Ventral hernia	550.5	0.65	0.83	1.2	1.69
+Fracture of hand or wrist	804.0	0.19	0.15	0.13	0.14
+Other hypertrophic cardiomyopathy	425.12	0.04	0.04	0.07	0.07
+Cholangitis	575.1	0.03	0.1	0.19	0.32
+Abdominal aortic aneurysm	442.11	0.01	0.03	0.27	0.9
+Duodenal ulcer	531.3	0.34	0.57	0.87	1.25
+Syncope and collapse	788.0	1.34	1.84	2.75	4.39
+Primary open angle glaucoma	365.11	0.05	0.12	0.41	0.92
+Circulatory disease NEC	459.9	1.86	2.85	5.46	9.49
+Internal derangement of knee	835.0	1.0	1.11	1.05	0.94
+Lipoma of skin and subcutaneous tissue	214.1	1.07	1.32	1.43	1.34
+Cancer of brain	191.11	0.09	0.1	0.17	0.18
+Other unspecified back disorders	724.9	0.1	0.1	0.15	0.19
+Fever of unknown origin	783.0	0.89	0.99	1.23	1.55
+Other cardiac conduction disorders	426.8	0.01	0.02	0.02	0.05
+Polyneuropathy in diabetes	250.6	0.04	0.1	0.15	0.24
+Nonsenile Cataract	366.1	0.01	0.02	0.02	0.03
+Coronary atherosclerosis	411.4	0.95	2.58	6.58	11.65
+Other disorders of stomach and duodenum	537.0	0.45	0.79	1.21	1.76
+Cellulitis and abscess of face/neck	681.2	0.12	0.13	0.16	0.15
+Diaphragmatic hernia	550.2	3.31	5.44	9.31	13.07
+Neurological disorders	292.0	0.05	0.09	0.17	0.36
+Mycoses	117.0	0.04	0.03	0.04	0.07
+Bronchopneumonia and lung abscess	480.5	0.06	0.06	0.14	0.23
+Exophthalmos	242.3	0.04	0.03	0.04	0.04
+Benign neoplasm of skin	216.0	2.15	2.18	2.23	2.27
+Disorders of penis	604.0	0.18	0.18	0.22	0.31
+Other inflammatory disorders of male genital organs	601.8	0.06	0.06	0.08	0.13
+Bundle branch block	426.3	0.02	0.03	0.11	0.27
+Keratitis	370.0	0.02	0.03	0.04	0.05
+Cholesteatoma	385.3	0.11	0.12	0.15	0.17
+Extrapyramidal disease and abnormal movement disorders	333.0	0.05	0.08	0.12	0.17
+Sarcoidosis	697.0	0.12	0.18	0.19	0.17
+Salicylates causing adverse effects in therapeutic use	965.3	0.11	0.1	0.1	0.13
+Acute pain	338.1	0.09	0.1	0.12	0.16
+Endocarditis	420.3	0.08	0.11	0.22	0.42
+Occlusion and stenosis of precerebral arteries	433.1	0.03	0.1	0.31	0.79
+Phobia	300.13	0.15	0.17	0.23	0.37
+Splenomegaly	579.2	0.09	0.11	0.16	0.18
+Varicose veins of lower extremity, symptomtic	454.11	0.09	0.14	0.28	0.36
+Other chronic nonalcoholic liver disease	571.5	0.39	0.56	0.63	0.61
+Epilepsy, recurrent seizures, convulsions	345.0	0.85	0.86	0.97	1.15
+Obsessive-compulsive disorders	300.3	0.06	0.06	0.05	0.03
+Other diseases of respiratory system, NEC	519.8	1.55	1.84	2.85	4.48
+Otitis media	381.1	0.18	0.23	0.3	0.36
+Secondary malignancy of brain/spine	198.5	0.08	0.18	0.35	0.46
+Anemia in neoplastic disease	285.22	0.06	0.07	0.15	0.26
+Cancer of bladder	189.2	0.03	0.09	0.23	0.49
+Peripheral or central vertigo	386.2	0.06	0.08	0.14	0.22
+Poisoning by psychotropic agents	969.0	0.87	0.73	0.39	0.31
+Pulmonary heart disease	415.0	0.43	0.68	1.22	1.78
+Abnormal findings on exam of gastrointestinal tract/ abdominal area	564.8	0.28	0.43	0.78	1.04
+Disorders of iron metabolism	275.1	0.12	0.15	0.22	0.24
+Septal Deviations/Turbinate Hypertrophy	470.0	1.65	1.43	1.17	0.94
+Labyrinthitis	386.3	0.12	0.18	0.22	0.3
+Chronic dermatitis due to solar radiation	938.2	0.02	0.04	0.08	0.16
+Open wound of foot except toe(s) alone	871.3	0.06	0.05	0.04	0.06
+Paralysis/spasm of vocal cords or larynx	473.3	0.03	0.06	0.09	0.13
+Other intestinal obstruction	560.4	0.45	0.8	1.36	2.17
+Cancer of other female genital organs	184.0	0.05	0.04	0.04	0.05
+Progressive myopia	360.2	0.02	0.04	0.08	0.11
+Acquired foot deformities	735.0	0.02	0.03	0.05	0.05
+Cholelithiasis with acute cholecystitis	574.11	0.26	0.36	0.49	0.69
+Ectropion or entropion	374.1	0.05	0.08	0.35	0.76
+Symptoms involving cardiovascular system	429.3	0.03	0.05	0.07	0.08
+Rosacea	695.3	0.04	0.08	0.09	0.13
+Diseases of pulp and periapical tissues	522.0	0.12	0.19	0.15	0.15
+Carcinoma in situ of skin	172.3	0.03	0.07	0.22	0.52
+stress incontinence, female	624.9	1.11	1.44	1.59	1.62
+Hallux rigidus	735.23	0.15	0.26	0.54	0.53
+Inflammation of eyelids	371.3	0.51	0.62	0.65	0.8
+Infertility, female	626.8	1.42	0.49	0.01	0.0
+Hyperemesis gravidarum	643.1	0.24	0.05	0.0	0.0
+Dyspareunia	625.1	0.59	0.39	0.18	0.09
+Peritoneal adhesions (postoperative) (postinfection)	568.1	0.8	0.91	1.07	1.34
+Large cell lymphoma	202.24	0.06	0.08	0.19	0.34
+Disorders of the globe	360.0	0.01	0.02	0.02	0.03
+Varicose veins of lower extremity	454.1	1.97	2.38	3.15	3.57
+Proteinuria	269.0	0.07	0.08	0.11	0.14
+Corneal dystrophy	364.5	0.01	0.02	0.08	0.16
+Hyperparathyroidism	252.1	0.08	0.15	0.29	0.39
+Aortic aneurysm	442.1	0.04	0.08	0.21	0.39
+Irritable Bowel Syndrome	564.1	1.61	1.83	2.15	2.35
+Right bundle branch block	426.31	0.16	0.26	0.59	1.25
+Acne	706.1	0.02	0.03	0.02	0.02
+Normal delivery	650.0	3.18	0.7	0.0	0.0
+Vascular disorders of skin	694.3	0.03	0.03	0.04	0.05
+Other diseases of lung	510.0	0.11	0.15	0.33	0.52
+Meniere's disease	386.1	0.07	0.1	0.19	0.26
+Sacroiliitis NEC	715.1	0.02	0.02	0.03	0.03
+Disorder of skin and subcutaneous tissue NOS	689.0	0.97	1.19	1.73	2.4
+Ulcerative colitis	555.2	0.75	0.87	1.08	1.34
+Other acquired deformities of limbs	736.0	0.03	0.05	0.09	0.12
+Primary pulmonary hypertension	415.21	0.03	0.06	0.13	0.29
+Anxiety disorders	300.0	0.13	0.13	0.1	0.12
+Chondrocalcinosis	274.21	0.08	0.07	0.08	0.09
+Poisoning by primarily systemic agents	963.0	0.08	0.08	0.03	0.04
+Constipation	563.0	2.27	2.8	4.29	6.76
+Major depressive disorder	296.22	0.14	0.14	0.11	0.13
+Myopia	367.1	0.12	0.22	0.51	0.64
+Cyst or abscess of Bartholin's gland	614.53	0.35	0.26	0.16	0.07
+Cancer of prostate	185.0	0.06	0.48	2.19	4.21
+Substance addiction and disorders	316.0	0.28	0.19	0.09	0.04
+Diarrhea	561.1	0.08	0.12	0.24	0.31
+Multiple gestation	651.0	0.56	0.12	0.0	0.0
+Symptoms involving nervous and musculoskeletal systems	781.0	0.46	0.49	0.59	0.78
+Benign neoplasm of parathyroid gland	227.2	0.03	0.08	0.13	0.17
+Eosinophilia	288.3	0.01	0.02	0.02	0.03
+Hyperpotassemia	276.13	0.1	0.18	0.39	0.73
+Other abnormal blood chemistry	790.6	0.53	0.97	2.28	3.71
+Symptoms and disorders of the joints	741.0	0.18	0.14	0.14	0.13
+Corneal opacity	364.1	0.02	0.02	0.03	0.07
+Polymyalgia Rheumatica	717.0	0.02	0.09	0.38	1.04
+Pemphigus and pemphigoid	695.22	0.02	0.02	0.03	0.05
+Cholecystitis without cholelithiasis	574.3	0.48	0.57	0.86	1.07
+Malignant neoplasm of bladder	189.21	0.06	0.19	0.64	1.38
+Bacterial pneumonia	480.1	0.14	0.18	0.34	0.54
+Cerebral aneurysm	433.5	0.07	0.1	0.12	0.12
+Cancer of oropharynx	149.1	0.03	0.08	0.08	0.06
+Inflammatory disease of cervix, vagina, and vulva	614.5	0.04	0.03	0.05	0.04
+Other disorders of eye	379.0	0.06	0.06	0.1	0.14
+Cancer of tongue	145.2	0.03	0.08	0.1	0.09
+Disorders of menstruation and other abnormal bleeding from female genital tract	626.0	0.75	0.61	0.36	0.23
+Excessive or frequent menstruation	626.12	4.75	4.58	1.33	0.15
+Other venous embolism and thrombosis	452.0	0.1	0.17	0.2	0.24
+Allergic rhinitis	476.0	0.44	0.41	0.37	0.39
+Nephrotic syndrome without mention of glomerulonephritis	580.2	0.1	0.12	0.18	0.26
+Pneumoconiosis	500.2	0.0	0.01	0.07	0.25
+Symptoms affecting skin	687.0	0.04	0.04	0.08	0.11
+Gout	274.1	0.18	0.3	0.72	1.21
+Hypothyroidism NOS	244.4	1.96	2.94	4.71	6.15
+Chronic pain	338.2	0.12	0.14	0.12	0.11
+Vitamin B-complex deficiencies	261.2	0.16	0.21	0.27	0.44
+Other vitamin B12 deficiency anemia	281.12	0.04	0.04	0.06	0.11
+Acute renal failure	585.1	0.47	0.86	1.99	4.02
+Acute periodontitis	523.31	0.04	0.05	0.04	0.03
+Other allied disorders of spine	721.8	0.02	0.02	0.04	0.05
+Electrolyte imbalance	276.1	0.03	0.03	0.05	0.08
+Simple and unspecified goiter	240.0	0.11	0.16	0.18	0.24
+Polyneuropathy due to drugs	316.1	0.01	0.02	0.03	0.04
+Chronic renal failure [CKD]	585.3	0.23	0.4	0.98	2.31
+Joint effusions	741.4	0.05	0.05	0.07	0.09
+Hemorrhage of rectum and anus	578.8	2.5	3.24	3.82	4.24
+Premenstrual tension syndromes	626.4	0.1	0.08	0.01	0.0
+Intracranial hemorrhage (injury)	818.0	0.03	0.03	0.03	0.07
+Antisocial/borderline personality disorder	301.2	0.12	0.08	0.02	0.01
+Disorders of diaphragm	513.8	0.02	0.03	0.06	0.07
+Sialoadenitis	527.2	0.05	0.09	0.12	0.11
+Herpes zoster with nervous system complications	53.1	0.01	0.01	0.04	0.05
+Speech and language disorder	315.2	0.01	0.01	0.03	0.05
+Traumatic cataract	366.3	0.01	0.02	0.03	0.05
+Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum	159.0	0.36	0.75	1.73	3.02
+Other dyschromia	694.2	0.13	0.17	0.24	0.34
+Contracture of palmar fascia [Dupuytren's disease]	728.71	0.09	0.34	0.88	1.39
+Bladder neck obstruction	596.1	0.12	0.25	0.59	1.05
+Other anemias	285.0	2.18	2.74	3.7	5.84
+Acute and chronic tonsillitis	474.0	0.24	0.16	0.08	0.07
+Throat pain	478.0	0.06	0.08	0.12	0.14
+Fracture of neck of femur	800.1	0.01	0.03	0.06	0.12
+Impacted cerumen	380.4	0.05	0.07	0.1	0.14
+Toxic effect of other gases, fumes, or vapors	987.0	0.03	0.03	0.03	0.02
+Complications of labor and delivery NEC	669.0	4.75	0.91	0.0	0.0
+Orthostatic hypotension	458.1	0.09	0.21	0.54	1.2
+Gingival and periodontal diseases	523.0	0.09	0.12	0.15	0.16
+Polyp of corpus uteri	622.1	1.45	2.21	2.33	1.91
+Bursitis	726.3	0.13	0.17	0.16	0.16
+Disorders of bilirubin excretion	277.4	0.09	0.1	0.11	0.13
+Other disorders of biliary tract	575.8	0.11	0.21	0.38	0.53
+Cardiac shunt/ heart septal defect	747.11	0.16	0.19	0.14	0.15
+Benign neoplasm of brain, cranial nerves, meninges	225.1	0.11	0.18	0.25	0.29
+Ulceration of the lower GI tract	556.0	0.08	0.12	0.16	0.24
+Ventricular fibrillation and flutter	427.41	0.02	0.06	0.14	0.18
+Hyperhidrosis	705.8	0.16	0.16	0.18	0.25
+Hypotension	458.0	0.19	0.2	0.41	0.66
+Glossitis	529.1	0.05	0.07	0.1	0.1
+Polyp of female genital organs	622.0	0.04	0.05	0.07	0.06
+Influenza	481.0	0.11	0.11	0.13	0.2
+Nonrheumatic pulmonary valve disorders	395.4	0.02	0.02	0.04	0.07
+Other upper respiratory disease	479.0	0.93	1.06	1.15	1.21
+Peripheral vascular disease, unspecified	443.9	0.13	0.31	0.85	1.8
+Bacterial infection NOS	41.0	0.92	1.32	2.07	3.15
+Menopausal and postmenopausal disorders	627.0	0.05	0.14	0.21	0.14
+Other disorders of middle ear and mastoid	385.0	0.03	0.04	0.04	0.04
+Cyst and pseudocyst of pancreas	577.3	0.04	0.08	0.13	0.17
+Pneumonia due to fungus (mycoses)	480.3	0.03	0.03	0.03	0.07
+Abnormal spermatozoa	609.2	0.01	0.01	0.04	0.11
+Noninflammatory disorders of vagina	619.4	0.55	0.46	0.39	0.37
+Cholelithiasis with other cholecystitis	574.12	1.0	1.27	1.68	1.97
+Fracture of ribs	807.0	0.04	0.07	0.08	0.1
+Abnormal serum enzyme levels	573.9	0.03	0.05	0.07	0.12
+Strabismus (not specified as paralytic)	378.1	0.24	0.23	0.24	0.3
+Cerebrovascular disease	433.0	0.09	0.17	0.5	1.05
+Gram positive septicemia	38.2	0.1	0.11	0.16	0.25
+Localized adiposity	278.3	0.03	0.02	0.02	0.01
+Unspecified disorder of lipoid metabolism	272.9	0.02	0.04	0.1	0.2
+Cardiac pacemaker/device in situ	426.9	0.01	0.03	0.08	0.16
+Hemorrhoids	455.0	4.51	5.87	7.03	7.9
+Endometriosis	615.0	2.1	1.67	0.62	0.31
+Gingivitis	523.1	0.02	0.03	0.03	0.04
+Complication of amputation stump	874.0	0.05	0.04	0.05	0.05
+Other disorders of bone and cartilage	733.0	0.09	0.18	0.27	0.36
+Viral infection	79.0	0.88	0.84	0.69	0.71
+Other specified benign mammary dysplasias	610.8	0.14	0.18	0.18	0.17
+Secondary malignancy of bone	198.6	0.19	0.39	0.91	1.51
+Umbilical hernia	550.4	0.87	1.07	1.27	1.55
+Otosclerosis	383.0	0.08	0.1	0.07	0.08
+Cirrhosis of liver without mention of alcohol	571.51	0.1	0.17	0.25	0.28
+Musculoskeletal symptoms referable to limbs	771.0	0.14	0.2	0.24	0.31
+Disorders of the pituitary gland and its hypothalamic control	253.0	0.02	0.02	0.03	0.03
+Memory loss	292.3	0.13	0.13	0.23	0.38
+Arterial embolism and thrombosis	444.0	0.04	0.08	0.13	0.22
+Ileostomy status	559.0	0.23	0.37	0.68	0.97
+Malignant neoplasm of retroperitoneum and peritoneum	159.4	0.02	0.03	0.07	0.12
+Pneumonitis due to inhalation of food or vomitus	501.0	0.07	0.1	0.25	0.48
+Other diseases of blood and blood-forming organs	289.0	0.05	0.09	0.16	0.28
+Calculus of kidney	594.1	0.65	0.77	0.96	1.12
+Blindness and low vision	367.9	0.12	0.16	0.22	0.37
+Other CNS infection and poliomyelitis	324.0	0.04	0.06	0.1	0.12
+Atrial fibrillation and flutter	427.2	0.66	1.56	4.84	10.45
+Spontaneous ecchymoses	287.1	0.03	0.02	0.04	0.05
+Other disorders of thyroid	246.0	0.07	0.09	0.14	0.19
+Intestinal infection	8.0	0.11	0.12	0.14	0.16
+Type 1 diabetes with neurological manifestations	250.14	0.03	0.06	0.05	0.07
+Sinoatrial node dysfunction (Bradycardia)	427.8	0.02	0.06	0.16	0.36
+Swelling, mass, or lump in head and neck [Space-occupying lesion, intracranial NOS]	293.1	0.2	0.23	0.26	0.28
+Delirium dementia and amnestic and other cognitive disorders	290.0	0.02	0.04	0.14	0.39
+Early onset of delivery	636.2	1.16	0.23	0.0	0.0
+Chronic tonsillitis and adenoiditis	474.2	0.69	0.34	0.19	0.16
+Intestinal disaccharidase deficiencies and disaccharide malabsorption	271.3	0.04	0.04	0.05	0.06
+Anemia during pregnancy	644.0	1.35	0.33	0.0	0.0
+Endometrial hyperplasia	621.0	0.21	0.31	0.34	0.26
+Ulcerative colitis (chronic)	555.21	0.2	0.18	0.22	0.2
+Fracture of pelvis	802.0	0.02	0.02	0.03	0.05
+Displacement of intervertebral disc	722.1	0.11	0.14	0.09	0.08
+Fracture of lower limb	800.0	0.09	0.09	0.12	0.15
+Other diseases of respiratory system, not elsewhere classified	519.0	0.01	0.02	0.03	0.05
+Chronic airway obstruction	496.0	0.45	1.08	2.91	5.34
+Inguinal hernia	550.1	1.92	2.6	5.18	8.06
+Pyelonephritis	590.0	0.43	0.42	0.45	0.5
+Cancer of other female genital organs (excluding uterus and ovary)	184.2	0.04	0.09	0.09	0.1
+Complication of internal orthopedic device	858.0	0.43	0.61	1.19	1.81
+Nonspecific findings on examination of blood	790.0	0.04	0.03	0.06	0.1
+Candidiasis	112.0	0.48	0.47	0.73	1.13
+Other disorders of bladder	596.0	0.78	1.24	2.29	3.86
+Other acquired musculoskeletal deformity	738.0	0.15	0.12	0.08	0.07
+Nonrheumatic aortic valve disorders	395.2	0.02	0.02	0.08	0.21
+Corns and callosities	700.0	0.03	0.07	0.09	0.11
+Astigmatism	367.2	0.02	0.04	0.07	0.13
+Fracture of upper limb	803.0	0.07	0.06	0.05	0.07
+Hereditary and idiopathic peripheral neuropathy	356.0	0.02	0.04	0.05	0.05
+Acute upper respiratory infections of multiple or unspecified sites	465.0	0.36	0.33	0.4	0.42
+Arthropathy associated with neurological disorders	713.5	0.01	0.02	0.03	0.03
+Sprains and strains	840.0	0.11	0.11	0.09	0.07
+Disturbance of salivary secretion	527.7	0.0	0.02	0.02	0.03
+Urinary calculus	594.0	0.09	0.13	0.14	0.13
+Other disorders of lipoid metabolism	277.5	0.04	0.05	0.07	0.09
+Cancer of urinary organs (incl. kidney and bladder)	189.0	0.1	0.3	0.91	1.8
+Anxiety disorder	300.1	1.71	1.96	2.21	2.61
+Acute tonsillitis	474.1	0.5	0.21	0.09	0.06
+Congenital anomalies of male genital organs	751.12	0.04	0.04	0.05	0.09
+Pain and other symptoms associated with female genital organs	625.0	0.9	0.77	0.33	0.19
+Other chronic ischemic heart disease, unspecified	411.8	0.58	1.68	5.01	10.21
+Cellulitis and abscess of arm/hand	681.3	1.07	1.27	1.72	2.31
+Abnormal sputum	516.0	0.01	0.02	0.03	0.05
+Degenerative disease of the spinal cord	334.0	0.3	0.33	0.48	0.66
+Fracture of patella	800.4	0.02	0.02	0.03	0.05
+Infantile cerebral palsy	343.0	0.06	0.05	0.03	0.03
+Convulsions	345.3	0.62	0.63	0.65	0.83
+Open wound of neck	870.6	0.05	0.04	0.03	0.03
+Pernicious anemia	281.11	0.08	0.16	0.24	0.4
+Prolapse of vaginal walls	618.1	0.73	1.39	2.28	2.75
+Infections of genitourinary tract during pregnancy	647.1	0.49	0.09	0.0	0.0
+Nonspecific abnormal findings on radiological and other examination of biliary tract	575.9	0.05	0.08	0.12	0.2
+Other disorders of intestine	569.0	0.49	0.78	1.23	1.78
+Lymphoid leukemia, chronic	204.12	0.02	0.06	0.18	0.3
+Erectile dysfunction [ED]	605.0	0.08	0.1	0.17	0.27
+Type 1 diabetes	250.1	0.51	0.64	0.85	1.14
+Mineral deficiency NEC	262.0	0.07	0.08	0.1	0.11
+Benign neoplasm of male genital organs	222.0	0.03	0.03	0.05	0.05
+Benign neoplasm of pituitary gland and craniopharyngeal duct (pouch)	227.3	0.07	0.09	0.11	0.11
+Cancer of esophagus	150.0	0.02	0.08	0.26	0.46
+Disorders of optic nerve and visual pathways	377.0	0.04	0.04	0.06	0.11
+Atherosclerosis of aorta	440.9	0.0	0.01	0.06	0.12
+Anterior horn cell disease	334.2	0.02	0.05	0.08	0.14
+Cancer of connective tissue	170.2	0.05	0.07	0.1	0.11
+Disorders of conjunctiva	372.0	0.14	0.21	0.25	0.38
+Systemic lupus erythematosus	695.42	0.1	0.13	0.11	0.12
+Abnormality of organs and soft tissues of pelvis complicating pregnancy, childbirth, or the puerperium	654.1	2.05	0.44	0.0	0.0
+Liver replaced by transplant	573.2	0.02	0.03	0.03	0.03
+Jaw disease NOS	526.9	0.04	0.07	0.07	0.08
+Urinary tract infection	591.0	1.84	2.45	3.98	6.73
+Hodgkin's disease	201.0	0.08	0.08	0.07	0.07
+Fluid overload	276.6	0.06	0.1	0.21	0.41
+Corneal edema	364.2	0.01	0.01	0.03	0.05
+Frequency of urination and polyuria	599.5	0.6	0.78	1.2	1.71
+Nystagmus and other irregular eye movements	378.2	0.05	0.06	0.06	0.1
+Changes in skin texture	687.3	0.01	0.02	0.04	0.04
+Paranoid disorders	295.2	0.06	0.09	0.06	0.08
+Flat foot	735.1	0.03	0.03	0.06	0.07
+Nontoxic multinodular goiter	241.2	0.1	0.16	0.24	0.27
+Early or threatened labor; hemorrhage in early pregnancy	636.0	1.97	0.32	0.0	0.0
+Nerve root and plexus disorders	353.0	0.16	0.22	0.36	0.51
+Multiple sclerosis	335.0	0.36	0.46	0.35	0.25
+Cardiac conduction disorders	426.0	0.02	0.02	0.06	0.11
+Prostatitis	601.1	0.06	0.11	0.22	0.3
+Balanoposthitis	601.4	0.04	0.06	0.08	0.13
+Hydrocephalus	331.1	0.1	0.11	0.18	0.23
+Other diseases of the teeth and supporting structures	525.0	0.7	0.74	0.76	0.9
+Hemorrhage NOS	459.1	0.02	0.01	0.03	0.06
+Secondary thrombocytopenia	287.32	0.01	0.02	0.03	0.05
+Anorexia	260.6	0.11	0.17	0.27	0.46
+Acute pericarditis	420.21	0.04	0.05	0.06	0.07
+Sciatica	764.0	0.28	0.33	0.41	0.53
+Hydronephrosis	595.0	0.36	0.44	0.66	0.95
+Late effects of cerebrovascular disease	433.8	0.14	0.22	0.43	0.81
+Ascites (non malignant)	572.0	0.24	0.36	0.55	0.76
+Hemangioma and lymphangioma, any site	228.0	0.3	0.36	0.46	0.52
+Myocardial infarction	411.2	0.73	1.75	4.07	7.52
+Cancer of other male genital organs	187.0	0.03	0.03	0.05	0.04
+Skull and face fracture and other intercranial injury	819.0	0.38	0.33	0.24	0.21
+Hypertrophic obstructive cardiomyopathy	425.11	0.03	0.03	0.05	0.07
+Other nondiabetic retinopathy	362.3	0.01	0.02	0.03	0.03
+Symptoms involving head and neck	293.0	0.54	0.61	0.58	0.44
+Cerebral degeneration, unspecified	331.9	0.04	0.08	0.14	0.35
+Anomalies of endocrine glands, congenital	759.1	0.01	0.03	0.03	0.02
+Venous/cerebrovascular complications embolism in pregnancy and the puerperium	671.0	0.32	0.07	0.0	0.0
+Primary angle-closure glaucoma	365.2	0.04	0.11	0.26	0.43
+Polycystic ovaries	256.4	0.31	0.1	0.01	0.01
+Anemia of chronic disease	285.2	0.03	0.06	0.1	0.19
+Delirium due to conditions classified elsewhere	290.2	0.05	0.11	0.3	0.86
+Benign neoplasm of respiratory and intrathoracic organs	212.0	0.09	0.08	0.1	0.13
+Acromegaly and gigantism	253.11	0.02	0.02	0.03	0.04
+Myopathy	359.2	0.04	0.06	0.08	0.09
+GERD	530.11	2.63	3.74	5.64	7.15
+Rheumatoid arthritis and other inflammatory polyarthropathies	714.0	0.03	0.07	0.14	0.2
+Other demyelinating diseases of central nervous system	341.0	0.09	0.09	0.06	0.03
+Diseases of pancreas	577.0	0.07	0.11	0.21	0.29
+Cancer of stomach	151.0	0.03	0.08	0.18	0.4
+Open wound of toe(s)	871.4	0.02	0.02	0.02	0.02
+Suppurative and unspecified otitis media	381.11	0.18	0.19	0.23	0.22
+Autoimmune hemolytic anemias	283.1	0.01	0.02	0.04	0.07
+Atrioventricular [AV] block	426.2	0.01	0.02	0.04	0.11
+Pelvic inflammatory disease, NOS	614.33	0.22	0.11	0.05	0.03
+Essential hypertension	401.1	6.02	12.48	25.5	39.69
+Osteoarthrosis, localized, primary	740.11	0.5	1.11	2.79	4.78
+Malaise and fatigue	798.0	0.6	0.72	0.88	1.21
+Corneal ulcer	370.1	0.03	0.04	0.04	0.07
+Diseases of lips	528.5	0.15	0.17	0.21	0.22
+Stiffness of joint	741.2	0.02	0.02	0.03	0.05
+Intervertebral disc disorder with myelopathy	722.7	0.09	0.09	0.13	0.15
+Type 2 diabetes with renal manifestations	250.22	0.02	0.05	0.09	0.15
+Macroglobulinemia	270.35	0.0	0.01	0.02	0.05
+Other forms of chronic heart disease	414.0	0.13	0.31	0.76	1.6
+Benign neoplasm of kidney and other urinary organs	223.0	0.01	0.04	0.07	0.1
+Atherosclerosis of the extremities	440.2	0.02	0.04	0.14	0.32
+Other disorders of tympanic membrane	384.0	0.08	0.1	0.1	0.1
+Pneumonia	480.0	0.51	0.73	1.35	2.57
+Allergies, other	949.0	0.14	0.14	0.11	0.11
+Superficial cellulitis and abscess	681.0	0.1	0.12	0.15	0.22
+Giant cell arteritis	446.5	0.01	0.03	0.14	0.3
+Unspecified erythematous condition	695.9	0.08	0.11	0.15	0.23
+Aspergillosis	117.4	0.02	0.03	0.06	0.08
+Cutaneous lupus erythematosus	695.41	0.04	0.05	0.04	0.05
+Left bundle branch block	426.32	0.12	0.23	0.68	1.54
+Dysmenorrhea	626.2	1.03	0.85	0.16	0.01
+Hidradenitis	705.3	0.09	0.08	0.04	0.02
+Nonrheumatic mitral valve disorders	395.1	0.26	0.44	1.0	2.04
+Hypoparathyroidism	252.2	0.02	0.04	0.06	0.07
+Complications of transplants and reattached limbs	851.0	0.7	1.09	1.98	3.27
+Chronic bronchitis	496.2	0.03	0.05	0.11	0.21
+Postmenopausal atrophic vaginitis	627.3	0.03	0.18	0.4	0.55
+Fracture of vertebral column without mention of spinal cord injury	805.0	0.06	0.08	0.1	0.13
+Chronic hepatitis	70.4	0.05	0.06	0.09	0.09
+Chronic lymphocytic thyroiditis	245.21	0.05	0.06	0.07	0.07
+Open wound of lip and mouth	870.5	0.14	0.11	0.1	0.13
+Other endocrine disorders	259.0	0.04	0.04	0.03	0.03
+Dystrophy of female genital tract	624.1	0.01	0.07	0.09	0.1
+Epistaxis or throat hemorrhage	477.0	0.29	0.41	0.77	1.29
+Other specified erythematous conditions	695.8	0.04	0.04	0.06	0.05
+Diverticulosis	562.1	1.95	5.2	10.91	16.84
+Poisoning/allergy of sulfonamides	961.1	0.17	0.21	0.31	0.32
+Effects radiation NOS	990.0	0.42	0.69	1.29	1.94
+Spinal cord injury without evidence of spinal bone injury	952.0	0.02	0.02	0.03	0.03
+Malignant neoplasm of unspecified male genital organ	187.1	0.01	0.01	0.03	0.03
+Heart valve replaced	395.6	0.1	0.19	0.49	1.02
+Contracture of tendon (sheath)	727.7	0.03	0.03	0.04	0.05
+Nonspecific abnormal findings in stool contents	579.8	0.24	0.4	0.77	0.78
+Occlusion of cerebral arteries	433.2	0.22	0.45	0.94	1.97
+Herpes zoster	53.0	0.05	0.07	0.12	0.18
+Other and unspecified disorders of the nervous system	349.0	0.09	0.11	0.12	0.15
+Glaucoma	365.0	0.2	0.46	1.29	2.67
+Pituitary hypofunction	253.2	0.06	0.07	0.09	0.09
+Migraine	340.0	1.07	0.98	0.78	0.69
+Abdominal hernia	550.0	0.66	0.85	1.26	1.74
+Other specified disorders of breast	613.8	0.1	0.11	0.09	0.07
+Hypermetropia	367.8	0.03	0.03	0.08	0.17
+Cerebral cysts	348.4	0.03	0.04	0.04	0.05
+Retinoschisis and retinal cysts	361.2	0.01	0.02	0.03	0.04
+Symptoms involving respiratory system and other chest symptoms	519.9	0.07	0.08	0.09	0.11
+Partial epilepsy	345.12	0.1	0.09	0.08	0.09
+Agorophobia, social phobia, and panic disorder	300.12	0.25	0.26	0.27	0.36
+Alkalosis	276.42	0.02	0.03	0.05	0.09
+Noninflammatory disorders of vulva and perineum	619.5	0.49	0.43	0.32	0.3
+Disorders of vitreous body	379.2	0.1	0.21	0.49	0.79
+Diplopia and disorders of binocular vision	368.2	0.15	0.17	0.22	0.31
+Lung disease due to external agents	500.0	0.02	0.02	0.03	0.08
+Spinocerebellar disease	334.1	0.03	0.04	0.04	0.06
+Aplastic anemia	284.0	0.06	0.1	0.16	0.27
+Alcohol-related disorders	317.0	1.65	1.86	1.63	1.57
+Abnormality of gait	350.2	0.25	0.31	0.63	1.37
+Chorioretinal scars	363.3	0.0	0.01	0.03	0.05
+Somatoform disorder	303.4	0.04	0.05	0.03	0.04
+Other mental disorder	306.0	4.09	5.68	10.46	15.44
+Swelling of limb	771.1	0.17	0.17	0.24	0.35
+Acute pancreatitis	577.1	0.15	0.27	0.39	0.5
+Femoral hernia	550.3	0.1	0.13	0.22	0.34
+Secondary malignant neoplasm of liver	198.4	0.26	0.55	1.06	1.77
+Other hypertrophic and atrophic conditions of skin	701.0	0.29	0.37	0.48	0.62
+Symptomatic menopause	627.2	0.02	0.05	0.06	0.04
+Cancer of bronchus; lung	165.1	0.12	0.31	0.85	1.49
+Open wound of nose and sinus	870.4	0.06	0.06	0.07	0.11
+Other inflammatory spondylopathies	715.0	0.03	0.07	0.12	0.18
+Lack of coordination	350.3	0.08	0.07	0.11	0.16
+Iatrogenic hypotension	458.2	0.02	0.03	0.08	0.18
+Disturbances in tooth eruption	520.2	1.3	0.64	0.36	0.28
+Separation of retinal layers	362.31	0.0	0.02	0.03	0.06
+Facial nerve disorders [CN7]	352.2	0.16	0.21	0.28	0.35
+Other disorders of synovium, tendon, and bursa	727.0	0.27	0.27	0.28	0.27
+Abnormal granulation tissue	701.5	0.1	0.11	0.13	0.15
+Cataract	366.0	0.65	1.62	5.72	13.35
+Folate-deficiency anemia	281.13	0.02	0.05	0.07	0.1
+Urinary incontinence	599.4	1.53	2.08	2.62	3.34
+Hypoglycemia	251.1	0.15	0.25	0.33	0.64
+Chronic pancreatitis	577.2	0.1	0.13	0.16	0.17
+Malignant neoplasm of ovary	184.11	0.15	0.19	0.3	0.43
+Torsion dystonia	333.4	0.04	0.07	0.09	0.11
+Phlebitis and thrombophlebitis	451.0	0.06	0.09	0.13	0.17
+Dementia with cerebral degenerations	290.12	0.0	0.0	0.02	0.08
+Benign neoplasm of colon	208.0	1.8	3.93	7.15	9.66
+Hypertrophy of breast (Gynecomastia)	612.2	0.27	0.25	0.2	0.16
+Testicular hypofunction	257.1	0.04	0.04	0.05	0.05
+Other disorders of circulatory system	459.0	0.01	0.03	0.05	0.07
+Other disorders of metabolism	277.0	0.18	0.22	0.31	0.44
+Extrinsic allergic alveolitis	500.1	0.01	0.02	0.02	0.05
+Atopic/contact dermatitis due to other or unspecified	939.0	0.52	0.56	0.68	0.9
+Osteochondropathies	732.0	0.09	0.08	0.06	0.04
+Nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)	793.2	0.07	0.13	0.2	0.28
+Retinal detachments and defects	361.0	0.17	0.36	0.72	0.81
+Inflammatory disease of breast	613.1	0.22	0.21	0.16	0.17
+Dermatitis due to solar radiation	938.0	0.0	0.02	0.04	0.05
+Articular cartilage disorder	742.8	0.04	0.04	0.02	0.02
+Diabetes or abnormal glucose tolerance complicating pregnancy	649.1	0.37	0.08	0.0	0.0
+Anomalous atrioventricular excitation	426.4	0.07	0.05	0.07	0.07
+Noninflammatory disorders of ovary, fallopian tube, and broad ligament	619.1	0.35	0.26	0.16	0.14
+Other perinatal conditions of fetus or newborn	656.0	0.88	0.18	0.0	0.0
+Other conditions of brain, NOS	348.9	0.09	0.09	0.14	0.19
+Cardiac pacemaker in situ	426.91	0.14	0.26	0.83	2.02
+Other infectious and parasitic diseases	136.0	0.04	0.06	0.07	0.1
+Diabetes insipidus	253.3	0.02	0.02	0.03	0.02
+Traumatic and surgical subcutaneous emphysema	958.2	0.02	0.02	0.02	0.04
+Congenital anomalies of peripheral vascular system	747.2	0.04	0.04	0.05	0.05
+Hallucinations	292.6	0.08	0.08	0.1	0.19
+Cancer of larynx	149.4	0.01	0.03	0.08	0.14
+Renal failure NOS	585.2	0.14	0.23	0.46	0.81
+Adverse reaction to serum or vaccine	941.0	0.01	0.04	0.07	0.11
+Pseudomonal pneumonia	480.12	0.0	0.01	0.03	0.06
+Pelvic peritoneal adhesions, female (postoperative) (postinfection)	614.1	1.39	1.02	0.48	0.37
+Mucous polyp of cervix	622.2	0.53	0.88	0.97	0.62
+Noninflammatory female genital disorders	619.0	0.06	0.07	0.04	0.02
+Obstruction of bile duct	575.2	0.15	0.17	0.28	0.41
+Bone marrow or stem cell transplant	860.0	0.03	0.03	0.03	0.01
+Cardiomegaly	416.0	0.28	0.43	0.96	1.76
+Corneal degenerations	364.4	0.01	0.02	0.04	0.11
+Precordial pain	418.1	0.75	1.07	1.3	1.62
+Atherosclerosis of renal artery	440.1	0.01	0.01	0.02	0.06
+Secondary malignant neoplasm of skin	198.7	0.03	0.04	0.08	0.1
+Absent or infrequent menstruation	626.11	0.09	0.05	0.02	0.0
+Obstetrical/birth trauma	665.0	9.17	1.68	0.01	0.0
+Diseases of spleen	289.5	0.09	0.13	0.16	0.23
+Malposition and malpresentation of fetus or obstruction	652.0	3.02	0.55	0.0	0.0
+Pyogenic granuloma	686.4	0.09	0.09	0.1	0.12
+Other and unspecified congenital anomalies	759.0	0.04	0.03	0.04	0.03
+Myoclonus	333.2	0.01	0.02	0.03	0.05
+Other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium	649.0	0.21	0.03	0.0	0.0
+Viral hepatitis B	70.2	0.06	0.08	0.06	0.03
+Other nonspecific findings on examination of urine	598.9	0.05	0.05	0.09	0.16
+Other local infections of skin and subcutaneous tissue	686.0	0.26	0.31	0.44	0.58
+Hypoventilation	513.3	0.02	0.02	0.03	0.05
+Other abnormality of urination	599.9	0.21	0.33	0.57	0.87
+Hypertensive chronic kidney disease	401.22	0.12	0.24	0.55	1.43
+Esophageal bleeding (varices/hemorrhage)	530.2	0.28	0.42	0.64	0.89
+Pulmonary congestion and hypostasis	503.0	0.06	0.08	0.17	0.33
+Benign neoplasm of unspecified sites	229.0	0.58	0.61	0.6	0.58
+Opiates and related narcotics causing adverse effects in therapeutic use	965.1	0.25	0.31	0.46	0.62
+Anaphylactic shock NOS	946.0	0.11	0.15	0.16	0.2
+Hyposmolality and/or hyponatremia	276.12	0.16	0.33	0.76	1.47
+Hereditary retinal dystrophies	362.7	0.02	0.02	0.03	0.04
+Diverticulum of esophagus, acquired	530.6	0.01	0.02	0.07	0.11
+Inflammatory conditions of jaw	526.5	0.02	0.03	0.03	0.04
+Congenital hip dysplasia and deformity	755.61	0.05	0.04	0.02	0.02
+Anomalies of pupillary function	379.4	0.01	0.02	0.03	0.04
+Atherosclerosis	440.0	0.01	0.02	0.06	0.11
+Poisoning by hormones and synthetic substitutes	962.0	0.05	0.06	0.04	0.05
+Disorders of phosphorus metabolism	275.53	0.03	0.05	0.09	0.14
+Type 1 diabetes with ophthalmic manifestations	250.13	0.1	0.13	0.15	0.2
+Tinnitus	389.4	0.09	0.13	0.19	0.24
+Abnormal results of function study of liver	573.7	0.56	0.83	1.22	1.6
+Sleep apnea	327.3	0.95	1.31	1.48	1.41
+Kidney replaced by transpant	587.0	0.07	0.12	0.12	0.11
+Back pain	760.0	1.42	1.61	1.8	2.2
+Toxic gastroenteritis and colitis	569.1	0.01	0.04	0.08	0.12
+Heart failure NOS	428.2	0.25	0.55	1.47	3.21
+Cerebral atherosclerosis	433.12	0.01	0.03	0.08	0.2
+Irregular menstrual bleeding	626.14	1.67	1.81	0.65	0.11
+Cystic kidney disease	751.21	0.07	0.1	0.12	0.18
+Rash and other nonspecific skin eruption	687.1	0.49	0.55	0.67	0.88
+Other symptoms involving abdomen and pelvis	579.0	0.22	0.29	0.34	0.46
+Acquired spondylolisthesis	738.4	0.02	0.06	0.09	0.14
+Diseases of hair and hair follicles	704.0	1.29	1.34	1.32	1.36
+Personality disorders	301.0	0.16	0.13	0.06	0.04
+Encephalopathy, not elsewhere classified	348.8	0.01	0.04	0.05	0.06
+Non-proliferative glomerulonephritis	580.12	0.02	0.03	0.05	0.07
+Fetal distress and abnormal forces of labor	661.0	4.18	0.64	0.0	0.0
+Traumatic amputation	872.0	0.11	0.13	0.12	0.12
+Toxic erythema	695.1	0.04	0.03	0.02	0.04
+Inflammation of the eye	371.0	0.01	0.02	0.03	0.05
+Paralytic strabismus	378.5	0.04	0.07	0.09	0.12
+Chronic periodontitis	523.32	0.52	0.38	0.27	0.2
+Alteration of consciousness	291.8	0.13	0.12	0.15	0.23
+Spondylosis without myelopathy	721.1	0.1	0.18	0.34	0.46
+Aneurysm of artery of lower extremity	442.3	0.01	0.02	0.05	0.13
+Preeclampsia and eclampsia	642.1	0.51	0.12	0.0	0.0
+Infection/inflammation of internal prosthetic device; implant; and graft	81.0	0.25	0.31	0.35	0.46
+Bronchitis	497.0	0.08	0.14	0.22	0.32
+Sepsis	994.2	0.42	0.62	1.12	1.67
+Kyphoscoliosis and scoliosis	737.3	0.09	0.09	0.15	0.25
+Adverse drug events and drug allergies	979.0	0.17	0.18	0.1	0.09
+Malignant neoplasm of ovary and other uterine adnexa	184.1	0.01	0.02	0.03	0.06
+Hyperlipidemia	272.1	0.3	0.8	1.94	3.6
+Malignant neoplasm of other urinary organs	189.4	0.0	0.01	0.04	0.09
+Symptoms involving digestive system	561.0	2.72	4.04	5.63	7.1
+Cervical cancer	180.1	0.09	0.09	0.07	0.05
+Infection of the eye	369.0	0.06	0.05	0.09	0.1
+Dysuria	599.3	0.25	0.3	0.36	0.5
+Other disorders of the kidney and ureters	586.0	0.13	0.24	0.37	0.6
+Other specified congenital anomalies of nervous system	752.2	0.03	0.02	0.02	0.01
+Psychogenic disorder	303.3	0.1	0.1	0.12	0.12
+Gram negative septicemia	38.1	0.11	0.16	0.32	0.52
+Viral Enteritis	8.6	0.2	0.21	0.26	0.39
+Ulceration of intestine	556.1	0.19	0.19	0.32	0.38
+Other heart block	426.25	0.01	0.02	0.04	0.09
+Generalized anxiety disorder	300.11	0.05	0.05	0.05	0.05
+Hyperosmolality and/or hypernatremia	276.11	0.04	0.05	0.1	0.22
+Other specified cardiac dysrhythmias	427.3	0.33	0.59	1.14	2.24
+Sleep disorders	327.0	0.19	0.26	0.3	0.26
+Voice disturbance	473.4	0.12	0.22	0.33	0.43
+Prolapse of vaginal vault after hysterectomy	618.5	0.03	0.07	0.16	0.21
+Noninfectious disorders of lymphatic channels	450.0	0.14	0.18	0.26	0.34
+Hyperplasia of prostate	600.0	0.25	1.04	3.8	7.66
+Bipolar	296.1	0.37	0.4	0.34	0.31
+Sialolithiasis	528.7	0.07	0.08	0.08	0.07
+Meningitis	320.0	0.16	0.12	0.1	0.1
+Mild cognitive impairment	292.2	0.02	0.04	0.07	0.19
+Nausea and vomiting	789.0	2.5	2.96	3.49	4.58
+Acute bronchitis and bronchiolitis	483.0	0.05	0.05	0.07	0.1
+Acute (transverse) myelitis	323.2	0.03	0.03	0.02	0.01
+Urinary complications NEC	597.2	0.01	0.01	0.03	0.03
+Staphylococcus infections	41.1	0.58	0.74	0.99	1.4
+Congenital anomalies of urinary system	751.2	0.02	0.02	0.03	0.03
+Jaundice (not of newborn)	573.5	0.11	0.2	0.29	0.4
+Contusion	916.0	0.3	0.34	0.39	0.67
+Cystic mastopathy	610.1	0.16	0.24	0.23	0.13
+Tension headache	306.9	0.12	0.11	0.1	0.09
+Calculus of lower urinary tract	594.2	0.09	0.1	0.26	0.42
+Malignant neoplasm of testis	187.2	0.13	0.09	0.05	0.04
+Abnormal involuntary movements	350.1	0.2	0.23	0.3	0.39
+Myeloid leukemia, chronic	204.22	0.03	0.03	0.05	0.06
+Nerve plexus lesions	353.1	0.04	0.04	0.03	0.03
+Acute prostatitis	601.11	0.01	0.03	0.09	0.13
+Acquired hypothyroidism	244.2	0.02	0.03	0.04	0.04
+Known or suspected fetal abnormality affecting management of mother	655.0	7.44	1.44	0.01	0.0
+Nasal polyps	471.0	0.58	0.73	0.92	1.05
+Cancer, suspected or other	195.0	0.13	0.19	0.28	0.42
+Mitral valve disease	394.2	0.27	0.45	1.03	2.13
+Cardiogenic shock	797.1	0.0	0.02	0.04	0.06
+Secondary hypothyroidism	244.1	0.16	0.27	0.42	0.54
+Multiple myeloma	204.4	0.05	0.09	0.2	0.34
+Keloid scar	701.4	0.08	0.1	0.06	0.06
+Purpura and other hemorrhagic conditions	287.0	0.02	0.01	0.03	0.06
+Psychosis	295.3	0.1	0.07	0.05	0.06
+Peptic ulcer, site unspecified	531.4	0.05	0.08	0.13	0.19
+Anal and rectal conditions	565.0	2.16	2.3	2.36	2.75
+Ganglion and cyst of synovium, tendon, and bursa	727.4	0.62	0.78	0.88	0.83
+Contracture of joint	739.0	0.02	0.02	0.03	0.02
+Vascular insufficiency of intestine	441.0	0.02	0.06	0.11	0.19
+Intracranial hemorrhage	430.0	0.02	0.03	0.03	0.06
+Respiratory insufficiency	509.2	0.17	0.27	0.6	1.11
+Umbilical cord complications during labor and delivery	663.0	0.99	0.25	0.0	0.0
+Primary thrombocytopenia	287.31	0.07	0.09	0.13	0.19
+Chronic fatigue syndrome	798.1	0.18	0.2	0.17	0.13
+Ovarian cyst	628.0	2.08	1.83	1.02	0.68
+Hyperaldosteronism	255.12	0.01	0.02	0.03	0.02
+Corneal opacity and other disorders of cornea	364.0	0.03	0.05	0.08	0.12
+Nonspecific chest pain	418.0	5.21	6.83	8.63	10.5
+Aneurysm of other specified artery	442.8	0.03	0.05	0.08	0.1
+Prurigo and Lichen	695.7	0.11	0.16	0.25	0.3
+Myeloproliferative disease	200.0	0.08	0.11	0.22	0.41
+Cellulitis and abscess of leg, except foot	681.5	1.07	1.27	1.72	2.31
+Tympanosclerosis and middle ear disease related to otitis media	385.5	0.06	0.06	0.06	0.05
+Other abnormal glucose	250.42	0.08	0.12	0.14	0.2
+Abnormal findings on examination of urine	598.0	0.47	0.62	0.97	1.44
+Retinal hemorrhage/ischemia	362.8	0.01	0.01	0.04	0.06
+Otorrhea	381.9	0.05	0.06	0.07	0.09
+Temporomandibular joint disorder, unspecified	526.41	0.06	0.08	0.07	0.04
+Arteritis NOS	446.9	0.04	0.04	0.09	0.13
+Cardiac congenital anomalies	747.1	0.06	0.06	0.06	0.06
+Stricture/obstruction of ureter	586.4	0.15	0.21	0.3	0.41
+Suicide or self-inflicted injury	297.2	0.64	0.54	0.27	0.25
+Valvular heart disease/ heart chambers	747.12	0.06	0.06	0.08	0.08
+Secondary malignant neoplasm	198.0	0.11	0.24	0.45	0.71
+Osteoarthrosis, generalized	740.2	0.01	0.06	0.19	0.34
+Congestive heart failure (CHF) NOS	428.1	0.09	0.23	0.73	1.81
+Open wounds of head; neck; and trunk	870.0	0.07	0.06	0.04	0.04
+Chronic pulmonary heart disease	415.2	0.02	0.02	0.06	0.14
+Secondary malignant neoplasm of digestive systems	198.3	0.16	0.32	0.62	1.03
+Elevated blood pressure reading without diagnosis of hypertension	402.0	0.23	0.34	0.64	1.1
+Fasciitis	728.7	0.08	0.08	0.07	0.07
+Cellulitis and abscess of trunk	681.7	0.14	0.16	0.18	0.23
+Heartburn	530.9	0.42	0.54	0.74	0.81
+Type 2 diabetes	250.2	1.94	3.79	6.53	10.03
+Parkinson's disease	332.0	0.03	0.11	0.41	1.01
+Injuries to the nervous system	907.0	0.37	0.36	0.36	0.35
+Cerebral edema and compression of brain	348.2	0.08	0.08	0.09	0.1
+Neoplasm of uncertain behavior of male genital organs	187.8	0.03	0.02	0.03	0.04
+Stomatitis and mucositis (ulcerative)	528.11	0.07	0.12	0.13	0.14
+Disorders of iris and ciliary body	379.5	0.04	0.06	0.13	0.21
+Pain, swelling or discharge of eye	379.9	0.05	0.05	0.05	0.07
+Pneumococcal pneumonia	480.11	0.86	1.15	2.11	3.73
+Premenopausal menorrhagia	627.4	0.07	0.12	0.09	0.01
+Pruritus and related conditions	698.0	0.22	0.2	0.23	0.26
+Anisometropia	368.3	0.01	0.01	0.06	0.1
+Appendicitis	540.1	0.23	0.16	0.14	0.11
+Other non-epithelial cancer of skin	172.2	0.78	1.44	3.55	6.34
+Iatrogenic endocrine disorders	258.0	0.02	0.02	0.04	0.03
+Oliguria and anuria	599.6	0.01	0.01	0.04	0.08
+Dermatophytosis of nail	110.11	0.01	0.02	0.03	0.03
+Cough	512.8	0.61	0.68	1.01	1.35
+Arrhythmia (cardiac) NOS	427.5	0.1	0.15	0.33	0.63
+Other disorders of peritoneum	568.0	0.05	0.07	0.08	0.09
+Allergy/adverse effect of penicillin	960.2	3.73	4.27	5.06	6.12
+Scar conditions and fibrosis of skin	701.2	0.51	0.55	0.66	0.73
+Shortness of breath	512.7	1.04	1.31	1.99	2.94
+Other disorders of liver	573.0	0.24	0.34	0.57	0.82
+Type 2 diabetes with ophthalmic manifestations	250.23	0.17	0.29	0.5	0.91
+Cancer of mouth	145.0	0.02	0.03	0.05	0.06
+Neutropenia	288.11	0.53	0.72	1.13	1.33
+Flatulence	561.2	0.46	0.58	0.72	0.82
+Glycosuria or Acetonuria	250.5	0.12	0.04	0.02	0.02
+Conjunctivitis, infectious	369.5	0.04	0.04	0.09	0.11
+Sensorineural hearing loss	389.1	0.07	0.1	0.17	0.24
+Premature beats	427.6	0.08	0.16	0.24	0.41
+Cellulitis and abscess of foot, toe	681.6	1.07	1.27	1.72	2.31
+Dislocation	830.0	0.69	0.56	0.49	0.55
+Tachycardia NOS	427.7	0.42	0.58	0.81	1.23
+Other complications of pregnancy NEC	646.0	4.0	0.78	0.01	0.0
+Symptoms of the muscles	772.0	0.03	0.05	0.07	0.08
+Benign neoplasm of other female genital organs	221.0	0.06	0.07	0.06	0.05
+Renal dialysis	585.31	0.09	0.14	0.18	0.25
+Other and unspecified coagulation defects	286.7	0.12	0.1	0.11	0.15
+Cervicalgia	761.0	0.24	0.27	0.3	0.33
+Noninflammatory disorders of cervix	619.3	1.07	0.89	0.63	0.42
+Other signs and symptoms in breast	613.7	0.11	0.14	0.12	0.12
+Nonrheumatic tricuspid valve disorders	395.3	0.01	0.02	0.05	0.08
+Osteoarthrosis NOS	740.9	0.46	0.9	1.99	3.34
+Fracture of ankle and foot	801.0	0.09	0.08	0.09	0.12
+Congenital deformities of feet	755.1	0.07	0.05	0.07	0.05
+Unspecified osteomyelitis	710.19	0.02	0.02	0.03	0.05
+Acute reaction to stress	300.8	0.07	0.05	0.03	0.03
+Malignant neoplasm of small intestine, including duodenum	159.2	0.02	0.03	0.06	0.11
+Portal hypertension	571.81	0.09	0.17	0.2	0.21
+Ingrowing nail	703.1	0.2	0.2	0.23	0.23
+Irregular menstrual cycle	626.13	0.6	0.71	0.41	0.11
+Localized superficial swelling, mass, or lump	687.2	0.04	0.05	0.06	0.07
+Cellulitis and abscess of fingers/toes	681.1	0.12	0.15	0.18	0.21
+Autism	313.3	0.04	0.03	0.01	0.01
+Complication of colostomy or enterostomy	853.0	0.07	0.13	0.16	0.24
+Arterial embolism and thrombosis of lower extremity artery	444.1	0.03	0.07	0.17	0.36
+Other immunological findings	279.7	0.01	0.04	0.07	0.14
+Intestinal malabsorption (non-celiac)	557.0	0.09	0.1	0.12	0.12
+Polydipsia	276.8	0.03	0.04	0.03	0.04
+Senile cataract	366.2	0.26	0.74	3.32	8.09
+Congenital osteodystrophies	756.5	0.04	0.04	0.05	0.05
+Open wounds of extremities	871.0	1.35	1.24	1.1	1.23
+Superficial injury without mention of infection	915.0	1.01	1.09	1.29	1.96
+Rhesus isoimmunization in pregnancy	654.2	0.46	0.1	0.0	0.0
+Deficiency of humoral immunity	279.11	0.03	0.04	0.05	0.05
+Streptococcus infection	41.2	0.46	0.4	0.51	0.68
+Chromosomal anomalies	758.1	0.06	0.03	0.03	0.02
+Small kidney	586.11	0.03	0.05	0.06	0.12
+Thyrotoxicosis with or without goiter	242.0	0.24	0.34	0.47	0.66
+Rheumatoid arthritis	714.1	0.3	0.52	0.89	1.29
+Second degree AV block	426.23	0.04	0.07	0.15	0.4
+Vaginal enterocele, congenital or acquired	618.6	0.04	0.11	0.22	0.27
+Gastric ulcer	531.2	0.48	0.79	1.36	1.95
+Perforation of tympanic membrane	384.4	0.22	0.25	0.28	0.29
+Disturbance of skin sensation	687.4	0.9	0.87	0.79	0.82
+Disorders of the orbit	376.0	0.02	0.02	0.03	0.03
+Cyst of kidney, acquired	586.2	0.12	0.22	0.48	0.88
+Chronic venous insufficiency [CVI]	456.0	0.03	0.04	0.07	0.16
+Acute gastritis	535.1	0.17	0.23	0.43	0.58
+Asthma	495.0	6.51	6.85	7.65	9.22
+Dementias	290.1	0.03	0.05	0.26	1.05
+Abnormal results of function study of kidney	589.0	0.02	0.02	0.05	0.07
+Urinary obstruction	599.1	0.02	0.02	0.05	0.11
+Benign neoplasm of thyroid glands	226.0	0.06	0.07	0.08	0.08
+Hemoptysis	516.1	0.29	0.4	0.66	0.91
+Osteoarthrosis, localized, secondary	740.12	0.03	0.07	0.09	0.09
+Acquired acanthosis nigricans	701.6	0.01	0.02	0.04	0.04
+Otalgia	382.0	0.07	0.09	0.08	0.08
+Other hereditary hemolytic anemias	282.9	0.04	0.02	0.03	0.05
+Poisoning by other anti-infectives	961.0	0.06	0.11	0.15	0.22
+Other disorders of soft tissues	729.0	0.28	0.26	0.35	0.46
+Other persistent mental disorders due to conditions classified elsewhere	290.3	0.06	0.04	0.01	0.01
+Vitamin D deficiency	261.4	0.21	0.24	0.28	0.34
+Edema	782.3	0.2	0.33	0.62	1.1
+Other disorders of prostate	602.0	0.05	0.12	0.42	0.97
+Open wound or laceration of eye or eyelid	870.1	0.13	0.14	0.13	0.21
+Laxity of ligament or hypermobility syndrome	728.2	0.07	0.05	0.03	0.01
+Paraproteinemia	270.32	0.01	0.03	0.08	0.16
+Complication due to other implant and internal device	859.0	0.5	0.68	1.02	1.43
+Palpitations	427.9	0.81	1.0	1.28	1.62
+Neoplasm of uncertain behavior of breast	174.3	0.02	0.03	0.04	0.02
+Non-Hodgkins lymphoma	202.2	0.16	0.26	0.47	0.72
+Elevated sedimentation rate	790.1	0.01	0.01	0.03	0.05
+Congenital anomalies of skin	691.0	0.02	0.02	0.02	0.03
+Leukemia	204.0	0.07	0.09	0.14	0.21
+Disease of tricuspid valve	394.7	0.09	0.18	0.44	0.9
+Trigeminal nerve disorders [CN5]	352.1	0.07	0.1	0.15	0.22
+Allergic reaction to food	930.0	0.07	0.06	0.05	0.04
+Primary/intrinsic cardiomyopathies	425.1	0.14	0.21	0.35	0.54
+Postinflammatory pulmonary fibrosis	502.0	0.05	0.1	0.31	0.78
+Cysts of the jaws	526.1	0.07	0.09	0.09	0.09
+Thrombocytopenia	287.3	0.2	0.28	0.42	0.64
+Open wound of ear	870.2	0.06	0.05	0.05	0.05
+Keratoconus	364.41	0.03	0.04	0.02	0.02
+Hypopotassemia	276.14	0.22	0.29	0.6	1.02
+Diseases of esophagus	530.0	0.08	0.13	0.23	0.3
+Bacterial enteritis	8.5	0.4	0.46	0.62	0.83
+Poisoning by agents primarily affecting the gastrointestinal system	973.0	0.04	0.04	0.02	0.03
+Other complications of the puerperium NEC	674.0	0.47	0.08	0.0	0.0
+Cardiac arrest	427.42	0.08	0.17	0.39	0.73
+Ankylosing spondylitis	715.2	0.08	0.08	0.14	0.14
+HIV infection, symptomatic	71.1	0.09	0.06	0.03	0.01
+Eustachian tube disorders	381.2	0.05	0.04	0.06	0.05
+Aphasia/speech disturbance	292.1	0.27	0.31	0.5	0.83
+Wegener's granulomatosis	446.4	0.02	0.03	0.06	0.07
+Immunity deficiency	279.1	0.02	0.02	0.03	0.03
+Poisoning by agents primarily affecting the cardiovascular system	972.0	0.07	0.08	0.06	0.07
+Peripheral enthesopathies and allied syndromes	726.0	1.59	2.15	2.71	3.01
+Occlusion of cerebral arteries, with cerebral infarction	433.11	0.01	0.02	0.05	0.08
+Pituitary hyperfunction	253.1	0.05	0.03	0.02	0.02
+Other open wound of head and face	870.3	0.66	0.73	0.82	1.27
+Hypertension complicating pregnancy, childbirth, and the puerperium	642.0	1.68	0.33	0.0	0.0
+Paralytic ileus	560.1	0.09	0.13	0.22	0.44
+Other conditions of brain	348.0	0.02	0.03	0.05	0.07
+Vitiligo	694.1	0.02	0.01	0.03	0.01
+Chronic interstitial cystitis	592.13	0.05	0.06	0.08	0.13
+Acidosis	276.41	0.17	0.22	0.42	0.73
+Intestinal infection due to C. difficile	8.52	0.09	0.11	0.22	0.37
+Alcoholic liver damage	317.11	0.16	0.28	0.29	0.22
+Disorders of external ear	380.0	0.07	0.13	0.18	0.28
+Congenital anomalies of female genital organs	751.11	0.19	0.17	0.09	0.06
+Obstructive chronic bronchitis	496.21	0.13	0.36	1.05	2.2
+Hydrocele	603.1	0.2	0.28	0.41	0.62
+Hemorrhage from gastrointestinal ulcer	531.1	0.05	0.11	0.19	0.35
+Neurofibromatosis	199.4	0.02	0.03	0.03	0.03
+Pancreatic cancer	157.0	0.04	0.1	0.23	0.39
+Cellulitis and abscess of oral soft tissues	528.3	0.06	0.05	0.05	0.04
+Congenital anomalies of muscle, tendon, fascia, and connective tissue	756.3	0.05	0.02	0.02	0.02
+Infectious and parasitic complications affecting pregnancy	647.0	0.15	0.03	0.0	0.0
+Disease of capillaries	448.0	0.01	0.02	0.04	0.06
+Redundant prepuce and phimosis/BXO	604.1	0.69	0.67	0.76	0.96
+Subjective visual disturbances	368.9	0.2	0.19	0.18	0.27
+Pain in joint	745.0	0.35	0.4	0.43	0.56
+Hypotension NOS	458.9	0.48	0.73	1.39	2.35
+Impaired fasting glucose	250.41	0.08	0.07	0.1	0.17
+Peripheral angiopathy in diseases classified elsewhere	443.7	0.03	0.08	0.14	0.21
+Gangrene	791.0	0.11	0.13	0.21	0.28
+Stricture and stenosis of esophagus	530.3	0.2	0.38	0.74	1.08
+Neoplasm of unspecified nature of digestive system	158.0	0.08	0.18	0.38	0.58
+Nontoxic uninodular goiter	241.1	0.12	0.14	0.17	0.17
+Pilonidal cyst	686.3	0.31	0.18	0.09	0.06
+Synovitis and tenosynovitis	727.1	0.27	0.55	0.84	0.9
+Arthropathy NOS	716.9	2.46	4.5	8.7	13.08
+Other retinal disorders	362.0	0.06	0.13	0.36	0.6
+Hemorrhagic disorder due to intrinsic circulating anticoagulants	286.5	0.01	0.01	0.02	0.05
+Other headache syndromes	339.0	2.53	2.37	2.12	2.26
+Dysphagia	532.0	1.13	1.61	2.41	3.31
+Hemorrhage of gastrointestinal tract	578.9	1.46	1.67	1.93	2.4
+Cancer of other endocrine glands	194.0	0.03	0.02	0.03	0.03
+Type 2 diabetes with neurological manifestations	250.24	0.06	0.15	0.22	0.38
+Osteopenia or other disorder of bone and cartilage	743.9	0.04	0.04	0.07	0.07
+Essential tremor	333.1	0.02	0.04	0.09	0.16
+Thyroid cancer	193.0	0.07	0.11	0.11	0.1
+Disorders of calcium/phosphorus metabolism	275.5	0.14	0.21	0.43	0.62
+Abnormal function study of cardiovascular system	429.2	0.09	0.12	0.19	0.28
+Other benign neoplasm of uterus	218.2	0.09	0.12	0.1	0.06
+Type 1 diabetes with ketoacidosis	250.11	0.11	0.09	0.06	0.07
+Lump or mass in breast	611.3	0.37	0.43	0.44	0.36
+Malignant neoplasm of uterus	182.0	0.09	0.21	0.5	0.6
+Abdominal pain	785.0	10.73	10.57	11.14	12.31
+Malignant neoplasm, other	195.1	1.73	2.75	5.49	8.8
+Nonspecific abnormal findings on radiological and other examination of musculoskeletal system	793.0	0.02	0.03	0.04	0.07
+Rupture of tendon, nontraumatic	727.6	0.02	0.03	0.02	0.03
+Disorders of other cranial nerves	352.0	0.0	0.02	0.02	0.04
+Cerebral ischemia	433.3	0.05	0.1	0.35	0.95
+Renal colic	594.8	0.45	0.51	0.53	0.43
+Type 1 diabetes with renal manifestations	250.12	0.02	0.03	0.03	0.03
+Pelvic inflammatory disease (PID)	614.3	0.09	0.06	0.03	0.01
+Acute vascular insufficiency of intestine	441.1	0.02	0.04	0.1	0.14
+Congenital deficiency of other clotting factors (including factor VII)	286.12	0.1	0.07	0.08	0.08
+Congenital anomalies of intestine	750.21	0.04	0.05	0.06	0.08
+Malignant neoplasm of kidney, except pelvis	189.11	0.07	0.15	0.36	0.51
+Fracture of clavicle or scapula	803.3	0.05	0.07	0.06	0.08
+Urticaria	947.0	0.13	0.13	0.17	0.23
+Tobacco use disorder	318.0	5.52	5.78	5.73	6.07
+Congenital musculoskeletal deformities of spine	754.0	0.04	0.03	0.02	0.03
+Abnormal heart sounds	396.0	0.22	0.25	0.34	0.55
+Dependence on respirator [Ventilator] or supplemental oxygen	509.8	0.06	0.07	0.14	0.24
+Personal history of diseases of digestive system	564.9	2.44	3.74	6.27	9.44
+Liver abscess and sequelae of chronic liver disease	571.8	0.09	0.14	0.21	0.24
+Blood in stool	578.2	0.39	0.58	0.84	1.28
+Late pregnancy and failed induction	645.0	2.04	0.41	0.0	0.0
+Epiphora	375.2	0.07	0.12	0.29	0.52
+Hypovolemia	276.5	0.41	0.56	1.06	1.92
+Other disorders of cervical region	723.0	0.09	0.1	0.13	0.15
+Hammer toe (acquired)	735.21	0.1	0.3	0.67	0.88
+Peripheral retinal degenerations	362.6	0.03	0.04	0.06	0.06
+Noninfectious gastroenteritis	558.0	3.25	3.94	5.22	6.63
+Diseases and other conditions of the tongue	529.0	0.16	0.23	0.31	0.3
+Hemorrhage or hematoma complicating a procedure	850.0	1.01	1.23	1.58	2.2
+Arthropod-borne diseases	133.0	0.06	0.05	0.04	0.02
+Uveitis, noninfectious or NOS	371.1	0.09	0.12	0.16	0.2
+Diseases of nail, NOS	703.0	0.06	0.06	0.11	0.12
+Juvenile osteochondrosis	732.1	0.06	0.05	0.05	0.04
+Neuralgia, neuritis, and radiculitis NOS	766.0	0.07	0.08	0.11	0.11
+Postmenopausal bleeding	627.1	0.41	1.77	3.16	2.95
+Hypertrophy of female genital organs	623.0	0.52	0.5	0.27	0.15
+Breast cancer [female]	174.1	0.3	0.47	0.72	0.65
+Chromosomal anomalies and genetic disorders	758.0	0.04	0.02	0.03	0.01
+Personal history of diseases of blood and blood-forming organs	289.3	0.09	0.09	0.11	0.12
+Cancer of eye	190.0	0.01	0.03	0.06	0.05
+Pain in limb	773.0	0.31	0.31	0.38	0.45
+Amblyopia	368.1	0.06	0.08	0.19	0.38
+Alopecia	704.1	0.06	0.04	0.05	0.03
+Cornea replaced by transplant	364.9	0.03	0.03	0.04	0.05
+Leukoplakia of oral mucosa	528.6	0.05	0.08	0.09	0.13
+Intracerebral hemorrhage	430.2	0.06	0.12	0.24	0.48
+Hepatitis NOS	70.9	0.11	0.12	0.15	0.16
+Posttraumatic stress disorder	300.9	0.11	0.07	0.04	0.02
+Cervical intraepithelial neoplasia [CIN] [Cervical dysplasia]	180.3	1.06	0.77	0.42	0.23
+Joint/ligament sprain	840.3	0.06	0.06	0.05	0.03
+Mastoiditis & related conditions	381.3	0.04	0.04	0.04	0.05
+Disorders of esophageal motility	530.5	0.1	0.14	0.24	0.31
+Phlebitis and thrombophlebitis of lower extremities	451.2	0.49	0.71	1.23	1.8
+Disorders of adrenal glands	255.0	0.02	0.04	0.06	0.07
+Epilepsy	345.1	0.08	0.1	0.09	0.11
+Chronic prostatitis	601.12	0.06	0.1	0.31	0.53
+Paroxysmal ventricular tachycardia	427.12	0.11	0.16	0.33	0.57
+Other disorders of eyelids	374.0	0.47	0.61	0.93	1.24
+Ulcer of esophagus	530.12	0.5	0.86	1.7	2.68
+Benign neoplasm of bone and articular cartilage	213.0	0.09	0.1	0.08	0.1
+Mixed hyperlipidemia	272.13	0.02	0.04	0.06	0.09
+Anticoagulants causing adverse effects	964.1	0.03	0.05	0.09	0.19
+Acquired deformities of finger	736.2	0.06	0.05	0.07	0.08
+Visual disturbances	368.0	0.29	0.26	0.33	0.45
+Esophagitis, GERD and related diseases	530.1	1.32	2.03	3.15	4.24
+Unspecified monoarthritis	716.2	1.75	3.03	5.52	8.07
+Atrophy of female genital tract	624.2	0.02	0.07	0.16	0.22
+Difficulty in walking	741.3	0.04	0.03	0.06	0.11
+Subdural hemorrhage	430.3	0.03	0.04	0.09	0.22
+Vaginitis and vulvovaginitis	614.52	0.12	0.1	0.11	0.1
+Transient cerebral ischemia	433.31	0.13	0.29	0.66	1.32
+Breast disorder NOS	613.9	0.03	0.04	0.05	0.05
+Placenta previa and abruptio placenta	635.3	2.39	0.4	0.0	0.0
+Disorders of magnesium metabolism	275.3	0.06	0.08	0.18	0.29
+Fracture of tibia and fibula	800.3	0.07	0.09	0.11	0.09
+First degree AV block	426.21	0.05	0.13	0.4	0.97
+Iron deficiency anemias, unspecified or not due to blood loss	280.1	1.7	2.14	2.53	3.8
+Other disorders of male genital organs	608.0	0.55	0.61	0.8	1.04
+Hematuria	593.0	2.05	3.15	4.79	6.91
+Other alveolar and parietoalveolar pneumonopathy	504.0	0.03	0.06	0.12	0.22
+Genital prolapse	618.0	0.06	0.09	0.14	0.14
+Cholelithiasis	574.1	1.5	1.96	2.69	3.3
+Toxic effect of (non-ethyl) alcohol and petroleum and other solvents	981.0	0.08	0.07	0.03	0.02
+Celiac disease	557.1	0.38	0.51	0.67	0.89
+Postoperative infection	80.0	0.84	1.05	1.29	1.63
+Develomental delays and disorders	315.0	0.05	0.06	0.09	0.16
+Anal and rectal polyp	565.1	0.95	1.69	2.54	3.33
+Graves' disease	242.1	0.15	0.15	0.14	0.12
+Other specified diseases of hair and hair follicles	704.8	0.02	0.02	0.02	0.02
+Inflammatory diseases of uterus, except cervix	614.4	0.13	0.11	0.06	0.04
+Hemorrhage in early pregnancy	636.3	1.57	0.3	0.01	0.0
+Angina pectoris	411.3	0.7	1.98	5.31	10.03
+Calculus of ureter	594.3	0.49	0.6	0.7	0.71
+Atrioventricular block, complete	426.24	0.04	0.06	0.22	0.55
+Acquired toe deformities	735.2	0.2	0.35	0.73	0.89
+Stricture of artery	447.1	0.03	0.09	0.27	0.57
+Certain early complications of trauma or procedure	958.0	0.09	0.11	0.11	0.11
+Adverse effects of sedatives or other central nervous system depressants and anesthetics	967.0	0.15	0.14	0.15	0.18
+Mastodynia	613.5	0.02	0.02	0.02	0.02
+Colon cancer	153.2	0.14	0.43	1.06	1.96
+Eye infection, viral	369.2	0.02	0.03	0.04	0.06
+Peritoneal or intestinal adhesions	560.3	0.12	0.2	0.38	0.55
+Fracture of unspecified bones	809.0	0.01	0.02	0.02	0.03
+Hemiplegia	342.0	0.26	0.32	0.54	0.84
+Manlignant and unknown neoplasms of brain and nervous system	191.0	0.05	0.05	0.06	0.07
+Transient mental disorders due to conditions classified elsewhere	291.1	0.06	0.06	0.03	0.02
+Benign neoplasm of breast	610.4	0.51	0.52	0.33	0.25
+Other specified gastritis	535.8	1.07	1.94	2.98	4.19
+Other paralytic syndromes	344.0	0.18	0.19	0.2	0.25
+Appendiceal conditions	540.0	0.08	0.07	0.07	0.06
+Other disorders of gallbladder	575.7	0.29	0.33	0.45	0.57
+Hypercholesterolemia	272.11	2.12	4.9	11.4	18.72
+Diabetic retinopathy	250.7	0.17	0.29	0.5	0.9
+Wheezing	512.1	0.05	0.06	0.09	0.13
+Lipoma	214.0	0.25	0.36	0.51	0.63
+Other specified congenital anomalies of kidney	751.22	0.07	0.09	0.1	0.13
+Fracture of unspecified part of femur	800.2	0.01	0.02	0.03	0.04
+Melanomas of skin	172.11	0.4	0.51	0.84	1.2
+Myasthenia gravis	358.1	0.02	0.03	0.06	0.09
+Other acute and subacute forms of ischemic heart disease	411.9	0.1	0.25	0.48	0.89
+Spina bifida	752.11	0.09	0.06	0.05	0.05
+Raynaud's syndrome	443.1	0.24	0.3	0.38	0.49
+Migrain with aura	340.1	0.11	0.08	0.05	0.06
+Neoplasm of uncertain behavior of skin	173.0	0.03	0.04	0.05	0.06
+Duodenitis	535.6	1.16	1.71	2.56	3.28
+Diseases of the larynx and vocal cords	473.0	0.26	0.35	0.45	0.61
+Supraventricular premature beats	427.61	0.01	0.02	0.05	0.09
+Poisoning by water, mineral, and uric acid metabolism drugs	974.0	0.01	0.03	0.03	0.08
+Degeneration of intervertebral disc	722.6	0.62	0.71	0.92	1.14
+Chronic ulcer of skin	707.0	0.15	0.24	0.42	0.71
+Rupture of synovium	727.5	0.04	0.08	0.12	0.22
+Chronic cystitis	592.12	0.11	0.17	0.28	0.47
+Congenital anomalies of mouth/tongue	750.13	0.02	0.02	0.06	0.11
+Aseptic necrosis of bone	733.4	0.01	0.02	0.02	0.03
+Other disorders of arteries and arterioles	447.0	0.06	0.1	0.19	0.29
+Hematemesis	578.1	0.39	0.49	0.55	0.89
+Dental caries	521.1	1.24	1.06	0.88	0.86
+Adjustment reaction	304.0	0.14	0.12	0.08	0.05
+Inflammatory and toxic neuropathy	357.0	0.21	0.31	0.49	0.71
+Other cerebral degenerations	331.0	0.02	0.05	0.08	0.19
+Atrophic gastritis	535.2	0.02	0.07	0.13	0.24
+Synoviopathy	726.2	0.12	0.13	0.1	0.07
+Abnormal results of other function studies (bladder, pancreas, placenta, spleen, etc)	794.0	0.16	0.03	0.01	0.01
+Regional enteritis	555.1	0.54	0.54	0.62	0.67
+Torticollis	723.1	0.02	0.02	0.02	0.02
+Chronic glomerulonephritis, NOS	580.14	0.04	0.08	0.21	0.55
+Impaction of intestine	560.2	0.06	0.08	0.11	0.18
+Hyperventilation	513.4	0.08	0.07	0.06	0.09
+Rheumatic disease of the heart valves	394.0	0.06	0.11	0.34	0.84
+Mood disorders	296.0	0.03	0.03	0.02	0.03
+Secondary malignancy of respiratory organs	198.2	0.22	0.47	0.93	1.47
+Acute sinusitis	464.0	0.06	0.05	0.05	0.05
+Sickle cell anemia	282.5	0.23	0.15	0.06	0.05
+Dizziness and giddiness (Light-headedness and vertigo)	386.9	0.86	1.07	1.48	2.23
+Acute appendicitis	540.11	0.77	0.64	0.51	0.49
+Poisoning by anticonvulsants and anti-Parkinsonism drugs	966.0	0.23	0.2	0.12	0.09
+Abnormal findings examination of lungs	514.0	0.25	0.44	0.87	1.51
+Other dyspnea	512.9	0.19	0.21	0.29	0.38
+Paroxysmal supraventricular tachycardia	427.11	0.35	0.51	0.8	1.21
+Muscular dystrophies	359.1	0.06	0.03	0.03	0.04
+Organic or persistent insomnia	327.41	0.04	0.05	0.05	0.05
+Otitis externa	380.1	0.15	0.13	0.14	0.16
+Chorioretinal inflammations, scars, and other disorders of choroid	363.0	0.01	0.02	0.03	0.05
+Vascular dementia	290.16	0.01	0.01	0.08	0.35
+Varicose veins	454.0	0.19	0.14	0.15	0.15
+Tuberculosis	10.0	0.06	0.06	0.08	0.07
+Other derangement of joint	742.9	0.29	0.22	0.17	0.14
+Other peripheral nerve disorders	351.0	2.02	2.92	3.8	3.94
+Congenital anomalies of face and neck	749.0	0.1	0.08	0.06	0.05
+Complications of cardiac/vascular device, implant, and graft	854.0	0.31	0.47	0.84	1.43
+Retention of urine	599.2	0.65	1.01	2.4	4.74
+Hypothermia/Chills	780.0	0.03	0.04	0.07	0.1
+Traumatic arthropathy	836.0	0.03	0.06	0.08	0.08
+Chronic sinusitis	475.0	0.52	0.67	0.77	0.7
+Sebaceous cyst	706.2	1.86	2.08	2.21	2.39
+Malignant neoplasm of liver, primary	155.1	0.0	0.03	0.05	0.11
+Viral pneumonia	480.2	0.02	0.02	0.03	0.03
+Oral aphthae	528.12	0.03	0.02	0.02	0.03
+Visual field defects	368.4	0.04	0.07	0.11	0.18
+Aneurysm of iliac artery	442.2	0.0	0.01	0.03	0.1
+Carbuncle and furuncle	686.1	0.75	0.77	0.65	0.65
+Poisoning by drugs primarily affecting the autonomic nervous system	971.0	0.08	0.07	0.05	0.03
+Altered mental status	292.4	0.21	0.36	0.78	1.68
+E. coli	41.4	0.44	0.6	1.01	1.63
+Viral hepatitis	70.0	0.07	0.09	0.08	0.07
+Calculus of bile duct	574.2	0.43	0.56	0.83	1.09
+Fibrosclerosis of breast	610.3	0.07	0.08	0.08	0.06
+Pulmonary collapse; interstitial and compensatory emphysema	508.0	0.3	0.42	0.81	1.3
+Spinal stenosis	720.0	0.07	0.1	0.24	0.47
+Cholesterolosis of gallbladder	575.6	0.14	0.13	0.14	0.11
+Ptosis of eyelid	374.3	0.15	0.29	0.63	0.95
+Chemotherapy	197.0	3.09	4.26	6.28	8.36
+Nodular lymphoma	202.21	0.04	0.08	0.11	0.17
+Disorders of lacrimal system	375.0	0.18	0.26	0.56	0.89
+Nephritis and nephropathy with pathological lesion	580.32	0.03	0.06	0.09	0.11
+Diseases of white blood cells	288.0	0.13	0.14	0.2	0.26
+Gastritis and duodenitis	535.0	2.61	3.94	5.89	7.53
+Chronic pericarditis	420.22	0.01	0.01	0.02	0.03
+Protein-calorie malnutrition	260.0	0.03	0.04	0.06	0.08
+Emphysema	496.1	0.12	0.23	0.68	1.32
+Cerebral artery occlusion, with cerebral infarction	433.21	0.14	0.26	0.58	1.19
+Other hemoglobinopathies	282.8	0.11	0.09	0.06	0.06
+Nonspecific abnormal findings on radiological and other examination of skull and head	346.1	0.03	0.03	0.05	0.07
+Uterine leiomyoma	218.1	3.36	3.86	2.57	1.47
+Respiratory failure	509.1	0.19	0.3	0.69	1.29
+Viral hepatitis C	70.3	0.12	0.16	0.09	0.03
+Unstable angina (intermediate coronary syndrome)	411.1	0.26	0.73	1.66	3.05
+Pericarditis	420.2	0.22	0.22	0.37	0.53
+Hearing loss	389.0	0.35	0.54	1.12	2.08
+Poisoning by analgesics, antipyretics, and antirheumatics	965.0	1.72	1.71	1.87	2.31
+Dysplasia of female genital organs	620.0	0.02	0.02	0.02	0.02
+Learning disorder	315.1	0.1	0.07	0.04	0.03
+Congenital anomalies of breast	612.3	0.04	0.03	0.02	0.01
+Myeloid leukemia, acute	204.21	0.05	0.05	0.09	0.17
+Acute pharyngitis	465.2	0.25	0.23	0.26	0.26
+Respiratory complications	519.2	0.04	0.04	0.09	0.16
+Optic neuritis/neuropathy	377.3	0.04	0.05	0.05	0.06
+Acute laryngitis and tracheitis	465.4	0.03	0.04	0.04	0.05
+Fracture of radius and ulna	803.2	0.12	0.15	0.21	0.27
+Alcoholism	317.1	1.93	2.33	2.79	3.08
+Anomalies of tooth position/malocclusion	524.3	0.2	0.1	0.06	0.04
+Reflux esophagitis	530.14	1.63	2.4	3.61	4.69
+Disorders secondary to childbirth, surgery, trauma	617.0	0.09	0.1	0.07	0.08
+Cystitis	592.1	0.23	0.39	0.63	1.02
+Fibroadenosis of breast	610.2	0.09	0.08	0.08	0.05
+Chronic laryngitis	473.1	0.01	0.02	0.03	0.03
+Other disorders of ear	388.0	0.03	0.03	0.03	0.04
+Bone cancer	170.1	0.03	0.03	0.04	0.05
+Urethritis and urethral syndrome	592.2	0.01	0.03	0.04	0.05
+Decubitus ulcer	707.1	0.02	0.04	0.08	0.14
+Primary biliary cirrhosis	571.6	0.02	0.05	0.09	0.1
+Erythema nodosum	695.81	0.03	0.03	0.02	0.01
+Aortic valve disease	394.3	0.1	0.16	0.47	0.94
+Other disorders of urethra and urinary tract	597.0	0.08	0.13	0.25	0.37
+Cancer of major salivary glands	145.3	0.02	0.03	0.04	0.03
+Other disorders of testis	603.0	0.27	0.26	0.24	0.32
+Other benign neoplasm of connective and other soft tissue	215.0	0.23	0.28	0.31	0.31
+Vascular disorders of kidney/hypertrophy	586.3	0.02	0.02	0.02	0.05
+Fracture of humerus	803.1	0.03	0.04	0.06	0.1
+Asthma with exacerbation	495.2	0.09	0.09	0.08	0.1
+Uterine/Uterovaginal prolapse	618.2	0.59	0.95	1.71	1.98
+Schizophrenia	295.1	0.3	0.27	0.17	0.18
+Malignant neoplasm of rectum, rectosigmoid junction, and anus	153.3	0.12	0.32	0.74	1.22
+Other disorders of neurohypophysis	253.7	0.01	0.02	0.06	0.11
+Cervical radiculitis	765.0	0.17	0.18	0.14	0.12
+Empyema and pneumothorax	506.0	0.24	0.23	0.36	0.58
+Encephalitis	323.0	0.06	0.08	0.08	0.09
+Problems associated with amniotic cavity and membranes	653.0	2.74	0.49	0.0	0.0
+Paroxysmal tachycardia, unspecified	427.1	0.01	0.02	0.04	0.06
+Excessive vomiting in pregnancy	643.0	0.18	0.03	0.0	0.0
+Aneurysm and dissection of heart	411.41	0.08	0.13	0.26	0.43
+Althete's foot	110.12	0.04	0.04	0.04	0.05
+Other hypertensive complications	401.3	0.02	0.04	0.05	0.1
+Poisoning by antibiotics	960.0	0.78	0.94	1.24	1.6
+Functional disorders of bladder	596.5	0.23	0.35	0.45	0.61
+Other symptoms/disorders or the urinary system	599.0	0.92	1.22	2.07	3.29
+Respiratory arrest	509.5	0.02	0.04	0.04	0.06
+Hepatomegaly	573.3	0.06	0.08	0.11	0.11
+Abnormality of red blood cells	289.9	0.01	0.02	0.03	0.04
+Subarachnoid hemorrhage	430.1	0.13	0.21	0.24	0.25
+Pallor and flushing	782.6	0.06	0.04	0.06	0.06
+Enthesopathy	726.1	0.99	1.54	2.27	2.7
+Retinal detachment with retinal defect	361.1	0.17	0.29	0.5	0.51
+Cyst of the salivary gland	528.41	0.03	0.02	0.03	0.03
+Periapical abscess	522.5	0.38	0.39	0.34	0.3
+Functional digestive disorders	564.0	0.16	0.23	0.31	0.5
+Mechanical complication of unspecified genitourinary device, implant, and graft	857.0	0.25	0.32	0.4	0.6
+Amyloidosis	270.33	0.02	0.01	0.04	0.09
+Retinal vascular changes and abnomalities	362.4	0.06	0.12	0.3	0.58
+Hypertensive heart disease	401.21	0.01	0.03	0.08	0.17
+Benign neoplasm of lip, oral cavity, and pharynx	210.0	0.19	0.21	0.28	0.28
+Disorders resulting from impaired renal function	588.0	0.01	0.02	0.03	0.04
+Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue	528.0	0.37	0.48	0.62	0.67
+Congenital anomalies of great vessels	747.13	0.1	0.2	0.59	1.38
+Acute cystitis	592.11	0.02	0.03	0.04	0.08
+Painful respiration	512.2	0.04	0.07	0.06	0.09
+Malignant neoplasm of female breast	174.11	1.54	2.56	4.02	4.32
+Hallux valgus (Bunion)	735.3	0.65	1.37	2.2	2.21
+Aphakia and other disorders of lens	379.3	0.08	0.16	0.67	1.65
+Spondylosis and allied disorders	721.0	0.12	0.2	0.37	0.56
+Conductive hearing loss	389.2	0.09	0.11	0.12	0.12
+Coma	348.7	0.08	0.07	0.11	0.18

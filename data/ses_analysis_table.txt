@@ -1,0 +1,1148 @@
+PheCode	Phenotype	MinPrev	MaxPrev
+362.29	Macular degeneration (senile) of retina NOS	0.76	0.85
+285.1	Acute posthemorrhagic anemia	0.06	0.09
+71.0	Human immunodeficiency virus [HIV] disease	0.0	0.09
+913.0	Toxic effect of venom	0.03	0.04
+280.2	Iron deficiency anemia secondary to blood loss (chronic)	0.11	0.22
+367.0	Disorders of refraction and accommodation; blindness and low vision	0.02	0.04
+729.1	Rheumatism, unspecified and fibrositis	0.07	0.17
+227.1	Benign neoplasm of adrenal gland	0.04	0.1
+211.0	Benign neoplasm of other parts of digestive system	1.65	1.78
+750.22	Congenital anomaly of gallbladder, bile ducts, liver, pancreas	0.03	0.05
+597.1	Urethral stricture (not specified as infectious)	0.9	1.16
+569.2	Gastrointestinal complications	0.13	0.17
+527.0	Diseases of the salivary glands	0.02	0.03
+733.8	Malunion and nonunion of fracture	0.03	0.05
+250.21	Type 2 diabetes with ketoacidosis	0.02	0.12
+770.0	Myalgia and myositis unspecified	0.03	0.07
+567.0	Peritonitis and retroperitoneal infections	0.22	0.35
+38.0	Septicemia	0.95	1.42
+614.51	Cervicitis and endocervicitis	0.24	0.33
+242.2	Toxic multinodular goiter	0.01	0.05
+619.2	Disorders of uterus, NEC	0.86	0.92
+189.12	Malignant neoplasm of renal pelvis	0.01	0.03
+496.3	Bronchiectasis	0.6	0.92
+472.0	Chronic pharyngitis and nasopharyngitis	0.24	0.3
+722.9	Other and unspecified disc disorder	1.01	1.35
+199.0	Neoplasm of uncertain behavior	0.33	0.43
+198.1	Secondary malignancy of lymph nodes	1.73	1.86
+873.0	Broken tooth	0.02	0.04
+255.11	Cushing's syndrome	0.02	0.04
+159.3	Malignant neoplasm of gallbladder and extrahepatic bile ducts	0.05	0.08
+527.8	Other specified diseases of the salivary glands	0.03	0.04
+530.7	Gastroesophageal laceration-hemorrhage syndrome	0.07	0.17
+962.3	Hormones and synthetic substitutes causing adverse effects in therapeutic use	0.08	0.14
+278.1	Obesity	2.76	5.69
+420.1	Myocarditis	0.03	0.04
+626.1	Irregular menstrual cycle/bleeding	0.39	0.49
+614.32	Chronic inflammatory pelvic disease	0.08	0.17
+134.1	Intestinal helminthiases	0.02	0.05
+155.0	Cancer of liver and intrahepatic bile duct	0.07	0.1
+507.0	Pleurisy; pleural effusion	1.79	2.72
+202.0	Cancer of other lymphoid, histiocytic tissue	0.33	0.37
+614.54	Abscess or ulceration of vulva	0.05	0.1
+740.1	Osteoarthritis; localized	2.7	3.07
+286.11	Von willebrand's disease	0.02	0.04
+217.1	Nevus, non-neoplastic	0.15	0.18
+165.0	Cancer within the respiratory system	0.26	0.54
+255.21	Glucocorticoid deficiency	0.09	0.13
+337.0	Disorders of the autonomic nervous system	0.05	0.07
+345.11	Generalized convulsive epilepsy	0.08	0.22
+290.11	Alzheimer's disease	0.17	0.25
+635.2	Antepartum hemorrhage, abruptio placentae, and placenta previa	0.19	0.27
+743.11	Osteoporosis NOS	1.03	1.43
+289.4	Lymphadenitis	0.67	1.06
+550.5	Ventral hernia	0.89	1.47
+804.0	Fracture of hand or wrist	0.12	0.16
+425.12	Other hypertrophic cardiomyopathy	0.05	0.08
+575.1	Cholangitis	0.14	0.19
+442.11	Abdominal aortic aneurysm	0.25	0.34
+531.3	Duodenal ulcer	0.61	1.11
+788.0	Syncope and collapse	2.21	3.44
+365.11	Primary open angle glaucoma	0.36	0.43
+459.9	Circulatory disease NEC	4.29	6.55
+835.0	Internal derangement of knee	0.97	1.09
+214.1	Lipoma of skin and subcutaneous tissue	1.21	1.59
+191.11	Cancer of brain	0.13	0.16
+724.9	Other unspecified back disorders	0.1	0.2
+783.0	Fever of unknown origin	1.07	1.39
+426.8	Other cardiac conduction disorders	0.01	0.03
+250.6	Polyneuropathy in diabetes	0.08	0.29
+366.1	Nonsenile Cataract	0.01	0.04
+411.4	Coronary atherosclerosis	5.05	7.05
+537.0	Other disorders of stomach and duodenum	0.89	1.55
+681.2	Cellulitis and abscess of face/neck	0.12	0.19
+550.2	Diaphragmatic hernia	7.36	9.65
+292.0	Neurological disorders	0.12	0.23
+117.0	Mycoses	0.03	0.05
+480.5	Bronchopneumonia and lung abscess	0.09	0.2
+242.3	Exophthalmos	0.02	0.05
+216.0	Benign neoplasm of skin	2.07	2.33
+604.0	Disorders of penis	0.18	0.27
+601.8	Other inflammatory disorders of male genital organs	0.05	0.1
+426.3	Bundle branch block	0.08	0.14
+370.0	Keratitis	0.03	0.05
+385.3	Cholesteatoma	0.11	0.2
+333.0	Extrapyramidal disease and abnormal movement disorders	0.08	0.16
+697.0	Sarcoidosis	0.15	0.21
+965.3	Salicylates causing adverse effects in therapeutic use	0.08	0.19
+338.1	Acute pain	0.07	0.19
+420.3	Endocarditis	0.18	0.24
+433.1	Occlusion and stenosis of precerebral arteries	0.21	0.46
+300.13	Phobia	0.18	0.33
+579.2	Splenomegaly	0.12	0.2
+454.11	Varicose veins of lower extremity, symptomtic	0.17	0.34
+571.5	Other chronic nonalcoholic liver disease	0.36	0.98
+345.0	Epilepsy, recurrent seizures, convulsions	0.7	1.52
+300.3	Obsessive-compulsive disorders	0.03	0.1
+519.8	Other diseases of respiratory system, NEC	2.12	3.96
+381.1	Otitis media	0.25	0.34
+198.5	Secondary malignancy of brain/spine	0.24	0.37
+285.22	Anemia in neoplastic disease	0.12	0.15
+189.2	Cancer of bladder	0.19	0.23
+386.2	Peripheral or central vertigo	0.11	0.16
+969.0	Poisoning by psychotropic agents	0.26	1.16
+415.0	Pulmonary heart disease	0.97	1.3
+564.8	Abnormal findings on exam of gastrointestinal tract/ abdominal area	0.56	0.74
+275.1	Disorders of iron metabolism	0.18	0.22
+470.0	Septal Deviations/Turbinate Hypertrophy	1.12	1.5
+386.3	Labyrinthitis	0.19	0.24
+938.2	Chronic dermatitis due to solar radiation	0.06	0.09
+871.3	Open wound of foot except toe(s) alone	0.03	0.07
+473.3	Paralysis/spasm of vocal cords or larynx	0.07	0.12
+560.4	Other intestinal obstruction	1.11	1.39
+184.0	Cancer of other female genital organs	0.04	0.05
+360.2	Progressive myopia	0.05	0.08
+735.0	Acquired foot deformities	0.04	0.04
+574.11	Cholelithiasis with acute cholecystitis	0.36	0.57
+374.1	Ectropion or entropion	0.3	0.36
+429.3	Symptoms involving cardiovascular system	0.06	0.06
+695.3	Rosacea	0.08	0.1
+522.0	Diseases of pulp and periapical tissues	0.15	0.18
+172.3	Carcinoma in situ of skin	0.17	0.26
+624.9	stress incontinence, female	1.36	1.62
+735.23	Hallux rigidus	0.39	0.44
+371.3	Inflammation of eyelids	0.63	0.7
+626.8	Infertility, female	0.24	0.31
+643.1	Hyperemesis gravidarum	0.03	0.05
+625.1	Dyspareunia	0.25	0.28
+568.1	Peritoneal adhesions (postoperative) (postinfection)	0.91	1.23
+202.24	Large cell lymphoma	0.17	0.19
+360.0	Disorders of the globe	0.01	0.04
+454.1	Varicose veins of lower extremity	2.65	3.06
+269.0	Proteinuria	0.07	0.15
+364.5	Corneal dystrophy	0.07	0.07
+252.1	Hyperparathyroidism	0.22	0.29
+442.1	Aortic aneurysm	0.17	0.2
+564.1	Irritable Bowel Syndrome	1.78	2.63
+426.31	Right bundle branch block	0.49	0.67
+706.1	Acne	0.02	0.02
+650.0	Normal delivery	0.48	0.61
+694.3	Vascular disorders of skin	0.03	0.06
+510.0	Other diseases of lung	0.23	0.4
+386.1	Meniere's disease	0.14	0.18
+715.1	Sacroiliitis NEC	0.02	0.03
+689.0	Disorder of skin and subcutaneous tissue NOS	1.53	1.71
+555.2	Ulcerative colitis	0.91	1.11
+736.0	Other acquired deformities of limbs	0.05	0.1
+415.21	Primary pulmonary hypertension	0.09	0.2
+300.0	Anxiety disorders	0.07	0.24
+274.21	Chondrocalcinosis	0.07	0.09
+963.0	Poisoning by primarily systemic agents	0.04	0.1
+563.0	Constipation	3.35	5.53
+296.22	Major depressive disorder	0.08	0.22
+367.1	Myopia	0.4	0.44
+614.53	Cyst or abscess of Bartholin's gland	0.16	0.23
+185.0	Cancer of prostate	1.59	2.02
+316.0	Substance addiction and disorders	0.04	0.41
+561.1	Diarrhea	0.17	0.24
+651.0	Multiple gestation	0.08	0.11
+781.0	Symptoms involving nervous and musculoskeletal systems	0.5	0.78
+227.2	Benign neoplasm of parathyroid gland	0.1	0.13
+288.3	Eosinophilia	0.02	0.03
+276.13	Hyperpotassemia	0.26	0.57
+790.6	Other abnormal blood chemistry	1.85	2.23
+741.0	Symptoms and disorders of the joints	0.12	0.16
+364.1	Corneal opacity	0.02	0.05
+717.0	Polymyalgia Rheumatica	0.34	0.43
+695.22	Pemphigus and pemphigoid	0.02	0.04
+574.3	Cholecystitis without cholelithiasis	0.61	0.97
+189.21	Malignant neoplasm of bladder	0.57	0.63
+480.1	Bacterial pneumonia	0.22	0.51
+433.5	Cerebral aneurysm	0.08	0.15
+149.1	Cancer of oropharynx	0.04	0.12
+614.5	Inflammatory disease of cervix, vagina, and vulva	0.04	0.05
+379.0	Other disorders of eye	0.07	0.11
+145.2	Cancer of tongue	0.07	0.11
+626.0	Disorders of menstruation and other abnormal bleeding from female genital tract	0.36	0.55
+626.12	Excessive or frequent menstruation	1.93	3.01
+452.0	Other venous embolism and thrombosis	0.14	0.25
+476.0	Allergic rhinitis	0.37	0.45
+580.2	Nephrotic syndrome without mention of glomerulonephritis	0.11	0.27
+500.2	Pneumoconiosis	0.05	0.14
+687.0	Symptoms affecting skin	0.05	0.1
+274.1	Gout	0.52	0.8
+244.4	Hypothyroidism NOS	3.71	4.65
+338.2	Chronic pain	0.08	0.21
+261.2	Vitamin B-complex deficiencies	0.18	0.42
+281.12	Other vitamin B12 deficiency anemia	0.05	0.1
+585.1	Acute renal failure	1.45	2.88
+523.31	Acute periodontitis	0.02	0.05
+721.8	Other allied disorders of spine	0.03	0.05
+276.1	Electrolyte imbalance	0.04	0.08
+240.0	Simple and unspecified goiter	0.13	0.2
+316.1	Polyneuropathy due to drugs	0.02	0.03
+585.3	Chronic renal failure [CKD]	0.7	1.48
+741.4	Joint effusions	0.06	0.09
+578.8	Hemorrhage of rectum and anus	3.25	4.34
+626.4	Premenstrual tension syndromes	0.03	0.05
+818.0	Intracranial hemorrhage (injury)	0.02	0.06
+301.2	Antisocial/borderline personality disorder	0.01	0.14
+513.8	Disorders of diaphragm	0.03	0.06
+527.2	Sialoadenitis	0.09	0.13
+53.1	Herpes zoster with nervous system complications	0.03	0.04
+315.2	Speech and language disorder	0.02	0.04
+366.3	Traumatic cataract	0.03	0.03
+159.0	Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum	1.48	1.6
+694.2	Other dyschromia	0.2	0.27
+728.71	Contracture of palmar fascia [Dupuytren's disease]	0.66	0.82
+596.1	Bladder neck obstruction	0.49	0.58
+285.0	Other anemias	2.83	4.95
+474.0	Acute and chronic tonsillitis	0.1	0.14
+478.0	Throat pain	0.08	0.14
+800.1	Fracture of neck of femur	0.05	0.06
+380.4	Impacted cerumen	0.08	0.11
+987.0	Toxic effect of other gases, fumes, or vapors	0.01	0.07
+669.0	Complications of labor and delivery NEC	0.69	0.73
+458.1	Orthostatic hypotension	0.4	0.75
+523.0	Gingival and periodontal diseases	0.11	0.2
+622.1	Polyp of corpus uteri	2.01	2.23
+726.3	Bursitis	0.14	0.18
+277.4	Disorders of bilirubin excretion	0.1	0.13
+575.8	Other disorders of biliary tract	0.25	0.43
+747.11	Cardiac shunt/ heart septal defect	0.15	0.19
+225.1	Benign neoplasm of brain, cranial nerves, meninges	0.2	0.24
+556.0	Ulceration of the lower GI tract	0.12	0.2
+427.41	Ventricular fibrillation and flutter	0.1	0.13
+705.8	Hyperhidrosis	0.16	0.24
+458.0	Hypotension	0.32	0.46
+529.1	Glossitis	0.07	0.12
+622.0	Polyp of female genital organs	0.05	0.07
+481.0	Influenza	0.09	0.23
+395.4	Nonrheumatic pulmonary valve disorders	0.03	0.05
+479.0	Other upper respiratory disease	0.95	1.43
+443.9	Peripheral vascular disease, unspecified	0.47	1.41
+41.0	Bacterial infection NOS	1.44	2.8
+627.0	Menopausal and postmenopausal disorders	0.14	0.18
+385.0	Other disorders of middle ear and mastoid	0.03	0.05
+577.3	Cyst and pseudocyst of pancreas	0.1	0.15
+480.3	Pneumonia due to fungus (mycoses)	0.02	0.05
+609.2	Abnormal spermatozoa	0.04	0.05
+619.4	Noninflammatory disorders of vagina	0.4	0.43
+574.12	Cholelithiasis with other cholecystitis	1.38	1.67
+807.0	Fracture of ribs	0.06	0.09
+573.9	Abnormal serum enzyme levels	0.06	0.1
+378.1	Strabismus (not specified as paralytic)	0.19	0.34
+433.0	Cerebrovascular disease	0.38	0.7
+38.2	Gram positive septicemia	0.11	0.23
+278.3	Localized adiposity	0.01	0.03
+272.9	Unspecified disorder of lipoid metabolism	0.07	0.13
+426.9	Cardiac pacemaker/device in situ	0.07	0.09
+455.0	Hemorrhoids	6.23	7.38
+615.0	Endometriosis	0.86	1.14
+523.1	Gingivitis	0.02	0.04
+874.0	Complication of amputation stump	0.03	0.08
+733.0	Other disorders of bone and cartilage	0.21	0.31
+79.0	Viral infection	0.68	0.95
+610.8	Other specified benign mammary dysplasias	0.17	0.19
+198.6	Secondary malignancy of bone	0.75	0.83
+550.4	Umbilical hernia	0.98	1.64
+383.0	Otosclerosis	0.06	0.09
+571.51	Cirrhosis of liver without mention of alcohol	0.13	0.41
+771.0	Musculoskeletal symptoms referable to limbs	0.2	0.28
+253.0	Disorders of the pituitary gland and its hypothalamic control	0.02	0.03
+292.3	Memory loss	0.16	0.29
+444.0	Arterial embolism and thrombosis	0.08	0.22
+559.0	Ileostomy status	0.53	0.67
+159.4	Malignant neoplasm of retroperitoneum and peritoneum	0.05	0.07
+501.0	Pneumonitis due to inhalation of food or vomitus	0.17	0.36
+289.0	Other diseases of blood and blood-forming organs	0.13	0.21
+594.1	Calculus of kidney	0.74	1.17
+367.9	Blindness and low vision	0.15	0.36
+324.0	Other CNS infection and poliomyelitis	0.07	0.13
+427.2	Atrial fibrillation and flutter	4.38	4.88
+287.1	Spontaneous ecchymoses	0.02	0.05
+246.0	Other disorders of thyroid	0.11	0.16
+8.0	Intestinal infection	0.11	0.19
+250.14	Type 1 diabetes with neurological manifestations	0.03	0.1
+427.8	Sinoatrial node dysfunction (Bradycardia)	0.14	0.16
+293.1	Swelling, mass, or lump in head and neck [Space-occupying lesion, intracranial NOS]	0.2	0.32
+290.0	Delirium dementia and amnestic and other cognitive disorders	0.09	0.26
+636.2	Early onset of delivery	0.16	0.19
+474.2	Chronic tonsillitis and adenoiditis	0.23	0.35
+271.3	Intestinal disaccharidase deficiencies and disaccharide malabsorption	0.04	0.07
+644.0	Anemia during pregnancy	0.22	0.24
+621.0	Endometrial hyperplasia	0.29	0.33
+555.21	Ulcerative colitis (chronic)	0.15	0.26
+802.0	Fracture of pelvis	0.02	0.04
+722.1	Displacement of intervertebral disc	0.08	0.16
+800.0	Fracture of lower limb	0.09	0.15
+519.0	Other diseases of respiratory system, not elsewhere classified	0.02	0.05
+496.0	Chronic airway obstruction	1.37	5.14
+550.1	Inguinal hernia	4.52	4.66
+590.0	Pyelonephritis	0.35	0.65
+184.2	Cancer of other female genital organs (excluding uterus and ovary)	0.07	0.1
+858.0	Complication of internal orthopedic device	0.93	1.17
+790.0	Nonspecific findings on examination of blood	0.05	0.07
+112.0	Candidiasis	0.57	0.97
+596.0	Other disorders of bladder	1.99	2.45
+738.0	Other acquired musculoskeletal deformity	0.07	0.15
+395.2	Nonrheumatic aortic valve disorders	0.06	0.1
+700.0	Corns and callosities	0.08	0.09
+367.2	Astigmatism	0.07	0.07
+803.0	Fracture of upper limb	0.05	0.08
+356.0	Hereditary and idiopathic peripheral neuropathy	0.04	0.05
+465.0	Acute upper respiratory infections of multiple or unspecified sites	0.32	0.51
+713.5	Arthropathy associated with neurological disorders	0.01	0.04
+840.0	Sprains and strains	0.08	0.1
+527.7	Disturbance of salivary secretion	0.01	0.03
+594.0	Urinary calculus	0.1	0.19
+277.5	Other disorders of lipoid metabolism	0.04	0.09
+189.0	Cancer of urinary organs (incl. kidney and bladder)	0.77	0.85
+300.1	Anxiety disorder	1.68	3.09
+474.1	Acute tonsillitis	0.11	0.25
+751.12	Congenital anomalies of male genital organs	0.04	0.08
+625.0	Pain and other symptoms associated with female genital organs	0.46	0.52
+411.8	Other chronic ischemic heart disease, unspecified	3.53	6.38
+681.3	Cellulitis and abscess of arm/hand	1.29	2.24
+516.0	Abnormal sputum	0.02	0.04
+334.0	Degenerative disease of the spinal cord	0.36	0.61
+800.4	Fracture of patella	0.02	0.04
+343.0	Infantile cerebral palsy	0.02	0.09
+345.3	Convulsions	0.53	1.04
+870.6	Open wound of neck	0.02	0.06
+281.11	Pernicious anemia	0.18	0.31
+618.1	Prolapse of vaginal walls	1.89	2.03
+647.1	Infections of genitourinary tract during pregnancy	0.07	0.08
+575.9	Nonspecific abnormal findings on radiological and other examination of biliary tract	0.1	0.16
+569.0	Other disorders of intestine	0.98	1.35
+204.12	Lymphoid leukemia, chronic	0.13	0.17
+605.0	Erectile dysfunction [ED]	0.11	0.24
+250.1	Type 1 diabetes	0.55	1.34
+262.0	Mineral deficiency NEC	0.07	0.13
+222.0	Benign neoplasm of male genital organs	0.03	0.05
+227.3	Benign neoplasm of pituitary gland and craniopharyngeal duct (pouch)	0.09	0.12
+150.0	Cancer of esophagus	0.18	0.31
+377.0	Disorders of optic nerve and visual pathways	0.05	0.08
+440.9	Atherosclerosis of aorta	0.03	0.09
+334.2	Anterior horn cell disease	0.07	0.08
+170.2	Cancer of connective tissue	0.08	0.1
+372.0	Disorders of conjunctiva	0.2	0.32
+695.42	Systemic lupus erythematosus	0.08	0.16
+654.1	Abnormality of organs and soft tissues of pelvis complicating pregnancy, childbirth, or the puerperium	0.29	0.36
+573.2	Liver replaced by transplant	0.02	0.05
+526.9	Jaw disease NOS	0.05	0.08
+591.0	Urinary tract infection	3.34	5.03
+201.0	Hodgkin's disease	0.06	0.09
+276.6	Fluid overload	0.15	0.32
+364.2	Corneal edema	0.02	0.04
+599.5	Frequency of urination and polyuria	0.98	1.31
+378.2	Nystagmus and other irregular eye movements	0.05	0.09
+687.3	Changes in skin texture	0.03	0.03
+295.2	Paranoid disorders	0.03	0.17
+735.1	Flat foot	0.04	0.06
+241.2	Nontoxic multinodular goiter	0.17	0.26
+636.0	Early or threatened labor; hemorrhage in early pregnancy	0.25	0.29
+353.0	Nerve root and plexus disorders	0.29	0.39
+335.0	Multiple sclerosis	0.35	0.38
+426.0	Cardiac conduction disorders	0.03	0.06
+601.1	Prostatitis	0.17	0.2
+601.4	Balanoposthitis	0.06	0.1
+331.1	Hydrocephalus	0.15	0.18
+525.0	Other diseases of the teeth and supporting structures	0.63	0.96
+459.1	Hemorrhage NOS	0.02	0.04
+287.32	Secondary thrombocytopenia	0.02	0.03
+260.6	Anorexia	0.21	0.36
+420.21	Acute pericarditis	0.04	0.07
+764.0	Sciatica	0.33	0.53
+595.0	Hydronephrosis	0.57	0.76
+433.8	Late effects of cerebrovascular disease	0.26	0.68
+572.0	Ascites (non malignant)	0.4	0.64
+228.0	Hemangioma and lymphangioma, any site	0.38	0.45
+411.2	Myocardial infarction	3.08	4.84
+187.0	Cancer of other male genital organs	0.04	0.05
+819.0	Skull and face fracture and other intercranial injury	0.19	0.43
+425.11	Hypertrophic obstructive cardiomyopathy	0.03	0.06
+362.3	Other nondiabetic retinopathy	0.01	0.03
+293.0	Symptoms involving head and neck	0.42	0.78
+331.9	Cerebral degeneration, unspecified	0.1	0.25
+759.1	Anomalies of endocrine glands, congenital	0.01	0.03
+671.0	Venous/cerebrovascular complications embolism in pregnancy and the puerperium	0.05	0.06
+365.2	Primary angle-closure glaucoma	0.2	0.26
+256.4	Polycystic ovaries	0.05	0.1
+285.2	Anemia of chronic disease	0.07	0.14
+290.2	Delirium due to conditions classified elsewhere	0.21	0.55
+212.0	Benign neoplasm of respiratory and intrathoracic organs	0.09	0.12
+253.11	Acromegaly and gigantism	0.02	0.03
+359.2	Myopathy	0.06	0.1
+530.11	GERD	4.38	6.07
+714.0	Rheumatoid arthritis and other inflammatory polyarthropathies	0.1	0.16
+341.0	Other demyelinating diseases of central nervous system	0.05	0.08
+577.0	Diseases of pancreas	0.14	0.27
+151.0	Cancer of stomach	0.14	0.23
+871.4	Open wound of toe(s)	0.02	0.03
+381.11	Suppurative and unspecified otitis media	0.15	0.29
+283.1	Autoimmune hemolytic anemias	0.03	0.04
+426.2	Atrioventricular [AV] block	0.03	0.06
+614.33	Pelvic inflammatory disease, NOS	0.06	0.11
+401.1	Essential hypertension	20.05	26.19
+740.11	Osteoarthrosis, localized, primary	2.09	2.65
+798.0	Malaise and fatigue	0.73	1.16
+370.1	Corneal ulcer	0.04	0.06
+528.5	Diseases of lips	0.17	0.21
+741.2	Stiffness of joint	0.02	0.03
+722.7	Intervertebral disc disorder with myelopathy	0.08	0.18
+250.22	Type 2 diabetes with renal manifestations	0.03	0.19
+270.35	Macroglobulinemia	0.01	0.03
+414.0	Other forms of chronic heart disease	0.58	0.92
+223.0	Benign neoplasm of kidney and other urinary organs	0.04	0.07
+440.2	Atherosclerosis of the extremities	0.08	0.23
+384.0	Other disorders of tympanic membrane	0.08	0.12
+480.0	Pneumonia	1.02	1.99
+949.0	Allergies, other	0.1	0.16
+681.0	Superficial cellulitis and abscess	0.12	0.22
+446.5	Giant cell arteritis	0.11	0.15
+695.9	Unspecified erythematous condition	0.12	0.2
+117.4	Aspergillosis	0.04	0.06
+695.41	Cutaneous lupus erythematosus	0.03	0.07
+426.32	Left bundle branch block	0.57	0.73
+626.2	Dysmenorrhea	0.32	0.59
+705.3	Hidradenitis	0.03	0.09
+395.1	Nonrheumatic mitral valve disorders	0.86	1.12
+252.2	Hypoparathyroidism	0.04	0.06
+851.0	Complications of transplants and reattached limbs	1.62	2.13
+496.2	Chronic bronchitis	0.06	0.19
+627.3	Postmenopausal atrophic vaginitis	0.31	0.35
+805.0	Fracture of vertebral column without mention of spinal cord injury	0.08	0.12
+70.4	Chronic hepatitis	0.06	0.1
+245.21	Chronic lymphocytic thyroiditis	0.06	0.07
+870.5	Open wound of lip and mouth	0.09	0.17
+259.0	Other endocrine disorders	0.02	0.06
+624.1	Dystrophy of female genital tract	0.07	0.08
+477.0	Epistaxis or throat hemorrhage	0.66	0.83
+695.8	Other specified erythematous conditions	0.04	0.07
+562.1	Diverticulosis	8.87	10.11
+961.1	Poisoning/allergy of sulfonamides	0.24	0.3
+990.0	Effects radiation NOS	1.06	1.24
+952.0	Spinal cord injury without evidence of spinal bone injury	0.02	0.03
+187.1	Malignant neoplasm of unspecified male genital organ	0.01	0.03
+395.6	Heart valve replaced	0.41	0.53
+727.7	Contracture of tendon (sheath)	0.03	0.04
+579.8	Nonspecific abnormal findings in stool contents	0.57	0.67
+433.2	Occlusion of cerebral arteries	0.75	1.23
+53.0	Herpes zoster	0.09	0.15
+349.0	Other and unspecified disorders of the nervous system	0.1	0.15
+365.0	Glaucoma	1.14	1.33
+253.2	Pituitary hypofunction	0.07	0.1
+340.0	Migraine	0.73	1.05
+550.0	Abdominal hernia	0.92	1.53
+613.8	Other specified disorders of breast	0.08	0.12
+367.8	Hypermetropia	0.07	0.09
+348.4	Cerebral cysts	0.03	0.05
+361.2	Retinoschisis and retinal cysts	0.02	0.03
+519.9	Symptoms involving respiratory system and other chest symptoms	0.06	0.11
+345.12	Partial epilepsy	0.07	0.13
+300.12	Agorophobia, social phobia, and panic disorder	0.18	0.48
+276.42	Alkalosis	0.03	0.07
+619.5	Noninflammatory disorders of vulva and perineum	0.35	0.38
+379.2	Disorders of vitreous body	0.36	0.46
+368.2	Diplopia and disorders of binocular vision	0.18	0.26
+500.0	Lung disease due to external agents	0.03	0.05
+334.1	Spinocerebellar disease	0.03	0.07
+284.0	Aplastic anemia	0.11	0.21
+317.0	Alcohol-related disorders	0.83	3.76
+350.2	Abnormality of gait	0.48	1.07
+363.3	Chorioretinal scars	0.02	0.03
+303.4	Somatoform disorder	0.02	0.07
+306.0	Other mental disorder	7.32	12.41
+771.1	Swelling of limb	0.18	0.3
+577.1	Acute pancreatitis	0.28	0.5
+550.3	Femoral hernia	0.18	0.21
+198.4	Secondary malignant neoplasm of liver	0.91	1.06
+701.0	Other hypertrophic and atrophic conditions of skin	0.41	0.49
+627.2	Symptomatic menopause	0.04	0.07
+165.1	Cancer of bronchus; lung	0.48	1.27
+870.4	Open wound of nose and sinus	0.05	0.11
+715.0	Other inflammatory spondylopathies	0.07	0.15
+350.3	Lack of coordination	0.09	0.15
+458.2	Iatrogenic hypotension	0.06	0.09
+520.2	Disturbances in tooth eruption	0.46	0.55
+362.31	Separation of retinal layers	0.02	0.04
+352.2	Facial nerve disorders [CN7]	0.22	0.33
+727.0	Other disorders of synovium, tendon, and bursa	0.27	0.28
+701.5	Abnormal granulation tissue	0.12	0.14
+366.0	Cataract	5.02	6.19
+281.13	Folate-deficiency anemia	0.03	0.1
+599.4	Urinary incontinence	2.15	2.99
+251.1	Hypoglycemia	0.18	0.66
+577.2	Chronic pancreatitis	0.1	0.3
+184.11	Malignant neoplasm of ovary	0.25	0.3
+333.4	Torsion dystonia	0.06	0.11
+451.0	Phlebitis and thrombophlebitis	0.09	0.16
+290.12	Dementia with cerebral degenerations	0.02	0.03
+208.0	Benign neoplasm of colon	5.56	7.02
+612.2	Hypertrophy of breast (Gynecomastia)	0.18	0.26
+257.1	Testicular hypofunction	0.04	0.07
+459.0	Other disorders of circulatory system	0.03	0.05
+277.0	Other disorders of metabolism	0.25	0.42
+500.1	Extrinsic allergic alveolitis	0.02	0.04
+939.0	Atopic/contact dermatitis due to other or unspecified	0.57	0.85
+732.0	Osteochondropathies	0.06	0.07
+793.2	Nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)	0.15	0.23
+361.0	Retinal detachments and defects	0.46	0.67
+613.1	Inflammatory disease of breast	0.15	0.23
+938.0	Dermatitis due to solar radiation	0.02	0.04
+742.8	Articular cartilage disorder	0.02	0.03
+649.1	Diabetes or abnormal glucose tolerance complicating pregnancy	0.04	0.09
+426.4	Anomalous atrioventricular excitation	0.05	0.09
+619.1	Noninflammatory disorders of ovary, fallopian tube, and broad ligament	0.18	0.22
+656.0	Other perinatal conditions of fetus or newborn	0.13	0.16
+348.9	Other conditions of brain, NOS	0.11	0.18
+426.91	Cardiac pacemaker in situ	0.72	0.94
+136.0	Other infectious and parasitic diseases	0.06	0.08
+253.3	Diabetes insipidus	0.02	0.04
+958.2	Traumatic and surgical subcutaneous emphysema	0.02	0.03
+747.2	Congenital anomalies of peripheral vascular system	0.04	0.05
+292.6	Hallucinations	0.07	0.19
+149.4	Cancer of larynx	0.03	0.15
+585.2	Renal failure NOS	0.33	0.63
+941.0	Adverse reaction to serum or vaccine	0.04	0.08
+480.12	Pseudomonal pneumonia	0.02	0.05
+614.1	Pelvic peritoneal adhesions, female (postoperative) (postinfection)	0.59	0.86
+622.2	Mucous polyp of cervix	0.74	0.87
+619.0	Noninflammatory female genital disorders	0.03	0.08
+575.2	Obstruction of bile duct	0.21	0.32
+860.0	Bone marrow or stem cell transplant	0.02	0.03
+416.0	Cardiomegaly	0.69	1.25
+364.4	Corneal degenerations	0.04	0.05
+418.1	Precordial pain	0.98	1.66
+440.1	Atherosclerosis of renal artery	0.01	0.03
+198.7	Secondary malignant neoplasm of skin	0.05	0.07
+626.11	Absent or infrequent menstruation	0.02	0.04
+665.0	Obstetrical/birth trauma	1.2	1.5
+289.5	Diseases of spleen	0.14	0.19
+652.0	Malposition and malpresentation of fetus or obstruction	0.4	0.49
+686.4	Pyogenic granuloma	0.1	0.11
+759.0	Other and unspecified congenital anomalies	0.02	0.04
+333.2	Myoclonus	0.03	0.03
+649.0	Other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium	0.02	0.03
+70.2	Viral hepatitis B	0.03	0.16
+598.9	Other nonspecific findings on examination of urine	0.07	0.12
+686.0	Other local infections of skin and subcutaneous tissue	0.34	0.56
+513.3	Hypoventilation	0.02	0.07
+599.9	Other abnormality of urination	0.47	0.6
+401.22	Hypertensive chronic kidney disease	0.34	0.9
+530.2	Esophageal bleeding (varices/hemorrhage)	0.42	0.81
+503.0	Pulmonary congestion and hypostasis	0.1	0.27
+229.0	Benign neoplasm of unspecified sites	0.58	0.62
+965.1	Opiates and related narcotics causing adverse effects in therapeutic use	0.4	0.45
+946.0	Anaphylactic shock NOS	0.13	0.22
+276.12	Hyposmolality and/or hyponatremia	0.55	0.98
+362.7	Hereditary retinal dystrophies	0.02	0.03
+530.6	Diverticulum of esophagus, acquired	0.04	0.08
+526.5	Inflammatory conditions of jaw	0.02	0.05
+755.61	Congenital hip dysplasia and deformity	0.02	0.04
+379.4	Anomalies of pupillary function	0.02	0.03
+440.0	Atherosclerosis	0.04	0.07
+962.0	Poisoning by hormones and synthetic substitutes	0.02	0.1
+275.53	Disorders of phosphorus metabolism	0.06	0.13
+250.13	Type 1 diabetes with ophthalmic manifestations	0.1	0.26
+389.4	Tinnitus	0.13	0.22
+573.7	Abnormal results of function study of liver	0.96	1.4
+327.3	Sleep apnea	0.99	1.98
+587.0	Kidney replaced by transpant	0.08	0.17
+760.0	Back pain	1.46	2.42
+569.1	Toxic gastroenteritis and colitis	0.06	0.08
+428.2	Heart failure NOS	1.09	2.11
+433.12	Cerebral atherosclerosis	0.05	0.11
+626.14	Irregular menstrual bleeding	0.86	1.05
+751.21	Cystic kidney disease	0.1	0.14
+687.1	Rash and other nonspecific skin eruption	0.55	0.85
+579.0	Other symptoms involving abdomen and pelvis	0.28	0.4
+738.4	Acquired spondylolisthesis	0.06	0.1
+704.0	Diseases of hair and hair follicles	1.17	1.54
+301.0	Personality disorders	0.03	0.24
+348.8	Encephalopathy, not elsewhere classified	0.03	0.08
+580.12	Non-proliferative glomerulonephritis	0.03	0.06
+661.0	Fetal distress and abnormal forces of labor	0.51	0.62
+872.0	Traumatic amputation	0.11	0.14
+695.1	Toxic erythema	0.02	0.04
+371.0	Inflammation of the eye	0.02	0.04
+378.5	Paralytic strabismus	0.06	0.1
+523.32	Chronic periodontitis	0.25	0.41
+291.8	Alteration of consciousness	0.1	0.25
+721.1	Spondylosis without myelopathy	0.21	0.39
+442.3	Aneurysm of artery of lower extremity	0.04	0.07
+642.1	Preeclampsia and eclampsia	0.07	0.1
+81.0	Infection/inflammation of internal prosthetic device; implant; and graft	0.29	0.46
+497.0	Bronchitis	0.14	0.37
+994.2	Sepsis	0.89	1.28
+737.3	Kyphoscoliosis and scoliosis	0.11	0.19
+979.0	Adverse drug events and drug allergies	0.07	0.28
+184.1	Malignant neoplasm of ovary and other uterine adnexa	0.02	0.03
+272.1	Hyperlipidemia	1.31	2.46
+189.4	Malignant neoplasm of other urinary organs	0.03	0.05
+561.0	Symptoms involving digestive system	4.7	5.82
+180.1	Cervical cancer	0.05	0.09
+369.0	Infection of the eye	0.06	0.1
+599.3	Dysuria	0.31	0.48
+586.0	Other disorders of the kidney and ureters	0.3	0.47
+752.2	Other specified congenital anomalies of nervous system	0.01	0.03
+303.3	Psychogenic disorder	0.09	0.14
+38.1	Gram negative septicemia	0.24	0.36
+8.6	Viral Enteritis	0.21	0.37
+556.1	Ulceration of intestine	0.2	0.36
+426.25	Other heart block	0.03	0.05
+300.11	Generalized anxiety disorder	0.04	0.07
+276.11	Hyperosmolality and/or hypernatremia	0.07	0.18
+427.3	Other specified cardiac dysrhythmias	0.99	1.26
+327.0	Sleep disorders	0.21	0.36
+473.4	Voice disturbance	0.24	0.42
+618.5	Prolapse of vaginal vault after hysterectomy	0.09	0.15
+450.0	Noninfectious disorders of lymphatic channels	0.18	0.36
+600.0	Hyperplasia of prostate	3.2	3.44
+296.1	Bipolar	0.2	0.72
+528.7	Sialolithiasis	0.06	0.09
+320.0	Meningitis	0.1	0.11
+292.2	Mild cognitive impairment	0.05	0.14
+789.0	Nausea and vomiting	2.81	4.64
+483.0	Acute bronchitis and bronchiolitis	0.05	0.1
+323.2	Acute (transverse) myelitis	0.01	0.03
+597.2	Urinary complications NEC	0.02	0.03
+41.1	Staphylococcus infections	0.72	1.36
+751.2	Congenital anomalies of urinary system	0.02	0.03
+573.5	Jaundice (not of newborn)	0.21	0.32
+916.0	Contusion	0.31	0.57
+610.1	Cystic mastopathy	0.18	0.22
+306.9	Tension headache	0.08	0.16
+594.2	Calculus of lower urinary tract	0.2	0.26
+187.2	Malignant neoplasm of testis	0.05	0.08
+350.1	Abnormal involuntary movements	0.22	0.44
+204.22	Myeloid leukemia, chronic	0.03	0.05
+353.1	Nerve plexus lesions	0.03	0.04
+601.11	Acute prostatitis	0.07	0.09
+244.2	Acquired hypothyroidism	0.03	0.05
+655.0	Known or suspected fetal abnormality affecting management of mother	1.09	1.28
+471.0	Nasal polyps	0.83	0.9
+195.0	Cancer, suspected or other	0.25	0.3
+394.2	Mitral valve disease	0.88	1.16
+797.1	Cardiogenic shock	0.03	0.04
+244.1	Secondary hypothyroidism	0.32	0.41
+204.4	Multiple myeloma	0.15	0.2
+701.4	Keloid scar	0.05	0.11
+287.0	Purpura and other hemorrhagic conditions	0.02	0.04
+295.3	Psychosis	0.02	0.15
+531.4	Peptic ulcer, site unspecified	0.07	0.23
+565.0	Anal and rectal conditions	2.14	2.84
+727.4	Ganglion and cyst of synovium, tendon, and bursa	0.78	0.85
+739.0	Contracture of joint	0.01	0.03
+441.0	Vascular insufficiency of intestine	0.07	0.14
+430.0	Intracranial hemorrhage	0.02	0.05
+509.2	Respiratory insufficiency	0.35	0.97
+663.0	Umbilical cord complications during labor and delivery	0.15	0.19
+287.31	Primary thrombocytopenia	0.09	0.16
+798.1	Chronic fatigue syndrome	0.15	0.22
+628.0	Ovarian cyst	1.14	1.46
+255.12	Hyperaldosteronism	0.02	0.03
+364.0	Corneal opacity and other disorders of cornea	0.06	0.09
+418.0	Nonspecific chest pain	6.78	10.81
+442.8	Aneurysm of other specified artery	0.04	0.09
+695.7	Prurigo and Lichen	0.19	0.24
+200.0	Myeloproliferative disease	0.2	0.24
+681.5	Cellulitis and abscess of leg, except foot	1.29	2.24
+385.5	Tympanosclerosis and middle ear disease related to otitis media	0.04	0.09
+250.42	Other abnormal glucose	0.08	0.25
+598.0	Abnormal findings on examination of urine	0.81	1.14
+362.8	Retinal hemorrhage/ischemia	0.02	0.05
+381.9	Otorrhea	0.05	0.1
+526.41	Temporomandibular joint disorder, unspecified	0.06	0.08
+446.9	Arteritis NOS	0.07	0.09
+747.1	Cardiac congenital anomalies	0.05	0.08
+586.4	Stricture/obstruction of ureter	0.23	0.34
+297.2	Suicide or self-inflicted injury	0.18	0.93
+747.12	Valvular heart disease/ heart chambers	0.07	0.08
+198.0	Secondary malignant neoplasm	0.35	0.45
+740.2	Osteoarthrosis, generalized	0.12	0.23
+428.1	Congestive heart failure (CHF) NOS	0.53	1.13
+870.0	Open wounds of head; neck; and trunk	0.03	0.08
+415.2	Chronic pulmonary heart disease	0.03	0.12
+198.3	Secondary malignant neoplasm of digestive systems	0.52	0.6
+402.0	Elevated blood pressure reading without diagnosis of hypertension	0.47	0.69
+728.7	Fasciitis	0.06	0.1
+681.7	Cellulitis and abscess of trunk	0.16	0.24
+530.9	Heartburn	0.6	0.78
+250.2	Type 2 diabetes	4.15	9.25
+332.0	Parkinson's disease	0.37	0.45
+907.0	Injuries to the nervous system	0.3	0.43
+348.2	Cerebral edema and compression of brain	0.06	0.11
+187.8	Neoplasm of uncertain behavior of male genital organs	0.02	0.03
+528.11	Stomatitis and mucositis (ulcerative)	0.11	0.15
+379.5	Disorders of iris and ciliary body	0.1	0.14
+379.9	Pain, swelling or discharge of eye	0.04	0.07
+480.11	Pneumococcal pneumonia	1.54	2.93
+627.4	Premenopausal menorrhagia	0.07	0.1
+698.0	Pruritus and related conditions	0.19	0.28
+368.3	Anisometropia	0.04	0.06
+540.1	Appendicitis	0.12	0.17
+172.2	Other non-epithelial cancer of skin	2.39	3.65
+258.0	Iatrogenic endocrine disorders	0.02	0.04
+599.6	Oliguria and anuria	0.02	0.08
+110.11	Dermatophytosis of nail	0.02	0.03
+512.8	Cough	0.75	1.24
+427.5	Arrhythmia (cardiac) NOS	0.26	0.34
+568.0	Other disorders of peritoneum	0.06	0.09
+960.2	Allergy/adverse effect of penicillin	4.63	5.4
+701.2	Scar conditions and fibrosis of skin	0.6	0.66
+512.7	Shortness of breath	1.41	2.7
+573.0	Other disorders of liver	0.41	0.69
+250.23	Type 2 diabetes with ophthalmic manifestations	0.32	0.86
+145.0	Cancer of mouth	0.03	0.07
+288.11	Neutropenia	0.97	1.02
+561.2	Flatulence	0.6	0.77
+250.5	Glycosuria or Acetonuria	0.03	0.05
+369.5	Conjunctivitis, infectious	0.05	0.11
+389.1	Sensorineural hearing loss	0.13	0.21
+427.6	Premature beats	0.21	0.24
+681.6	Cellulitis and abscess of foot, toe	1.29	2.24
+830.0	Dislocation	0.48	0.61
+427.7	Tachycardia NOS	0.6	1.1
+646.0	Other complications of pregnancy NEC	0.58	0.71
+772.0	Symptoms of the muscles	0.04	0.1
+221.0	Benign neoplasm of other female genital organs	0.04	0.07
+585.31	Renal dialysis	0.12	0.28
+286.7	Other and unspecified coagulation defects	0.09	0.18
+761.0	Cervicalgia	0.22	0.38
+619.3	Noninflammatory disorders of cervix	0.67	0.74
+613.7	Other signs and symptoms in breast	0.11	0.14
+395.3	Nonrheumatic tricuspid valve disorders	0.03	0.05
+740.9	Osteoarthrosis NOS	1.39	2.36
+801.0	Fracture of ankle and foot	0.07	0.11
+755.1	Congenital deformities of feet	0.05	0.07
+710.19	Unspecified osteomyelitis	0.01	0.05
+300.8	Acute reaction to stress	0.02	0.09
+159.2	Malignant neoplasm of small intestine, including duodenum	0.04	0.07
+571.81	Portal hypertension	0.1	0.34
+703.1	Ingrowing nail	0.15	0.32
+626.13	Irregular menstrual cycle	0.4	0.48
+687.2	Localized superficial swelling, mass, or lump	0.05	0.07
+681.1	Cellulitis and abscess of fingers/toes	0.13	0.25
+313.3	Autism	0.01	0.04
+853.0	Complication of colostomy or enterostomy	0.13	0.2
+444.1	Arterial embolism and thrombosis of lower extremity artery	0.1	0.3
+279.7	Other immunological findings	0.06	0.07
+557.0	Intestinal malabsorption (non-celiac)	0.09	0.13
+276.8	Polydipsia	0.02	0.07
+366.2	Senile cataract	2.84	3.43
+756.5	Congenital osteodystrophies	0.03	0.05
+871.0	Open wounds of extremities	0.97	1.52
+915.0	Superficial injury without mention of infection	0.99	1.97
+654.2	Rhesus isoimmunization in pregnancy	0.06	0.09
+279.11	Deficiency of humoral immunity	0.04	0.05
+41.2	Streptococcus infection	0.44	0.64
+758.1	Chromosomal anomalies	0.02	0.05
+586.11	Small kidney	0.04	0.09
+242.0	Thyrotoxicosis with or without goiter	0.35	0.57
+714.1	Rheumatoid arthritis	0.66	1.02
+426.23	Second degree AV block	0.15	0.17
+618.6	Vaginal enterocele, congenital or acquired	0.15	0.2
+531.2	Gastric ulcer	0.95	1.7
+384.4	Perforation of tympanic membrane	0.21	0.39
+687.4	Disturbance of skin sensation	0.68	1.13
+376.0	Disorders of the orbit	0.02	0.03
+586.2	Cyst of kidney, acquired	0.36	0.57
+456.0	Chronic venous insufficiency [CVI]	0.05	0.14
+535.1	Acute gastritis	0.3	0.53
+495.0	Asthma	6.66	9.66
+290.1	Dementias	0.28	0.43
+589.0	Abnormal results of function study of kidney	0.03	0.06
+599.1	Urinary obstruction	0.04	0.08
+226.0	Benign neoplasm of thyroid glands	0.06	0.08
+516.1	Hemoptysis	0.42	0.99
+740.12	Osteoarthrosis, localized, secondary	0.07	0.09
+701.6	Acquired acanthosis nigricans	0.02	0.03
+382.0	Otalgia	0.05	0.12
+282.9	Other hereditary hemolytic anemias	0.03	0.04
+961.0	Poisoning by other anti-infectives	0.12	0.2
+729.0	Other disorders of soft tissues	0.27	0.41
+290.3	Other persistent mental disorders due to conditions classified elsewhere	0.01	0.07
+261.4	Vitamin D deficiency	0.16	0.54
+782.3	Edema	0.43	0.85
+602.0	Other disorders of prostate	0.37	0.41
+870.1	Open wound or laceration of eye or eyelid	0.1	0.26
+728.2	Laxity of ligament or hypermobility syndrome	0.02	0.06
+270.32	Paraproteinemia	0.06	0.08
+859.0	Complication due to other implant and internal device	0.81	1.16
+427.9	Palpitations	1.07	1.41
+174.3	Neoplasm of uncertain behavior of breast	0.01	0.04
+202.2	Non-Hodgkins lymphoma	0.39	0.45
+790.1	Elevated sedimentation rate	0.02	0.03
+691.0	Congenital anomalies of skin	0.01	0.03
+204.0	Leukemia	0.11	0.15
+394.7	Disease of tricuspid valve	0.36	0.55
+352.1	Trigeminal nerve disorders [CN5]	0.13	0.16
+930.0	Allergic reaction to food	0.04	0.07
+425.1	Primary/intrinsic cardiomyopathies	0.29	0.38
+502.0	Postinflammatory pulmonary fibrosis	0.25	0.44
+526.1	Cysts of the jaws	0.08	0.1
+287.3	Thrombocytopenia	0.36	0.49
+870.2	Open wound of ear	0.04	0.08
+364.41	Keratoconus	0.02	0.03
+276.14	Hypopotassemia	0.45	0.75
+530.0	Diseases of esophagus	0.13	0.25
+8.5	Bacterial enteritis	0.42	0.84
+973.0	Poisoning by agents primarily affecting the gastrointestinal system	0.01	0.08
+674.0	Other complications of the puerperium NEC	0.06	0.08
+427.42	Cardiac arrest	0.29	0.44
+715.2	Ankylosing spondylitis	0.1	0.16
+71.1	HIV infection, symptomatic	0.0	0.15
+381.2	Eustachian tube disorders	0.04	0.07
+292.1	Aphasia/speech disturbance	0.38	0.66
+446.4	Wegener's granulomatosis	0.04	0.06
+279.1	Immunity deficiency	0.02	0.03
+972.0	Poisoning by agents primarily affecting the cardiovascular system	0.03	0.16
+726.0	Peripheral enthesopathies and allied syndromes	2.33	2.79
+433.11	Occlusion of cerebral arteries, with cerebral infarction	0.02	0.07
+253.1	Pituitary hyperfunction	0.02	0.04
+870.3	Other open wound of head and face	0.61	1.38
+642.0	Hypertension complicating pregnancy, childbirth, and the puerperium	0.24	0.31
+560.1	Paralytic ileus	0.19	0.24
+348.0	Other conditions of brain	0.03	0.07
+694.1	Vitiligo	0.01	0.03
+592.13	Chronic interstitial cystitis	0.06	0.09
+276.41	Acidosis	0.25	0.65
+8.52	Intestinal infection due to C. difficile	0.17	0.29
+317.11	Alcoholic liver damage	0.1	0.66
+380.0	Disorders of external ear	0.16	0.19
+751.11	Congenital anomalies of female genital organs	0.1	0.13
+496.21	Obstructive chronic bronchitis	0.41	2.25
+603.1	Hydrocele	0.35	0.46
+531.1	Hemorrhage from gastrointestinal ulcer	0.15	0.24
+199.4	Neurofibromatosis	0.01	0.05
+157.0	Pancreatic cancer	0.18	0.22
+528.3	Cellulitis and abscess of oral soft tissues	0.03	0.08
+756.3	Congenital anomalies of muscle, tendon, fascia, and connective tissue	0.02	0.03
+647.0	Infectious and parasitic complications affecting pregnancy	0.02	0.03
+448.0	Disease of capillaries	0.03	0.05
+604.1	Redundant prepuce and phimosis/BXO	0.63	0.99
+368.9	Subjective visual disturbances	0.16	0.29
+745.0	Pain in joint	0.36	0.5
+458.9	Hypotension NOS	1.05	1.67
+250.41	Impaired fasting glucose	0.07	0.16
+443.7	Peripheral angiopathy in diseases classified elsewhere	0.05	0.25
+791.0	Gangrene	0.12	0.31
+530.3	Stricture and stenosis of esophagus	0.55	0.8
+158.0	Neoplasm of unspecified nature of digestive system	0.29	0.35
+241.1	Nontoxic uninodular goiter	0.14	0.18
+686.3	Pilonidal cyst	0.09	0.18
+727.1	Synovitis and tenosynovitis	0.63	0.78
+716.9	Arthropathy NOS	6.78	8.76
+362.0	Other retinal disorders	0.29	0.32
+286.5	Hemorrhagic disorder due to intrinsic circulating anticoagulants	0.01	0.04
+339.0	Other headache syndromes	1.86	3.13
+532.0	Dysphagia	1.88	2.81
+578.9	Hemorrhage of gastrointestinal tract	1.61	2.44
+194.0	Cancer of other endocrine glands	0.02	0.03
+250.24	Type 2 diabetes with neurological manifestations	0.12	0.42
+743.9	Osteopenia or other disorder of bone and cartilage	0.04	0.07
+333.1	Essential tremor	0.06	0.13
+193.0	Thyroid cancer	0.09	0.11
+275.5	Disorders of calcium/phosphorus metabolism	0.28	0.51
+429.2	Abnormal function study of cardiovascular system	0.15	0.25
+218.2	Other benign neoplasm of uterus	0.09	0.12
+250.11	Type 1 diabetes with ketoacidosis	0.05	0.16
+611.3	Lump or mass in breast	0.36	0.45
+182.0	Malignant neoplasm of uterus	0.36	0.42
+785.0	Abdominal pain	9.9	13.48
+195.1	Malignant neoplasm, other	4.75	5.14
+793.0	Nonspecific abnormal findings on radiological and other examination of musculoskeletal system	0.04	0.05
+727.6	Rupture of tendon, nontraumatic	0.01	0.03
+352.0	Disorders of other cranial nerves	0.01	0.03
+433.3	Cerebral ischemia	0.27	0.53
+594.8	Renal colic	0.4	0.61
+250.12	Type 1 diabetes with renal manifestations	0.01	0.06
+614.3	Pelvic inflammatory disease (PID)	0.02	0.06
+441.1	Acute vascular insufficiency of intestine	0.06	0.11
+286.12	Congenital deficiency of other clotting factors (including factor VII)	0.07	0.09
+750.21	Congenital anomalies of intestine	0.05	0.08
+189.11	Malignant neoplasm of kidney, except pelvis	0.26	0.33
+803.3	Fracture of clavicle or scapula	0.05	0.09
+947.0	Urticaria	0.15	0.21
+318.0	Tobacco use disorder	3.17	11.05
+754.0	Congenital musculoskeletal deformities of spine	0.03	0.04
+396.0	Abnormal heart sounds	0.32	0.36
+509.8	Dependence on respirator [Ventilator] or supplemental oxygen	0.1	0.22
+564.9	Personal history of diseases of digestive system	5.07	6.8
+571.8	Liver abscess and sequelae of chronic liver disease	0.11	0.3
+578.2	Blood in stool	0.6	1.18
+645.0	Late pregnancy and failed induction	0.3	0.35
+375.2	Epiphora	0.23	0.3
+276.5	Hypovolemia	0.8	1.45
+723.0	Other disorders of cervical region	0.08	0.18
+735.21	Hammer toe (acquired)	0.51	0.57
+362.6	Peripheral retinal degenerations	0.03	0.07
+558.0	Noninfectious gastroenteritis	4.04	6.38
+529.0	Diseases and other conditions of the tongue	0.23	0.31
+850.0	Hemorrhage or hematoma complicating a procedure	1.41	1.76
+133.0	Arthropod-borne diseases	0.01	0.12
+371.1	Uveitis, noninfectious or NOS	0.13	0.18
+703.0	Diseases of nail, NOS	0.09	0.11
+732.1	Juvenile osteochondrosis	0.04	0.05
+766.0	Neuralgia, neuritis, and radiculitis NOS	0.09	0.11
+627.1	Postmenopausal bleeding	2.31	2.58
+623.0	Hypertrophy of female genital organs	0.32	0.37
+174.1	Breast cancer [female]	0.51	0.62
+758.0	Chromosomal anomalies and genetic disorders	0.01	0.04
+289.3	Personal history of diseases of blood and blood-forming organs	0.08	0.15
+190.0	Cancer of eye	0.04	0.06
+773.0	Pain in limb	0.3	0.49
+368.1	Amblyopia	0.15	0.21
+704.1	Alopecia	0.03	0.08
+364.9	Cornea replaced by transplant	0.03	0.05
+528.6	Leukoplakia of oral mucosa	0.08	0.11
+430.2	Intracerebral hemorrhage	0.2	0.25
+70.9	Hepatitis NOS	0.1	0.2
+300.9	Posttraumatic stress disorder	0.02	0.12
+180.3	Cervical intraepithelial neoplasia [CIN] [Cervical dysplasia]	0.45	0.68
+840.3	Joint/ligament sprain	0.04	0.06
+381.3	Mastoiditis & related conditions	0.03	0.05
+530.5	Disorders of esophageal motility	0.18	0.26
+451.2	Phlebitis and thrombophlebitis of lower extremities	0.95	1.38
+255.0	Disorders of adrenal glands	0.03	0.09
+345.1	Epilepsy	0.07	0.15
+601.12	Chronic prostatitis	0.23	0.3
+427.12	Paroxysmal ventricular tachycardia	0.24	0.37
+374.0	Other disorders of eyelids	0.77	0.96
+530.12	Ulcer of esophagus	1.24	1.94
+213.0	Benign neoplasm of bone and articular cartilage	0.08	0.1
+272.13	Mixed hyperlipidemia	0.03	0.09
+964.1	Anticoagulants causing adverse effects	0.07	0.13
+736.2	Acquired deformities of finger	0.05	0.07
+368.0	Visual disturbances	0.28	0.41
+530.1	Esophagitis, GERD and related diseases	2.25	3.75
+716.2	Unspecified monoarthritis	4.51	5.01
+624.2	Atrophy of female genital tract	0.12	0.15
+741.3	Difficulty in walking	0.04	0.1
+430.3	Subdural hemorrhage	0.07	0.12
+614.52	Vaginitis and vulvovaginitis	0.1	0.11
+433.31	Transient cerebral ischemia	0.53	0.76
+613.9	Breast disorder NOS	0.03	0.05
+635.3	Placenta previa and abruptio placenta	0.3	0.37
+275.3	Disorders of magnesium metabolism	0.12	0.24
+800.3	Fracture of tibia and fibula	0.08	0.12
+426.21	First degree AV block	0.31	0.5
+280.1	Iron deficiency anemias, unspecified or not due to blood loss	1.96	3.53
+608.0	Other disorders of male genital organs	0.68	0.89
+593.0	Hematuria	4.22	5.07
+504.0	Other alveolar and parietoalveolar pneumonopathy	0.09	0.16
+618.0	Genital prolapse	0.11	0.12
+574.1	Cholelithiasis	2.07	3.01
+981.0	Toxic effect of (non-ethyl) alcohol and petroleum and other solvents	0.01	0.1
+557.1	Celiac disease	0.59	0.65
+80.0	Postoperative infection	1.06	1.62
+315.0	Develomental delays and disorders	0.07	0.16
+565.1	Anal and rectal polyp	1.96	2.67
+242.1	Graves' disease	0.11	0.19
+704.8	Other specified diseases of hair and hair follicles	0.01	0.03
+614.4	Inflammatory diseases of uterus, except cervix	0.06	0.09
+636.3	Hemorrhage in early pregnancy	0.21	0.24
+411.3	Angina pectoris	3.79	6.52
+594.3	Calculus of ureter	0.59	0.79
+426.24	Atrioventricular block, complete	0.2	0.23
+735.2	Acquired toe deformities	0.57	0.62
+447.1	Stricture of artery	0.16	0.42
+958.0	Certain early complications of trauma or procedure	0.09	0.15
+967.0	Adverse effects of sedatives or other central nervous system depressants and anesthetics	0.14	0.18
+613.5	Mastodynia	0.01	0.03
+153.2	Colon cancer	0.91	0.99
+369.2	Eye infection, viral	0.03	0.05
+560.3	Peritoneal or intestinal adhesions	0.29	0.35
+809.0	Fracture of unspecified bones	0.02	0.03
+342.0	Hemiplegia	0.3	0.84
+191.0	Manlignant and unknown neoplasms of brain and nervous system	0.05	0.07
+291.1	Transient mental disorders due to conditions classified elsewhere	0.02	0.08
+610.4	Benign neoplasm of breast	0.35	0.41
+535.8	Other specified gastritis	2.2	3.62
+344.0	Other paralytic syndromes	0.17	0.27
+540.0	Appendiceal conditions	0.06	0.09
+575.7	Other disorders of gallbladder	0.38	0.46
+272.11	Hypercholesterolemia	8.23	12.87
+250.7	Diabetic retinopathy	0.33	0.8
+512.1	Wheezing	0.07	0.12
+214.0	Lipoma	0.44	0.51
+751.22	Other specified congenital anomalies of kidney	0.08	0.12
+800.2	Fracture of unspecified part of femur	0.01	0.03
+172.11	Melanomas of skin	0.5	0.91
+358.1	Myasthenia gravis	0.04	0.06
+411.9	Other acute and subacute forms of ischemic heart disease	0.37	0.54
+752.11	Spina bifida	0.04	0.09
+443.1	Raynaud's syndrome	0.34	0.39
+340.1	Migrain with aura	0.05	0.11
+173.0	Neoplasm of uncertain behavior of skin	0.04	0.05
+535.6	Duodenitis	1.79	3.17
+473.0	Diseases of the larynx and vocal cords	0.33	0.63
+427.61	Supraventricular premature beats	0.04	0.05
+974.0	Poisoning by water, mineral, and uric acid metabolism drugs	0.02	0.06
+722.6	Degeneration of intervertebral disc	0.69	1.08
+707.0	Chronic ulcer of skin	0.23	0.71
+727.5	Rupture of synovium	0.1	0.14
+592.12	Chronic cystitis	0.22	0.35
+750.13	Congenital anomalies of mouth/tongue	0.04	0.06
+733.4	Aseptic necrosis of bone	0.02	0.03
+447.0	Other disorders of arteries and arterioles	0.12	0.23
+578.1	Hematemesis	0.38	1.04
+521.1	Dental caries	0.68	1.62
+304.0	Adjustment reaction	0.05	0.18
+357.0	Inflammatory and toxic neuropathy	0.4	0.59
+331.0	Other cerebral degenerations	0.07	0.14
+535.2	Atrophic gastritis	0.09	0.18
+726.2	Synoviopathy	0.09	0.12
+794.0	Abnormal results of other function studies (bladder, pancreas, placenta, spleen, etc)	0.03	0.04
+555.1	Regional enteritis	0.51	0.73
+723.1	Torticollis	0.02	0.03
+580.14	Chronic glomerulonephritis, NOS	0.19	0.28
+560.2	Impaction of intestine	0.09	0.13
+513.4	Hyperventilation	0.05	0.12
+394.0	Rheumatic disease of the heart valves	0.32	0.39
+296.0	Mood disorders	0.01	0.05
+198.2	Secondary malignancy of respiratory organs	0.76	0.93
+464.0	Acute sinusitis	0.03	0.07
+282.5	Sickle cell anemia	0.02	0.31
+386.9	Dizziness and giddiness (Light-headedness and vertigo)	1.18	2.01
+540.11	Acute appendicitis	0.53	0.6
+966.0	Poisoning by anticonvulsants and anti-Parkinsonism drugs	0.08	0.31
+514.0	Abnormal findings examination of lungs	0.56	1.26
+512.9	Other dyspnea	0.2	0.38
+427.11	Paroxysmal supraventricular tachycardia	0.69	0.83
+359.1	Muscular dystrophies	0.03	0.06
+327.41	Organic or persistent insomnia	0.03	0.1
+380.1	Otitis externa	0.11	0.19
+363.0	Chorioretinal inflammations, scars, and other disorders of choroid	0.02	0.03
+290.16	Vascular dementia	0.07	0.16
+454.0	Varicose veins	0.11	0.21
+10.0	Tuberculosis	0.04	0.15
+742.9	Other derangement of joint	0.17	0.21
+351.0	Other peripheral nerve disorders	2.78	4.06
+749.0	Congenital anomalies of face and neck	0.05	0.09
+854.0	Complications of cardiac/vascular device, implant, and graft	0.61	1.01
+599.2	Retention of urine	2.12	2.53
+780.0	Hypothermia/Chills	0.04	0.1
+836.0	Traumatic arthropathy	0.06	0.08
+475.0	Chronic sinusitis	0.66	0.78
+706.2	Sebaceous cyst	1.98	2.4
+155.1	Malignant neoplasm of liver, primary	0.03	0.07
+480.2	Viral pneumonia	0.02	0.03
+528.12	Oral aphthae	0.02	0.02
+368.4	Visual field defects	0.09	0.12
+442.2	Aneurysm of iliac artery	0.03	0.05
+686.1	Carbuncle and furuncle	0.48	1.05
+971.0	Poisoning by drugs primarily affecting the autonomic nervous system	0.02	0.14
+292.4	Altered mental status	0.57	1.17
+41.4	E. coli	0.76	1.32
+70.0	Viral hepatitis	0.04	0.17
+574.2	Calculus of bile duct	0.61	0.94
+610.3	Fibrosclerosis of breast	0.06	0.09
+508.0	Pulmonary collapse; interstitial and compensatory emphysema	0.61	1.06
+720.0	Spinal stenosis	0.21	0.26
+575.6	Cholesterolosis of gallbladder	0.12	0.14
+374.3	Ptosis of eyelid	0.52	0.61
+197.0	Chemotherapy	5.36	6.37
+202.21	Nodular lymphoma	0.09	0.13
+375.0	Disorders of lacrimal system	0.45	0.57
+580.32	Nephritis and nephropathy with pathological lesion	0.05	0.11
+288.0	Diseases of white blood cells	0.17	0.24
+535.0	Gastritis and duodenitis	4.24	7.17
+420.22	Chronic pericarditis	0.02	0.03
+260.0	Protein-calorie malnutrition	0.04	0.11
+496.1	Emphysema	0.31	1.21
+433.21	Cerebral artery occlusion, with cerebral infarction	0.39	0.83
+282.8	Other hemoglobinopathies	0.04	0.14
+346.1	Nonspecific abnormal findings on radiological and other examination of skull and head	0.04	0.06
+218.1	Uterine leiomyoma	2.49	3.17
+509.1	Respiratory failure	0.4	1.14
+70.3	Viral hepatitis C	0.03	0.28
+411.1	Unstable angina (intermediate coronary syndrome)	1.16	2.16
+420.2	Pericarditis	0.31	0.41
+389.0	Hearing loss	0.97	1.23
+965.0	Poisoning by analgesics, antipyretics, and antirheumatics	1.55	2.65
+620.0	Dysplasia of female genital organs	0.01	0.03
+315.1	Learning disorder	0.01	0.16
+612.3	Congenital anomalies of breast	0.02	0.03
+204.21	Myeloid leukemia, acute	0.08	0.1
+465.2	Acute pharyngitis	0.22	0.31
+519.2	Respiratory complications	0.05	0.14
+377.3	Optic neuritis/neuropathy	0.04	0.07
+465.4	Acute laryngitis and tracheitis	0.03	0.07
+803.2	Fracture of radius and ulna	0.17	0.23
+317.1	Alcoholism	2.16	3.6
+524.3	Anomalies of tooth position/malocclusion	0.07	0.09
+530.14	Reflux esophagitis	2.86	3.83
+617.0	Disorders secondary to childbirth, surgery, trauma	0.07	0.1
+592.1	Cystitis	0.53	0.69
+610.2	Fibroadenosis of breast	0.06	0.09
+473.1	Chronic laryngitis	0.02	0.04
+388.0	Other disorders of ear	0.02	0.04
+170.1	Bone cancer	0.03	0.05
+592.2	Urethritis and urethral syndrome	0.03	0.05
+707.1	Decubitus ulcer	0.04	0.12
+571.6	Primary biliary cirrhosis	0.05	0.1
+695.81	Erythema nodosum	0.02	0.03
+394.3	Aortic valve disease	0.39	0.49
+597.0	Other disorders of urethra and urinary tract	0.2	0.24
+145.3	Cancer of major salivary glands	0.03	0.03
+603.0	Other disorders of testis	0.19	0.38
+215.0	Other benign neoplasm of connective and other soft tissue	0.28	0.32
+586.3	Vascular disorders of kidney/hypertrophy	0.02	0.04
+803.1	Fracture of humerus	0.05	0.09
+495.2	Asthma with exacerbation	0.05	0.16
+618.2	Uterine/Uterovaginal prolapse	1.21	1.54
+295.1	Schizophrenia	0.06	0.67
+153.3	Malignant neoplasm of rectum, rectosigmoid junction, and anus	0.6	0.67
+253.7	Other disorders of neurohypophysis	0.04	0.06
+765.0	Cervical radiculitis	0.12	0.19
+506.0	Empyema and pneumothorax	0.27	0.52
+323.0	Encephalitis	0.07	0.09
+653.0	Problems associated with amniotic cavity and membranes	0.38	0.47
+427.1	Paroxysmal tachycardia, unspecified	0.03	0.04
+643.0	Excessive vomiting in pregnancy	0.02	0.04
+411.41	Aneurysm and dissection of heart	0.19	0.25
+110.12	Althete's foot	0.04	0.05
+401.3	Other hypertensive complications	0.03	0.08
+960.0	Poisoning by antibiotics	1.12	1.21
+596.5	Functional disorders of bladder	0.34	0.6
+599.0	Other symptoms/disorders or the urinary system	1.74	2.42
+509.5	Respiratory arrest	0.03	0.07
+573.3	Hepatomegaly	0.06	0.17
+289.9	Abnormality of red blood cells	0.02	0.04
+430.1	Subarachnoid hemorrhage	0.18	0.26
+782.6	Pallor and flushing	0.04	0.06
+726.1	Enthesopathy	1.91	2.1
+361.1	Retinal detachment with retinal defect	0.37	0.43
+528.41	Cyst of the salivary gland	0.01	0.04
+522.5	Periapical abscess	0.29	0.47
+564.0	Functional digestive disorders	0.25	0.35
+857.0	Mechanical complication of unspecified genitourinary device, implant, and graft	0.34	0.53
+270.33	Amyloidosis	0.04	0.04
+362.4	Retinal vascular changes and abnomalities	0.26	0.28
+401.21	Hypertensive heart disease	0.05	0.1
+210.0	Benign neoplasm of lip, oral cavity, and pharynx	0.23	0.28
+588.0	Disorders resulting from impaired renal function	0.02	0.05
+528.0	Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue	0.52	0.6
+747.13	Congenital anomalies of great vessels	0.51	0.7
+592.11	Acute cystitis	0.03	0.05
+512.2	Painful respiration	0.05	0.09
+174.11	Malignant neoplasm of female breast	3.17	3.52
+735.3	Hallux valgus (Bunion)	1.72	1.89
+379.3	Aphakia and other disorders of lens	0.6	0.7
+721.0	Spondylosis and allied disorders	0.23	0.52
+389.2	Conductive hearing loss	0.09	0.14
+348.7	Coma	0.08	0.16
