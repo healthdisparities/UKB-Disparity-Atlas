@@ -7,3 +7,4 @@ We stratify case/control cohorts for different disease phenotypes by
 2. Age
 3. Ethnicity
 4. Socio-economic status
+5. Country of origin
