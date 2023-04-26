@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello! Welcome to the codebase for UK Biobank Health Disparities Browser hosted on [the link here](https://tough-mechanic-298113.ue.r.appspot.com/)
+Hello! Welcome to the codebase for UK Biobank Health Disparities Browser hosted on [the link here](https://ukbatlas.health-disparities.org)
 
 Documented here is a codebase and summarized data that powers the Health Disparities Atlas browser. 
 
