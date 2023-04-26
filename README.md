@@ -27,6 +27,6 @@ We stratify case/control cohorts for different disease phenotypes:
 All of the health disparities data published here are released freely for the benefit of the research community. It should be noted that the disease prevalence and disparities values were calculated using the UK Biobank Resource (project ID 65206), and use of these data are subject to the terms of the UK Biobank.
 
 
-## Acknowledgments
+## Publications
 
-Developed by [Shashwat Deepali Nagar](http://www.sdnagar.com/) from the [Jordan Lab](jordan.biology.gatech.edu/page/) at Georgia Tech in collaboration with the [Mariño-Ramírez](https://www.health-disparities.org/) group at the [US National Institute on Minority Health and Health Disparities](https://www.nimhd.nih.gov/).
+Shashwat Deepali Nagar, I King Jordan, Leonardo Mariño-Ramírez, The landscape of health disparities in the UK Biobank, Database, Volume 2023, 2023, baad026, https://doi.org/10.1093/database/baad026 [[PubMed]](https://pubmed.ncbi.nlm.nih.gov/) [[Article]](https://academic.oup.com/database/article-pdf/doi/10.1093/database/baad026/50103027/baad026.pdf)
