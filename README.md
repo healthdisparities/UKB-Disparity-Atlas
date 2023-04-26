@@ -29,4 +29,4 @@ All of the health disparities data published here are released freely for the be
 
 ## Publications
 
-Shashwat Deepali Nagar, I King Jordan, Leonardo Mariño-Ramírez, The landscape of health disparities in the UK Biobank, Database, Volume 2023, 2023, baad026, https://doi.org/10.1093/database/baad026 [[PubMed]](https://pubmed.ncbi.nlm.nih.gov/) [[Article]](https://academic.oup.com/database/article-pdf/doi/10.1093/database/baad026/50103027/baad026.pdf)
+Nagar SD, Jordan IK, Mariño-Ramírez L. The landscape of health disparities in the UK Biobank. Database. 2023. baad026. doi:10.1093/database/baad026 [[PubMed]](https://pubmed.ncbi.nlm.nih.gov/) [[Article]](https://academic.oup.com/database/article-pdf/doi/10.1093/database/baad026/50103027/baad026.pdf)
